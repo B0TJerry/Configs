@@ -1,2 +1,0 @@
-# Save all videos under Movies directory in your home directory
--o /mnt/HDD/yt-vids/%(title)s.%(ext)s
