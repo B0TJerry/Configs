@@ -1,0 +1,11 @@
+#!/bin/bash
+
+cache="$HOME/.cache/via"
+
+if [[ "$1" == "-r" ]] || [[ ! -e "$cache" ]]; then
+	cat "$HOME/.config/suckless/via/shortcuts" > "$cache"
+	cat "$HOME/.config/suckless/via/websites" >> "$cache"
+	cat "$HOME/.config/suckless/via/poweroptions" >> "$cache"
+fi
+
+cat "$cache"

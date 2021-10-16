@@ -1,0 +1,241 @@
+
+2021/09/21 (08:30:45) | ===> btop++ v.1.0.2
+2021/09/21 (08:30:45) | INFO: Logger set to INFO
+2021/09/21 (08:30:45) | INFO: Logger set to DEBUG
+2021/09/21 (08:30:48) | INFO: Logger set to INFO
+2021/09/21 (08:30:49) | INFO: Logger set to DEBUG
+2021/09/21 (08:31:56) | DEBUG: Writing new config file
+2021/09/21 (08:31:56) | INFO: Quitting! Runtime: 00:02:08
+
+2021/09/21 (08:31:58) | ===> btop++ v.1.0.2
+2021/09/21 (08:31:58) | INFO: Logger set to DEBUG
+2021/09/21 (08:31:58) | DEBUG: Setting LC_ALL=en_US.UTF-8
+2021/09/21 (08:31:58) | INFO: Running on /dev/pts/1
+2021/09/21 (08:31:58) | DEBUG: Loading theme file: /usr/local/share/btop/themes/gruvbox_dark.theme
+2021/09/21 (08:34:07) | DEBUG: Loading theme file: /usr/local/share/btop/themes/gruvbox_dark.theme
+2021/09/21 (08:34:16) | DEBUG: Loading theme file: /usr/local/share/btop/themes/gruvbox_dark.theme
+2021/09/21 (08:35:53) | DEBUG: Writing new config file
+2021/09/21 (08:35:53) | INFO: Quitting! Runtime: 00:03:55
+
+2021/09/21 (08:35:55) | ===> btop++ v.1.0.2
+2021/09/21 (08:35:55) | INFO: Logger set to DEBUG
+2021/09/21 (08:35:55) | DEBUG: Setting LC_ALL=en_US.UTF-8
+2021/09/21 (08:35:55) | INFO: Running on /dev/pts/1
+2021/09/21 (08:35:55) | DEBUG: Loading theme file: /usr/local/share/btop/themes/gruvbox_dark.theme
+2021/09/21 (08:38:00) | DEBUG: Loading theme file: /usr/local/share/btop/themes/gruvbox_dark.theme
+2021/09/21 (08:38:01) | DEBUG: Loading theme file: /usr/local/share/btop/themes/gruvbox_dark.theme
+2021/09/21 (08:38:01) | DEBUG: Loading theme file: /usr/local/share/btop/themes/gruvbox_dark.theme
+2021/09/21 (08:38:03) | DEBUG: Loading theme file: /usr/local/share/btop/themes/kyli0x.theme
+2021/09/21 (08:38:03) | DEBUG: Loading theme file: /usr/local/share/btop/themes/matcha-dark-sea.theme
+2021/09/21 (08:38:04) | DEBUG: Loading theme file: /usr/local/share/btop/themes/monokai.theme
+2021/09/21 (08:38:04) | DEBUG: Loading theme file: /usr/local/share/btop/themes/nord.theme
+2021/09/21 (08:38:05) | DEBUG: Loading theme file: /usr/local/share/btop/themes/solarized_dark.theme
+2021/09/21 (08:38:05) | DEBUG: Loading theme file: /usr/local/share/btop/themes/whiteout.theme
+2021/09/21 (08:38:07) | DEBUG: Loading theme file: /usr/local/share/btop/themes/adapta.theme
+2021/09/21 (08:47:02) | DEBUG: Writing new config file
+2021/09/21 (08:47:02) | INFO: Quitting! Runtime: 00:11:07
+
+2021/09/22 (08:09:15) | ===> btop++ v.1.0.2
+2021/09/22 (08:09:15) | INFO: Logger set to DEBUG
+2021/09/22 (08:09:15) | DEBUG: Setting LC_ALL=en_US.UTF-8
+2021/09/22 (08:09:15) | INFO: Running on /dev/pts/0
+
+2021/09/22 (08:09:21) | ===> btop++ v.1.0.2
+2021/09/22 (08:09:21) | INFO: Logger set to DEBUG
+2021/09/22 (08:09:21) | DEBUG: Setting LC_ALL=en_US.UTF-8
+2021/09/22 (08:09:21) | INFO: Running on /dev/pts/2
+2021/09/22 (08:13:58) | DEBUG: Writing new config file
+2021/09/22 (08:13:58) | INFO: Quitting! Runtime: 00:04:37
+
+2021/09/23 (08:22:27) | ===> btop++ v.1.0.2
+2021/09/23 (08:22:27) | INFO: Logger set to DEBUG
+2021/09/23 (08:22:27) | DEBUG: Setting LC_ALL=en_US.UTF-8
+2021/09/23 (08:22:27) | INFO: Running on /dev/pts/3
+
+2021/09/23 (13:51:33) | ===> btop++ v.1.0.2
+2021/09/23 (13:51:33) | INFO: Logger set to DEBUG
+2021/09/23 (13:51:33) | DEBUG: Setting LC_ALL=en_US.UTF-8
+2021/09/23 (13:51:33) | INFO: Running on /dev/pts/3
+
+2021/09/25 (13:38:45) | ===> btop++ v.1.0.2
+2021/09/25 (13:38:45) | INFO: Logger set to DEBUG
+2021/09/25 (13:38:45) | DEBUG: Setting LC_ALL=en_US.UTF-8
+2021/09/25 (13:38:45) | INFO: Running on /dev/pts/3
+
+2021/09/27 (20:40:26) | ===> btop++ v.1.0.2
+2021/09/27 (20:40:26) | INFO: Logger set to DEBUG
+2021/09/27 (20:40:26) | DEBUG: Setting LC_ALL=en_US.UTF-8
+2021/09/27 (20:40:26) | INFO: Running on /dev/pts/1
+
+2021/09/29 (08:54:21) | ===> btop++ v.1.0.2
+2021/09/29 (08:54:21) | INFO: Logger set to DEBUG
+2021/09/29 (08:54:21) | DEBUG: Setting LC_ALL=en_US.UTF-8
+2021/09/29 (08:54:21) | INFO: Running on /dev/pts/5
+2021/09/29 (08:54:24) | INFO: Quitting! Runtime: 00:00:03
+
+2021/09/29 (08:54:27) | ===> btop++ v.1.0.2
+2021/09/29 (08:54:27) | INFO: Logger set to DEBUG
+2021/09/29 (08:54:27) | DEBUG: Setting LC_ALL=en_US.UTF-8
+2021/09/29 (08:54:27) | INFO: Running on /dev/pts/5
+2021/09/29 (08:54:27) | ERROR: Runner thread died unexpectedly!
+2021/09/29 (08:54:27) | INFO: Quitting! Runtime: 00:00:00
+
+2021/09/29 (08:54:28) | ===> btop++ v.1.0.2
+2021/09/29 (08:54:28) | INFO: Logger set to DEBUG
+2021/09/29 (08:54:28) | DEBUG: Setting LC_ALL=en_US.UTF-8
+2021/09/29 (08:54:28) | INFO: Running on /dev/pts/5
+
+2021/10/04 (08:13:22) | ===> btop++ v.1.0.2
+2021/10/04 (08:13:22) | INFO: Logger set to DEBUG
+2021/10/04 (08:13:22) | DEBUG: Setting LC_ALL=en_US.UTF-8
+2021/10/04 (08:13:22) | INFO: Running on /dev/pts/2
+2021/10/04 (08:13:22) | ERROR: Runner thread died unexpectedly!
+2021/10/04 (08:13:22) | INFO: Quitting! Runtime: 00:00:00
+
+2021/10/04 (08:13:24) | ===> btop++ v.1.0.2
+2021/10/04 (08:13:24) | INFO: Logger set to DEBUG
+2021/10/04 (08:13:24) | DEBUG: Setting LC_ALL=en_US.UTF-8
+2021/10/04 (08:13:24) | INFO: Running on /dev/pts/2
+2021/10/04 (08:13:24) | ERROR: Runner thread died unexpectedly!
+2021/10/04 (08:13:24) | INFO: Quitting! Runtime: 00:00:00
+
+2021/10/04 (08:13:25) | ===> btop++ v.1.0.2
+2021/10/04 (08:13:25) | INFO: Logger set to DEBUG
+2021/10/04 (08:13:25) | DEBUG: Setting LC_ALL=en_US.UTF-8
+2021/10/04 (08:13:25) | INFO: Running on /dev/pts/2
+
+2021/10/04 (08:13:32) | ===> btop++ v.1.0.2
+2021/10/04 (08:13:32) | INFO: Logger set to DEBUG
+2021/10/04 (08:13:32) | DEBUG: Setting LC_ALL=en_US.UTF-8
+2021/10/04 (08:13:32) | INFO: Running on /dev/pts/2
+2021/10/04 (08:13:32) | ERROR: Runner thread died unexpectedly!
+2021/10/04 (08:13:32) | INFO: Quitting! Runtime: 00:00:00
+
+2021/10/04 (08:13:33) | ===> btop++ v.1.0.2
+2021/10/04 (08:13:33) | INFO: Logger set to DEBUG
+2021/10/04 (08:13:33) | DEBUG: Setting LC_ALL=en_US.UTF-8
+2021/10/04 (08:13:33) | INFO: Running on /dev/pts/2
+2021/10/04 (08:14:04) | DEBUG: Writing new config file
+2021/10/04 (08:14:04) | INFO: Quitting! Runtime: 00:00:31
+
+2021/10/04 (12:23:03) | ===> btop++ v.1.0.2
+2021/10/04 (12:23:03) | INFO: Logger set to DEBUG
+2021/10/04 (12:23:03) | DEBUG: Setting LC_ALL=en_US.UTF-8
+2021/10/04 (12:23:03) | INFO: Running on /dev/pts/5
+2021/10/04 (12:23:36) | INFO: Quitting! Runtime: 00:00:33
+
+2021/10/04 (12:23:37) | ===> btop++ v.1.0.2
+2021/10/04 (12:23:37) | INFO: Logger set to DEBUG
+2021/10/04 (12:23:37) | DEBUG: Setting LC_ALL=en_US.UTF-8
+2021/10/04 (12:23:37) | INFO: Running on /dev/pts/5
+
+2021/10/04 (12:34:47) | ===> btop++ v.1.0.2
+2021/10/04 (12:34:47) | INFO: Logger set to DEBUG
+2021/10/04 (12:34:47) | DEBUG: Setting LC_ALL=en_US.UTF-8
+2021/10/04 (12:34:47) | INFO: Running on /dev/pts/4
+2021/10/04 (12:34:47) | ERROR: Runner thread died unexpectedly!
+2021/10/04 (12:34:47) | INFO: Quitting! Runtime: 00:00:00
+
+2021/10/04 (13:48:53) | ===> btop++ v.1.0.2
+2021/10/04 (13:48:53) | INFO: Logger set to DEBUG
+2021/10/04 (13:48:53) | DEBUG: Setting LC_ALL=en_US.UTF-8
+2021/10/04 (13:48:53) | INFO: Running on /dev/pts/6
+2021/10/04 (13:48:53) | ERROR: Runner thread died unexpectedly!
+2021/10/04 (13:48:53) | INFO: Quitting! Runtime: 00:00:00
+
+2021/10/04 (13:48:55) | ===> btop++ v.1.0.2
+2021/10/04 (13:48:55) | INFO: Logger set to DEBUG
+2021/10/04 (13:48:55) | DEBUG: Setting LC_ALL=en_US.UTF-8
+2021/10/04 (13:48:55) | INFO: Running on /dev/pts/6
+
+2021/10/06 (00:19:33) | ===> btop++ v.1.0.2
+2021/10/06 (00:19:33) | INFO: Logger set to DEBUG
+2021/10/06 (00:19:33) | DEBUG: Setting LC_ALL=en_US.UTF-8
+2021/10/06 (00:19:33) | INFO: Running on /dev/pts/2
+2021/10/06 (00:19:45) | DEBUG: Loading theme file: /usr/local/share/btop/themes/adapta.theme
+
+2021/10/07 (12:11:50) | ===> btop++ v.1.0.2
+2021/10/07 (12:11:50) | INFO: Logger set to DEBUG
+2021/10/07 (12:11:50) | DEBUG: Setting LC_ALL=en_US.UTF-8
+2021/10/07 (12:11:50) | INFO: Running on /dev/pts/0
+
+2021/10/08 (08:21:32) | ===> btop++ v.1.0.2
+2021/10/08 (08:21:32) | INFO: Logger set to DEBUG
+2021/10/08 (08:21:32) | DEBUG: Setting LC_ALL=en_US.UTF-8
+2021/10/08 (08:21:32) | INFO: Running on /dev/pts/2
+2021/10/08 (08:21:50) | DEBUG: Writing new config file
+2021/10/08 (08:21:50) | INFO: Quitting! Runtime: 00:00:18
+
+2021/10/11 (08:58:47) | ===> btop++ v.1.0.2
+2021/10/11 (08:58:47) | INFO: Logger set to DEBUG
+2021/10/11 (08:58:47) | DEBUG: Setting LC_ALL=en_US.UTF-8
+2021/10/11 (08:58:47) | INFO: Running on /dev/pts/2
+2021/10/11 (09:07:39) | INFO: Quitting! Runtime: 00:08:52
+
+2021/10/11 (13:10:51) | ===> btop++ v.1.0.2
+2021/10/11 (13:10:51) | INFO: Logger set to DEBUG
+2021/10/11 (13:10:51) | DEBUG: Setting LC_ALL=en_US.UTF-8
+2021/10/11 (13:10:51) | INFO: Running on /dev/pts/1
+
+2021/10/12 (12:16:52) | ===> btop++ v.1.0.2
+2021/10/12 (12:16:52) | INFO: Logger set to DEBUG
+2021/10/12 (12:16:52) | DEBUG: Setting LC_ALL=en_US.UTF-8
+2021/10/12 (12:16:52) | INFO: Running on /dev/pts/3
+
+2021/10/14 (09:46:22) | ===> btop++ v.1.0.2
+2021/10/14 (09:46:22) | INFO: Logger set to DEBUG
+2021/10/14 (09:46:22) | DEBUG: Setting LC_ALL=en_US.UTF-8
+2021/10/14 (09:46:22) | ERROR: No tty detected!
+btop++ needs an interactive shell to run.
+2021/10/14 (09:46:22) | INFO: Quitting! Runtime: 00:00:00
+
+2021/10/14 (09:48:26) | ===> btop++ v.1.0.2
+2021/10/14 (09:48:26) | INFO: Logger set to DEBUG
+2021/10/14 (09:48:26) | DEBUG: Setting LC_ALL=en_US.UTF-8
+2021/10/14 (09:48:26) | INFO: Running on /dev/pts/6
+2021/10/14 (09:48:26) | ERROR: Runner thread died unexpectedly!
+2021/10/14 (09:48:26) | INFO: Quitting! Runtime: 00:00:00
+
+2021/10/14 (09:49:22) | ===> btop++ v.1.0.2
+2021/10/14 (09:49:22) | INFO: Logger set to DEBUG
+2021/10/14 (09:49:22) | DEBUG: Setting LC_ALL=en_US.UTF-8
+2021/10/14 (09:49:22) | INFO: Running on /dev/pts/6
+2021/10/14 (09:49:22) | ERROR: Runner thread died unexpectedly!
+2021/10/14 (09:49:22) | INFO: Quitting! Runtime: 00:00:00
+
+2021/10/14 (09:49:23) | ===> btop++ v.1.0.2
+2021/10/14 (09:49:23) | INFO: Logger set to DEBUG
+2021/10/14 (09:49:23) | DEBUG: Setting LC_ALL=en_US.UTF-8
+2021/10/14 (09:49:23) | INFO: Running on /dev/pts/6
+2021/10/14 (09:49:23) | ERROR: Runner thread died unexpectedly!
+2021/10/14 (09:49:23) | INFO: Quitting! Runtime: 00:00:00
+
+2021/10/14 (11:22:35) | ===> btop++ v.1.0.2
+2021/10/14 (11:22:35) | INFO: Logger set to DEBUG
+2021/10/14 (11:22:35) | DEBUG: Setting LC_ALL=en_US.UTF-8
+2021/10/14 (11:22:35) | INFO: Running on /dev/pts/3
+
+2021/10/14 (11:22:39) | ===> btop++ v.1.0.2
+2021/10/14 (11:22:39) | INFO: Logger set to DEBUG
+2021/10/14 (11:22:39) | DEBUG: Setting LC_ALL=en_US.UTF-8
+2021/10/14 (11:22:39) | INFO: Running on /dev/pts/3
+2021/10/14 (11:22:39) | ERROR: Runner thread died unexpectedly!
+2021/10/14 (11:22:39) | INFO: Quitting! Runtime: 00:00:00
+
+2021/10/14 (11:22:40) | ===> btop++ v.1.0.2
+2021/10/14 (11:22:40) | INFO: Logger set to DEBUG
+2021/10/14 (11:22:40) | DEBUG: Setting LC_ALL=en_US.UTF-8
+2021/10/14 (11:22:40) | INFO: Running on /dev/pts/3
+
+2021/10/14 (11:22:46) | ===> btop++ v.1.0.2
+2021/10/14 (11:22:46) | INFO: Logger set to DEBUG
+2021/10/14 (11:22:46) | DEBUG: Setting LC_ALL=en_US.UTF-8
+2021/10/14 (11:22:46) | INFO: Running on /dev/pts/5
+2021/10/14 (11:22:46) | ERROR: Runner thread died unexpectedly!
+2021/10/14 (11:22:46) | INFO: Quitting! Runtime: 00:00:00
+
+2021/10/15 (07:56:49) | ===> btop++ v.1.0.2
+2021/10/15 (07:56:49) | INFO: Logger set to DEBUG
+2021/10/15 (07:56:49) | DEBUG: Setting LC_ALL=en_US.UTF-8
+2021/10/15 (07:56:49) | INFO: Running on /dev/pts/1
+2021/10/15 (07:56:50) | INFO: Quitting! Runtime: 00:00:01
