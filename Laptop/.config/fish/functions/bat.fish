@@ -1,3 +1,3 @@
 function bat --description 'alias bat=bat -A -f '
- command bat -A -f  $argv; 
+ command bat -p -f  $argv; 
 end

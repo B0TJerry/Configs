@@ -1,3 +1,3 @@
-function lynx --description 'alias lynx=lynx --use-mouse '
- command lynx --use-mouse https://lite.duckduckgo.com/lite/ $argv; 
+function lynx --description 'alias lynx=lynx -accept_all_cookies -vikeys https://lite.duckduckgo.com/lite/'
+ command lynx -accept_all_cookies -vikeys https://lite.duckduckgo.com/lite/ $argv; 
 end
