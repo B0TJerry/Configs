@@ -21,12 +21,11 @@ static const char *colors[][3]      = {
 	[SchemeNorm] = { col_gray3, col_gray1, col_gray2 },
 	[SchemeSel]  = { col_gray4, col_cyan,  col_cyan  },
 };
-
 static const char *const autostart[] = {
 /*"xrandr", "--output", "DP-2", "--mode", "2560x1440", "--pos", "0x0", "--rate", "165", "--rotate", "normal", NULL,
 "xrandr", "--output", "DP-0", "--mode", "2560x1440", "--pos", "2560x0", "--rate", "144", "--rotate", "left", NULL,*/
 "feh", "--bg-fill", "--no-fehbg" , "/home/jy/Pictures/wallpapers/oleg.jpg", NULL,
-"picom", NULL,
+"picom", "--config", "/home/jy/.config/picom/picom.conf", "-c", "-C", NULL,
 "slstatus", NULL,
 NULL /* terminate */
 };
@@ -47,15 +46,11 @@ static const char *tagsel[][2] = {
 	{ "#282828", "#3d3c3a" },
 };
 
-
-
 static const unsigned int ulinepad	= 5;	/* horizontal padding between the underline and tag */
 static const unsigned int ulinestroke	= 2;	/* thickness / height of the underline */
 static const unsigned int ulinevoffset	= 0;	/* how far above the bottom of the bar the line should appear */
 static const int ulineall 		= 0;	/* 1 to show underline on all tags, 0 for just the active ones */
-
-
-/* launcher commands (They must be NULL terminated) */
+/* launcher commands (They must be NULL terminated) {{{2 */
 static const char* nvim[]  = { "alacritty", "-e", "nvim", NULL   };
 static const char* btop[]  = { "alacritty", "-e", "btop", NULL   };
 
@@ -64,8 +59,7 @@ static const Launcher launchers[] = {
 { btop,        "[Btop]"  },
 { nvim,        "[Neovim]"},
 };
-
-
+/* Rules */
 static const Rule rules[] = {
 	/* xprop(1):
 	 *	WM_CLASS(STRING) = instance, class
@@ -75,12 +69,11 @@ static const Rule rules[] = {
 	{ "Gimp",     NULL,       NULL,       0,            1,           -1 },
 	{ "Firefox",  NULL,       NULL,       1 << 8,       0,           -1 },
 };
-
 /* layout(s) */
 static const float mfact     = 0.50; /* factor of master area size [0.05..0.95] */
 static const int nmaster     = 1;    /* number of clients in master area */
 static const int resizehints = 1;    /* 1 means respect size hints in tiled resizals */
-
+/* Layouts */
 #include "layouts.c"
 #include "fibonacci.c"
 static const Layout layouts[] = {
@@ -95,24 +88,21 @@ static const Layout layouts[] = {
 	{ "HHH",      grid                   },
 	{ NULL,       NULL                   },
 };
-
-/* key definitions */
+/* key definitions */ 
 #define MODKEY Mod1Mask
 #define TAGKEYS(KEY,TAG) \
 	{ MODKEY,                       KEY,      view,           {.ui = 1 << TAG} }, \
 	{ MODKEY|ControlMask,           KEY,      toggleview,     {.ui = 1 << TAG} }, \
 	{ MODKEY|ShiftMask,             KEY,      tag,            {.ui = 1 << TAG} }, \
 	{ MODKEY|ControlMask|ShiftMask, KEY,      toggletag,      {.ui = 1 << TAG} },
-
 /* helper for spawning shell commands in the pre dwm-5.0 fashion */
 #define SHCMD(cmd) { .v = (const char*[]){ "/bin/sh", "-c", cmd, NULL } }
-
 /* commands */
 static char dmenumon[2] = "0"; /* component of dmenucmd, manipulated in spawn() */
 static const char *dmenucmd[] = { "dmenu_run", "-m", dmenumon, "-fn", dmenufont, "-p", "Run:", NULL };
-static const char *termcmd[]  = { "alacritty", NULL   			     	                    };
+static const char *termcmd[]  = { "st", "-e", "tmux",  NULL 		     	                    };
 static const char *emacscmd[] = { "emacs", NULL                                                     };
-static const char *brwsrcmd[] = { "nyxt", NULL                                                      };
+static const char *brwsrcmd[] = { "tabbed", "surf","-e", NULL                                       };
 static const char *pwroff[]   = { "poweroff", NULL         		                            };
 static const char *reboot[]   = { "reboot", NULL      			                            };
 static const char *passmenu[] = { "passmenu", "-p", "Pass For:",  NULL 	                            };
@@ -125,7 +115,7 @@ static const char *prvtrk[]   = { "mpc", "prev", NULL                           
 static const char *mpdvu[]    = { "mpc", "volume", "+2", NULL                                       };
 static const char *mpdvd[]    = { "mpc", "volume", "-2", NULL                                       };
 static const char *opnvia[]   = { "via", NULL                                                       };
-
+/*Keybinds */
 static Key keys[] = {
           /*Modifier(s)*/              /*Key*/                 /*Function*/          /*Argument*/
 	{ MODKEY|ShiftMask,             XK_p,     		  spawn,          {.v = passmenu } },
@@ -138,9 +128,9 @@ static Key keys[] = {
         { 0,                            XF86XK_AudioLowerVolume,  spawn,          {.v = downvol  } },
 	{ 0,                            XF86XK_AudioRaiseVolume,  spawn,          {.v = upvol    } },
 	{ 0,                            XF86XK_AudioMute,         spawn,          {.v = mutevol  } },
-	{ MODKEY,                       XK_Prior,                 spawn,          {.v = ply      } },
-	{ MODKEY,                       XK_Next,           	  spawn,          {.v = nxttrk   } },
-	{ MODKEY,                       XK_Home,                  spawn,          {.v = prvtrk   } },
+	{ MODKEY,                       XK_End,                   spawn,          {.v = nxttrk    } },
+	{ MODKEY,                       XK_Prior,           	  spawn,          {.v = prvtrk } },
+	{ MODKEY,                       XK_Home,                  spawn,          {.v = ply } },
         { MODKEY,                       XK_Up,                    spawn,          {.v = mpdvu    } },
 	{ MODKEY,                       XK_Down,                  spawn,          {.v = mpdvd    } },
 	{ MODKEY,                       XK_space,                 spawn,          {.v = opnvia   } },
@@ -170,6 +160,16 @@ static Key keys[] = {
 	{ MODKEY,                       XK_period,		  focusmon,       {.i = +1 } },
 	{ MODKEY|ShiftMask,             XK_comma,		  tagmon,         {.i = -1 } },
 	{ MODKEY|ShiftMask,             XK_period,		  tagmon,         {.i = +1 } },
+	{ MODKEY|ControlMask|ShiftMask,  XK_q,                     setlayout,      {.v = &layouts[0]} },
+	{ MODKEY|ControlMask|ShiftMask,  XK_w,                     setlayout,      {.v = &layouts[1]} },
+	{ MODKEY|ControlMask|ShiftMask,  XK_e,                     setlayout,      {.v = &layouts[2]} },
+	{ MODKEY|ControlMask|ShiftMask,  XK_r,                     setlayout,      {.v = &layouts[3]} },
+	{ MODKEY|ControlMask|ShiftMask,  XK_t,                     setlayout,      {.v = &layouts[4]} },
+	{ MODKEY|ControlMask|ShiftMask,  XK_y,                     setlayout,      {.v = &layouts[5]} },
+	{ MODKEY|ControlMask|ShiftMask,  XK_u,                     setlayout,      {.v = &layouts[6]} },
+	{ MODKEY|ControlMask|ShiftMask,  XK_i,                     setlayout,      {.v = &layouts[7]} },
+
+
 	TAGKEYS(                        XK_1,                                     0)
 	TAGKEYS(                        XK_2,                     		  1)
 	TAGKEYS(                        XK_3,                     		  2)
@@ -181,7 +181,6 @@ static Key keys[] = {
 	TAGKEYS(                        XK_9,                      		  8)
 	{ MODKEY|ShiftMask,             XK_q,      		   quit,          {0} },
 };
-
 /* button definitions */
 /* click can be ClkTagBar, ClkLtSymbol, ClkStatusText, ClkWinTitle, ClkClientWin, or ClkRootWin */
 static Button buttons[] = {
@@ -198,4 +197,3 @@ static Button buttons[] = {
 	{ ClkTagBar,            MODKEY,         Button1,        tag,            {0}                },
 	{ ClkTagBar,            MODKEY,         Button3,        toggletag,      {0}                },
 };
-

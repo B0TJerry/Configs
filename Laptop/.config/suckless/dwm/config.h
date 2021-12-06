@@ -26,7 +26,7 @@ static const char *const autostart[] = {
 /*"xrandr", "--output", "DP-2", "--mode", "2560x1440", "--pos", "0x0", "--rate", "165", "--rotate", "normal", NULL,
 "xrandr", "--output", "DP-0", "--mode", "2560x1440", "--pos", "2560x0", "--rate", "144", "--rotate", "left", NULL,*/
 "feh", "--bg-fill", "--no-fehbg" , "/home/jy/Pictures/wallpapers/oleg.jpg", NULL,
-"picom", NULL,
+"picom", "--config", "/home/jy/.config/picom/picom.conf", "-c", "-C", NULL,
 "slstatus", NULL,
 NULL /* terminate */
 };
@@ -110,9 +110,9 @@ static const Layout layouts[] = {
 /* commands */
 static char dmenumon[2] = "0"; /* component of dmenucmd, manipulated in spawn() */
 static const char *dmenucmd[] = { "dmenu_run", "-m", dmenumon, "-fn", dmenufont, "-p", "Run:", NULL };
-static const char *termcmd[]  = { "alacritty", NULL   			     	                    };
+static const char *termcmd[]  = { "st", "-e", "tmux",  NULL 		     	                    };
 static const char *emacscmd[] = { "emacs", NULL                                                     };
-static const char *brwsrcmd[] = { "nyxt", NULL                                                      };
+static const char *brwsrcmd[] = { "tabbed", "surf","-e", NULL                                       };
 static const char *pwroff[]   = { "poweroff", NULL         		                            };
 static const char *reboot[]   = { "reboot", NULL      			                            };
 static const char *passmenu[] = { "passmenu", "-p", "Pass For:",  NULL 	                            };
@@ -138,9 +138,9 @@ static Key keys[] = {
         { 0,                            XF86XK_AudioLowerVolume,  spawn,          {.v = downvol  } },
 	{ 0,                            XF86XK_AudioRaiseVolume,  spawn,          {.v = upvol    } },
 	{ 0,                            XF86XK_AudioMute,         spawn,          {.v = mutevol  } },
-	{ MODKEY,                       XK_Prior,                 spawn,          {.v = ply      } },
-	{ MODKEY,                       XK_Next,           	  spawn,          {.v = nxttrk   } },
-	{ MODKEY,                       XK_Home,                  spawn,          {.v = prvtrk   } },
+	{ MODKEY,                       XK_End,                   spawn,          {.v = nxttrk    } },
+	{ MODKEY,                       XK_Prior,           	  spawn,          {.v = prvtrk } },
+	{ MODKEY,                       XK_Home,                  spawn,          {.v = ply } },
         { MODKEY,                       XK_Up,                    spawn,          {.v = mpdvu    } },
 	{ MODKEY,                       XK_Down,                  spawn,          {.v = mpdvd    } },
 	{ MODKEY,                       XK_space,                 spawn,          {.v = opnvia   } },
@@ -170,6 +170,17 @@ static Key keys[] = {
 	{ MODKEY,                       XK_period,		  focusmon,       {.i = +1 } },
 	{ MODKEY|ShiftMask,             XK_comma,		  tagmon,         {.i = -1 } },
 	{ MODKEY|ShiftMask,             XK_period,		  tagmon,         {.i = +1 } },
+	{ MODKEY|ControlMask|ShiftMask,  XK_q,                     setlayout,      {.v = &layouts[0]} },
+	{ MODKEY|ControlMask|ShiftMask,  XK_w,                     setlayout,      {.v = &layouts[1]} },
+	{ MODKEY|ControlMask|ShiftMask,  XK_e,                     setlayout,      {.v = &layouts[2]} },
+	{ MODKEY|ControlMask|ShiftMask,  XK_r,                     setlayout,      {.v = &layouts[3]} },
+	{ MODKEY|ControlMask|ShiftMask,  XK_t,                     setlayout,      {.v = &layouts[4]} },
+	{ MODKEY|ControlMask|ShiftMask,  XK_y,                     setlayout,      {.v = &layouts[5]} },
+	{ MODKEY|ControlMask|ShiftMask,  XK_u,                     setlayout,      {.v = &layouts[6]} },
+	{ MODKEY|ControlMask|ShiftMask,  XK_i,                     setlayout,      {.v = &layouts[7]} },
+
+
+
 	TAGKEYS(                        XK_1,                                     0)
 	TAGKEYS(                        XK_2,                     		  1)
 	TAGKEYS(                        XK_3,                     		  2)
