@@ -1,0 +1,152 @@
+[0.0] Log file initialized - /home/jy/.config/unity3d/Milkstone Studios/Ziggurat2/Ziggurat2_log_20210529_0112.txt
+[0.0] Initializing platform
+[0.0] Game version: v65
+Date: 05/29/2021 05:12
+OS: Linux 5.12 Arch Linux  64bit
+Processor: AMD Ryzen 5 2600X Six-Core Processor - Count:12 - Mhz:3200
+System RAM:16002MB
+Graphics card: NVIDIA GeForce GTX 1070 Ti - Version: Vulkan 1.1.0 [0x7447c000] - RAM: 8438MB
+Platform: pc PC 64bit
+System language: English
+Screen Resolution: 2560x1440@165 Fullscreen:True Mode:FullScreenWindow
+Game Resolution: 2560x1440
+Arguments: ./Ziggurat2.x64 -force-vulkan
+[0.1] Initializing Steam API
+[0.1] Steam API Initialized. Steam is running:True
+[0.1] Compiled Packsize: 8 Steamworks Packsize: 8
+[0.1] Save Folder: /home/jy/My Games/Ziggurat2/76561198253569037/ - Machine: /home/jy/My Games/Ziggurat2/Local/
+[0.1] Steam API initialized
+[0.1] No stats file found!
+
+[0.1] No awards file found!
+
+[0.1] No DLC file found!
+
+[0.4] Opening file /home/jy/My Games/Ziggurat2/Local/globalconfig.json - Mode:Open
+[0.5] MilkAddressables initialized. 2787 assets.
+[0.5] Loaded bundle theme_common. Load time: 0.001509547
+[0.5] Loaded bundle base. Load time: 0.0355227
+[0.5] Loaded bundle bigmap. Load time: 0.001019001
+[0.5] Loaded bundle characters. Load time: 0.003372431
+[0.5] Loaded bundle duplicates. Load time: 0.001397669
+[0.5] Loaded bundle enemies. Load time: 0.009244025
+[0.5] Loaded bundle fx. Load time: 0.001266479
+[0.5] Loaded bundle hands. Load time: 0.001620173
+[0.5] Loaded bundle pickups. Load time: 0.002001405
+[0.6] Loaded bundle theme_cathedral. Load time: 0.02705389
+[0.6] Loaded bundle ui. Load time: 0.01959139
+[0.6] Loaded bundle weapons. Load time: 0.007012665
+[0.8] Playfab Login Success: DF90C501F6EFCFAD
+[4.3] Loaded bundle music. Load time: 0.0005264282
+[4.6] Won focus
+[4.7] Setting resolution from 2560x1440@165 to 2560x1440 Fullscreen:ExclusiveFullScreen
+[4.7] Initalizing Analytics
+[4.7] GameAnalytics: Unsupported platform (events will not be sent in editor; or missing platform in settings): LinuxPlayer
+
+[4.9] Loaded bundle lore. Load time: 0.001766682
+[9.2] Lost focus
+[10.0] LoadScene
+[10.0] IntroScript: Slideshow finished!
+[10.7] Push UI/Menu/Title
+[11.5] Won focus
+[11.5] Lost focus
+[11.5] Won focus
+[13.4] Press A to Start pressed by gamepad KeyboardMouse
+[13.4] Switch UI/Menu/LoadingPlayer
+[13.4] Choosing main player: BOT Jerry - PlayerIndex One
+[13.4] Opening file /home/jy/My Games/Ziggurat2/76561198253569037/config.json - Mode:Open
+[13.4] Unlocked DLCs: None
+[13.4] Opening file /home/jy/My Games/Ziggurat2/76561198253569037/campaign.mlk - Mode:Open
+[13.4] Switch UI/Menu/MainMenu
+[14.6] Switch UI/Campaign/Main
+[19.7] Push UI/Campaign/Map
+[22.8] Push UI/Campaign/MissionBriefing
+[24.3] Switch UI/Campaign/MissionReady
+[28.3] Mission Reward Multiplier: 140%
+[28.3] Push UI/Menu/Loading
+[28.3] Loaded bundle loadingscreenshots. Load time: 0.0006065369
+[29.4] Loaded bundle amulets. Load time: 0.002277374
+[29.5] Scanning - Process took 1 ms to complete
+[29.5] Using Seed 644918859
+[29.7] Loaded bundle rooms. Load time: 0.1225471
+[34.7] Push UI/Game/IntroLevelHud
+[41.7] Switch UI/Game/GameHud
+[41.8] Loaded bundle minimap. Load time: 0.0009498596
+[49.4] Push UI/Game/SelectModifier
+[60.0] Applying run modifier RunModifier_Pos_ManaUsageAlchemy:RunModifier_Neg_EnemySpeed
+[60.0] Room 0 cleared
+[63.4] Push UI/Game/Pause
+[64.4] Push UI/Menu/Settings
+[66.4] Push UI/Menu/SettingsControls
+[69.8] Reported resolution: 2560x1440@165Hz Fullscreen:ExclusiveFullScreen, no need to change
+[69.8] Opening file /home/jy/My Games/Ziggurat2/76561198253569037/config.json - Mode:Create
+[72.4] Picked up Key! IsSecret:False
+[72.4] Room 1 cleared
+[82.3] Starting fight on room Combat_1x1_Room5 (3)
+Enemies to spawn: Goblin FlyingFish DemonDrone 
+[122.6] Fight complete
+[122.6] Room 3 cleared
+[140.6] Starting fight on room Combat_1x1_Room3 (7)
+Enemies to spawn: Goblin ArmorFlyElectric 
+[148.7] Picked up Key! IsSecret:True
+[164.8] Player level up!
+[187.5] Fight complete
+[187.5] Room 7 cleared
+[188.9] Push UI/Game/Upgrade
+[193.8] Earned perk Healer Lv.Level1
+[216.5] Starting Combat Challenge
+[216.5] Starting Challenge fight on room ChallengeCombat_2x1_Room5 (6)
+[216.5] Wave 1
+[231.6] Push UI/Game/Map
+[233.0] Wave 2
+[248.6] Wave 3
+[249.2] Player level up!
+[262.6] Wave 4
+[276.1] Wave 5
+[294.6] Fight complete
+[296.8] Push UI/Game/Upgrade
+[303.7] Earned perk Rogue_SmokeBomb Lv.Level1
+[309.1] Lost focus
+[310.9] Won focus
+[311.2] Lost focus
+[360.4] Won focus
+[376.3] Starting fight on room Combat_2x1_Room18 (4)
+Enemies to spawn: Goblin Carrot IceDrone 
+[449.2] Fight complete
+[449.2] Room 4 cleared
+[455.7] Push UI/Game/Map
+[461.3] Push UI/Game/Map
+[469.8] Starting fight on room Combat_1x1_ZRoom16 (2)
+Enemies to spawn: Armor Orc 
+[476.3] Player level up!
+[497.6] Fight complete
+[497.6] Room 2 cleared
+[505.0] Push UI/Game/Upgrade
+[511.9] Earned perk WandFinisher Lv.Level1
+[537.0] Earned perk HighStakes Lv.Level1
+[542.4] Push UI/Game/Map
+[557.4] Push UI/Game/IntroBossHud
+[557.4] Health Multiplier: 1.125
+[564.8] Starting boss fight on room Boss_Room10 (8)
+[600.8] Player died!
+[600.8] AddPlaytime 467.4683
+[600.9] CampaignManager.Save - Backup: True
+[600.9] Opening file /home/jy/My Games/Ziggurat2/76561198253569037/campaign.mlk - Mode:Create
+[600.9] Opening file /home/jy/My Games/Ziggurat2/76561198253569037/campaign.bak - Mode:Create
+[604.5] Push UI/Menu/Loading
+[608.7] Push UI/Campaign/MissionComplete
+[617.6] Switch UI/Campaign/MissionCompletePopup
+[619.5] Switch UI/Campaign/MissionCompletePopup
+[621.1] Switch UI/Campaign/MissionCompleteRewards
+[622.2] Switch UI/Campaign/Main
+[623.6] Push UI/Campaign/Lab
+[626.7] Push UI/Campaign/Weapons
+[628.4] Push UI/Campaign/WeaponDetails
+[629.1] Weapon upgraded
+[630.9] Opening file /home/jy/My Games/Ziggurat2/76561198253569037/config.json - Mode:Create
+[630.9] Opening file /home/jy/My Games/Ziggurat2/Local/globalconfig.json - Mode:Create
+[631.7] Switch UI/Menu/MainMenu
+[634.9] Exiting game
+[636.4] CampaignManager.Save - Backup: False
+[636.4] OnApplicationQuit
+[636.4] Opening file /home/jy/My Games/Ziggurat2/76561198253569037/campaign.mlk - Mode:Create

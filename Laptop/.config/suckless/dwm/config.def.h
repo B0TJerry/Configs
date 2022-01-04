@@ -100,74 +100,80 @@ static const Layout layouts[] = {
 /* commands */
 static char dmenumon[2] = "0"; /* component of dmenucmd, manipulated in spawn() */
 static const char *dmenucmd[] = { "dmenu_run", "-m", dmenumon, "-fn", dmenufont, "-p", "Run:", NULL };
-static const char *termcmd[]  = { "st", "-e", "tmux",  NULL 		     	                    };
+static const char *termcmd[]  = { "st", "-e", "tmux",  NULL 		     	                        };
 static const char *emacscmd[] = { "emacs", NULL                                                     };
 static const char *brwsrcmd[] = { "tabbed", "surf","-e", NULL                                       };
-static const char *pwroff[]   = { "poweroff", NULL         		                            };
-static const char *reboot[]   = { "reboot", NULL      			                            };
+static const char *pwroff[]   = { "poweroff", NULL         		                                    };
+static const char *reboot[]   = { "reboot", NULL      			                                    };
 static const char *passmenu[] = { "passmenu", "-p", "Pass For:",  NULL 	                            };
 static const char *upvol[]    = { "pulsemixer", "--change-volume", "+2", NULL                       };
 static const char *downvol[]  = { "pulsemixer", "--change-volume", "-2", NULL                       };
 static const char *mutevol[]  = { "pulsemixer", "--toggle-mute", NULL                               };
 static const char *ply[]      = { "mpc", "toggle", NULL                                             };
-static const char *nxttrk[]   = { "mpc", "next", NULL             	                            };
+static const char *nxttrk[]   = { "mpc", "next", NULL             	                                };
 static const char *prvtrk[]   = { "mpc", "prev", NULL                                               };
 static const char *mpdvu[]    = { "mpc", "volume", "+2", NULL                                       };
 static const char *mpdvd[]    = { "mpc", "volume", "-2", NULL                                       };
 static const char *opnvia[]   = { "via", NULL                                                       };
+static const char *brightup[] = { "sudo", "xbacklight", "-inc", "2", NULL                           };
+static const char *brightdn[] = { "sudo", "xbacklight", "-dec", "2", NULL                           };
+static const char *scrnsht[]  = { "flameshot", "gui", NULL                                          };
 /*Keybinds */
 static Key keys[] = {
-          /*Modifier(s)*/              /*Key*/                 /*Function*/          /*Argument*/
-	{ MODKEY|ShiftMask,             XK_p,     		  spawn,          {.v = passmenu } },
-	{ MODKEY|ControlMask,           XK_r,      		  spawn,          {.v = reboot   } },
-	{ MODKEY|ControlMask,           XK_x,      		  spawn,          {.v = pwroff   } },
-	{ MODKEY,                       XK_e,      		  spawn,          {.v = emacscmd } },
-	{ MODKEY|ShiftMask,             XK_f,       		  spawn,          {.v = brwsrcmd } },
+      /*Modifier(s)*/              /*Key*/                 /*Function*/          /*Argument*/
+	{ MODKEY|ShiftMask,             XK_p,     		          spawn,          {.v = passmenu } },
+	{ MODKEY|ShiftMask,             XK_r,      		          spawn,          {.v = reboot   } },
+	{ MODKEY|ShiftMask,             XK_x,      		          spawn,          {.v = pwroff   } },
+	{ MODKEY,                       XK_e,      		          spawn,          {.v = emacscmd } },
+	{ MODKEY|ShiftMask,             XK_f,       		      spawn,          {.v = brwsrcmd } },
 	{ MODKEY,                       XK_p,                     spawn,          {.v = dmenucmd } },
 	{ MODKEY|ShiftMask,             XK_Return,                spawn,          {.v = termcmd  } },
-        { 0,                            XF86XK_AudioLowerVolume,  spawn,          {.v = downvol  } },
+    { 0,                            XF86XK_AudioLowerVolume,  spawn,          {.v = downvol  } },
 	{ 0,                            XF86XK_AudioRaiseVolume,  spawn,          {.v = upvol    } },
 	{ 0,                            XF86XK_AudioMute,         spawn,          {.v = mutevol  } },
-	{ MODKEY,                       XK_End,                   spawn,          {.v = nxttrk    } },
-	{ MODKEY,                       XK_Prior,           	  spawn,          {.v = prvtrk } },
-	{ MODKEY,                       XK_Home,                  spawn,          {.v = ply } },
-        { MODKEY,                       XK_Up,                    spawn,          {.v = mpdvu    } },
+	{ MODKEY,                       XK_Right,                 spawn,          {.v = nxttrk   } },
+	{ MODKEY,                       XK_Left,             	  spawn,          {.v = prvtrk   } },
+	{ MODKEY,                       XK_Menu,                  spawn,          {.v = ply      } },
+    { MODKEY,                       XK_Up,                    spawn,          {.v = mpdvu    } },
 	{ MODKEY,                       XK_Down,                  spawn,          {.v = mpdvd    } },
 	{ MODKEY,                       XK_space,                 spawn,          {.v = opnvia   } },
-	{ MODKEY,                       XK_b,                     togglebar,      {0} },
-	{ MODKEY,                       XK_j,                     focusstack,     {.i = +1 } },
-	{ MODKEY,                       XK_k,                     focusstack,     {.i = -1 } },
-	{ MODKEY,                       XK_i,                     incnmaster,     {.i = +1 } },
-	{ MODKEY,                       XK_d,                     incnmaster,     {.i = -1 } },
-	{ MODKEY,                       XK_h,                     setmfact,       {.f = -0.05} },
-	{ MODKEY,                       XK_l,                     setmfact,       {.f = +0.05} },
-	{ MODKEY,                       XK_Return,                zoom,           {0} },
-	{ MODKEY,                       XK_Tab,                   view,           {0} },
-	{ MODKEY,                       XK_c,                     killclient,     {0} },
-	{ MODKEY,                       XK_t,      		  setlayout,      {.v = &layouts[0]} },
-	{ MODKEY,                       XK_f,      		  setlayout,      {.v = &layouts[1]} },
-	{ MODKEY,                       XK_m,      		  setlayout,      {.v = &layouts[2]} },
-	{ MODKEY,                       XK_r,     		  setlayout,      {.v = &layouts[3]} },
-	{ MODKEY|ShiftMask,             XK_r,   	          setlayout,      {.v = &layouts[4]} },
-	{ MODKEY,                       XK_u,     		  setlayout,      {.v = &layouts[5]} },
-	{ MODKEY,                       XK_o,    		  setlayout,      {.v = &layouts[6]} },
-	{ MODKEY,                       XK_g,    		  setlayout,      {.v = &layouts[7]} },
-	{ MODKEY|ControlMask,		XK_comma,		  cyclelayout,    {.i = -1 } },
-	{ MODKEY|ControlMask,           XK_period,		  cyclelayout,    {.i = +1 } },
-	{ MODKEY,                       XK_0,      		  view,           {.ui = ~0 } },
-	{ MODKEY|ShiftMask,             XK_0,    		  tag,            {.ui = ~0 } },
-	{ MODKEY,                       XK_comma,		  focusmon,       {.i = -1 } },
-	{ MODKEY,                       XK_period,		  focusmon,       {.i = +1 } },
-	{ MODKEY|ShiftMask,             XK_comma,		  tagmon,         {.i = -1 } },
-	{ MODKEY|ShiftMask,             XK_period,		  tagmon,         {.i = +1 } },
-	{ MODKEY|ControlMask|ShiftMask,  XK_q,                     setlayout,      {.v = &layouts[0]} },
-	{ MODKEY|ControlMask|ShiftMask,  XK_w,                     setlayout,      {.v = &layouts[1]} },
-	{ MODKEY|ControlMask|ShiftMask,  XK_e,                     setlayout,      {.v = &layouts[2]} },
-	{ MODKEY|ControlMask|ShiftMask,  XK_r,                     setlayout,      {.v = &layouts[3]} },
-	{ MODKEY|ControlMask|ShiftMask,  XK_t,                     setlayout,      {.v = &layouts[4]} },
-	{ MODKEY|ControlMask|ShiftMask,  XK_y,                     setlayout,      {.v = &layouts[5]} },
-	{ MODKEY|ControlMask|ShiftMask,  XK_u,                     setlayout,      {.v = &layouts[6]} },
-	{ MODKEY|ControlMask|ShiftMask,  XK_i,                     setlayout,      {.v = &layouts[7]} },
+    { 0,                            XF86XK_MonBrightnessUp,   spawn,          {.v = brightup } },
+    { 0,                            XF86XK_MonBrightnessDown, spawn,          {.v = brightdn } },
+    { 0,                            XK_Print,                 spawn,          {.v = scrnsht  } },
+	{ MODKEY,                       XK_b,                     togglebar,      {0             } },
+	{ MODKEY,                       XK_j,                     focusstack,     {.i = +1       } },
+	{ MODKEY,                       XK_k,                     focusstack,     {.i = -1       } },
+	{ MODKEY,                       XK_i,                     incnmaster,     {.i = +1       } },
+	{ MODKEY,                       XK_d,                     incnmaster,     {.i = -1       } },
+	{ MODKEY,                       XK_h,                     setmfact,       {.f = -0.05    } },
+	{ MODKEY,                       XK_l,                     setmfact,       {.f = +0.05    } },
+	{ MODKEY,                       XK_Return,                zoom,           {0             } },
+	{ MODKEY,                       XK_Tab,                   view,           {0             } },
+	{ MODKEY,                       XK_c,                     killclient,     {0             } },
+	{ MODKEY,                       XK_t,      		          setlayout,      {.v = &layouts[0]} },
+	{ MODKEY,                       XK_f,      		          setlayout,      {.v = &layouts[1]} },
+	{ MODKEY,                       XK_m,      		          setlayout,      {.v = &layouts[2]} },
+	{ MODKEY,                       XK_r,     		          setlayout,      {.v = &layouts[3]} },
+	{ MODKEY|ShiftMask,             XK_r,   	              setlayout,      {.v = &layouts[4]} },
+	{ MODKEY,                       XK_u,     		          setlayout,      {.v = &layouts[5]} },
+	{ MODKEY,                       XK_o,    		          setlayout,      {.v = &layouts[6]} },
+	{ MODKEY,                       XK_g,    		          setlayout,      {.v = &layouts[7]} },
+	{ MODKEY|ControlMask,	      	XK_comma,		          cyclelayout,    {.i = -1 } },
+	{ MODKEY|ControlMask,           XK_period,		          cyclelayout,    {.i = +1 } },
+	{ MODKEY,                       XK_0,      		          view,           {.ui = ~0 } },
+	{ MODKEY|ShiftMask,             XK_0,    		          tag,            {.ui = ~0 } },
+	{ MODKEY,                       XK_comma,		          focusmon,       {.i = -1 } },
+	{ MODKEY,                       XK_period,		          focusmon,       {.i = +1 } },
+	{ MODKEY|ShiftMask,             XK_comma,		          tagmon,         {.i = -1 } },
+	{ MODKEY|ShiftMask,             XK_period,		          tagmon,         {.i = +1 } },
+	{ MODKEY|ControlMask|ShiftMask, XK_q,                     setlayout,      {.v = &layouts[0]} },
+	{ MODKEY|ControlMask|ShiftMask, XK_w,                     setlayout,      {.v = &layouts[1]} },
+	{ MODKEY|ControlMask|ShiftMask, XK_e,                     setlayout,      {.v = &layouts[2]} },
+	{ MODKEY|ControlMask|ShiftMask, XK_r,                     setlayout,      {.v = &layouts[3]} },
+	{ MODKEY|ControlMask|ShiftMask, XK_t,                     setlayout,      {.v = &layouts[4]} },
+	{ MODKEY|ControlMask|ShiftMask, XK_y,                     setlayout,      {.v = &layouts[5]} },
+	{ MODKEY|ControlMask|ShiftMask, XK_u,                     setlayout,      {.v = &layouts[6]} },
+	{ MODKEY|ControlMask|ShiftMask, XK_i,                     setlayout,      {.v = &layouts[7]} },
 
 
 	TAGKEYS(                        XK_1,                                     0)
@@ -197,3 +203,9 @@ static Button buttons[] = {
 	{ ClkTagBar,            MODKEY,         Button1,        tag,            {0}                },
 	{ ClkTagBar,            MODKEY,         Button3,        toggletag,      {0}                },
 };
+
+
+
+
+
+

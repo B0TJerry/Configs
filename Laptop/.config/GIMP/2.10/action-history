@@ -1,0 +1,14 @@
+# GIMP action-history
+
+(history-item "tools-zoom" 2)
+(history-item "tools-fuzzy-select" 0)
+(history-item "tools-by-color-select-short" 0)
+(history-item "file-open" 0)
+(history-item "filters-colorize" 1)
+(history-item "edit-cut" 0)
+(history-item "filters-color-balance" 0)
+(history-item "edit-fill-fg" 0)
+(history-item "tools-by-color-select" 0)
+(history-item "image-color-profile-assign" 1)
+
+# end of action-history

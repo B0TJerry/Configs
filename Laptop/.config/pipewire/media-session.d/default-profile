@@ -1,0 +1,5 @@
+{
+  "default.profile.alsa_card.pci-0000_28_00.3": { "name": "output:iec958-stereo" },
+  "default.profile.alsa_card.usb-Kingston_HyperX_Virtual_Surround_Sound_00000000-00": { "name": "output:analog-stereo" },
+  "default.profile.alsa_card.pci-0000_26_00.1": { "name": "output:hdmi-stereo" }
+}

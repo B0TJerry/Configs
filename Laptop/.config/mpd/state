@@ -1,13 +1,346 @@
-sw_volume: 1
+sw_volume: 78
 audio_device_state:1:pulse audio
 audio_device_state:1:my_fifo
-state: stop
+state: pause
+current: 326
+time: 224.547000
 random: 0
 repeat: 0
 single: 0
 consume: 0
-crossfade: 0
+crossfade: 3
 mixrampdb: 0.000000
 mixrampdelay: -1.000000
 playlist_begin
+0:Bach- Matthew Halls, Retrospect Ensemble - Harpsichord Concertos [24-192]/01 - Concerto VI in F Major BWV 1057 - I Allegro.flac
+1:Bach- Matthew Halls, Retrospect Ensemble - Harpsichord Concertos [24-192]/02 - Concerto VI in F Major BWV 1057 - II Andante.flac
+2:Bach- Matthew Halls, Retrospect Ensemble - Harpsichord Concertos [24-192]/03 - Concerto VI in F Major BWV 1057 - III Allegro assai.flac
+3:Bach- Matthew Halls, Retrospect Ensemble - Harpsichord Concertos [24-192]/04 - Concerto in G minor BWV 1058 - I Allegro.flac
+4:Bach- Matthew Halls, Retrospect Ensemble - Harpsichord Concertos [24-192]/05 - Concerto in G minor BWV 1058 - II Andante.flac
+5:Bach- Matthew Halls, Retrospect Ensemble - Harpsichord Concertos [24-192]/06 - Concerto in G minor BWV 1058 - III Allegro assai.flac
+6:Bach- Matthew Halls, Retrospect Ensemble - Harpsichord Concertos [24-192]/07 - Concerto I in D minor BWV 1052 - I Allegro.flac
+7:Bach- Matthew Halls, Retrospect Ensemble - Harpsichord Concertos [24-192]/08 - Concerto I in D minor BWV 1052 - II Adagio.flac
+8:Bach- Matthew Halls, Retrospect Ensemble - Harpsichord Concertos [24-192]/09 - Concerto I in D minor BWV 1052 - III Allegro.flac
+9:Bach- Matthew Halls, Retrospect Ensemble - Harpsichord Concertos [24-192]/10 - Concerto IV in A Major BWV 1055 - I Allegro.flac
+10:Bach- Matthew Halls, Retrospect Ensemble - Harpsichord Concertos [24-192]/11 - Concerto IV in A Major BWV 1055 - II Larghetto.flac
+11:Bach- Matthew Halls, Retrospect Ensemble - Harpsichord Concertos [24-192]/12 - Concerto IV in A Major BWV 1055 - III Allegro ma non tanto.flac
+12:BARCHboi - Keyboard_SHAREWARE.midi/BARCHboi - Keyboard_SHAREWARE.midi - 01 Vocal_SndFX.flac
+13:BARCHboi - Keyboard_SHAREWARE.midi/BARCHboi - Keyboard_SHAREWARE.midi - 02 Raindrop.flac
+14:BARCHboi - Keyboard_SHAREWARE.midi/BARCHboi - Keyboard_SHAREWARE.midi - 03 Choir.flac
+15:BARCHboi - Keyboard_SHAREWARE.midi/BARCHboi - Keyboard_SHAREWARE.midi - 04 Bird_SndFX.flac
+16:BARCHboi - Keyboard_SHAREWARE.midi/BARCHboi - Keyboard_SHAREWARE.midi - 05 Crystal.flac
+17:BARCHboi - Keyboard_SHAREWARE.midi/BARCHboi - Keyboard_SHAREWARE.midi - 06 WindFX.flac
+18:BARCHboi - Keyboard_SHAREWARE.midi/BARCHboi - Keyboard_SHAREWARE.midi - 07 Space Strings.flac
+19:BARCHboi - Keyboard_SHAREWARE.midi/BARCHboi - Keyboard_SHAREWARE.midi - 08 90s Bass.flac
+20:BARCHboi - Keyboard_SHAREWARE.midi/BARCHboi - Keyboard_SHAREWARE.midi - 09 Seashore_SndFX.flac
+21:BARCHboi - Keyboard_SHAREWARE.midi/BARCHboi - Keyboard_SHAREWARE.midi - 10 Fantasy.flac
+22:BARCHboi - Keyboard_SHAREWARE.midi/BARCHboi - Keyboard_SHAREWARE.midi - 11 ElectricDRUMKIT.flac
+23:BARCHboi - Keyboard_SHAREWARE.midi/BARCHboi - Keyboard_SHAREWARE.midi - 12 Soundtrack.flac
+24:BARCHboi - Keyboard_SHAREWARE.midi/BARCHboi - Keyboard_SHAREWARE.midi - 13 Atmosphere Pad.flac
+25:BARCHboi - Keyboard_SHAREWARE.midi/BARCHboi - Keyboard_SHAREWARE.midi - 14 Yeah!.flac
+26:Electric Light Orchestra - Balance of Power (2015) [24-192 HD FLAC]/01 - Heaven Only Knows.flac
+27:Electric Light Orchestra - Balance of Power (2015) [24-192 HD FLAC]/02 - So Serious.flac
+28:Electric Light Orchestra - Balance of Power (2015) [24-192 HD FLAC]/03 - Getting to the Point.flac
+29:Electric Light Orchestra - Balance of Power (2015) [24-192 HD FLAC]/04 - Secret Lives.flac
+30:Electric Light Orchestra - Balance of Power (2015) [24-192 HD FLAC]/05 - Is It Alright.flac
+31:Electric Light Orchestra - Balance of Power (2015) [24-192 HD FLAC]/06 - Sorrow About to Fall.flac
+32:Electric Light Orchestra - Balance of Power (2015) [24-192 HD FLAC]/07 - Without Someone.flac
+33:Electric Light Orchestra - Balance of Power (2015) [24-192 HD FLAC]/08 - Calling America.flac
+34:Electric Light Orchestra - Balance of Power (2015) [24-192 HD FLAC]/09 - Endless Lies.flac
+35:Electric Light Orchestra - Balance of Power (2015) [24-192 HD FLAC]/10 - Send It.flac
+36:Eagles - Hotel California (2013) [24-96 HD FLAC]/01 - Hotel California.flac
+37:Eagles - Hotel California (2013) [24-96 HD FLAC]/02 - New Kid In Town.flac
+38:Eagles - Hotel California (2013) [24-96 HD FLAC]/03 - Life In The Fast Lane.flac
+39:Eagles - Hotel California (2013) [24-96 HD FLAC]/04 - Wasted Time.flac
+40:Eagles - Hotel California (2013) [24-96 HD FLAC]/05 - Wasted Time (Reprise).flac
+41:Eagles - Hotel California (2013) [24-96 HD FLAC]/06 - Victim Of Love.flac
+42:Eagles - Hotel California (2013) [24-96 HD FLAC]/07 - Pretty Maids All In A Row.flac
+43:Eagles - Hotel California (2013) [24-96 HD FLAC]/08 - Try And Love Again.flac
+44:Eagles - Hotel California (2013) [24-96 HD FLAC]/09 - The Last Resort.flac
+45:ELO - Out of the Blue/01 - Turn to Stone.flac
+46:ELO - Out of the Blue/02 - It s Over.flac
+47:ELO - Out of the Blue/03 - Sweet Talkin Woman.flac
+48:ELO - Out of the Blue/04 - Across the Border.flac
+49:ELO - Out of the Blue/05 - Night in the City.flac
+50:ELO - Out of the Blue/06 - Starlight.flac
+51:ELO - Out of the Blue/07 - Jungle.flac
+52:ELO - Out of the Blue/08 - Believe Me Now.flac
+53:ELO - Out of the Blue/09 - Steppin Out.flac
+54:ELO - Out of the Blue/10 - Standin in the Rain.flac
+55:ELO - Out of the Blue/11 - Big Wheels.flac
+56:ELO - Out of the Blue/12 - Summer and Lightning.flac
+57:ELO - Out of the Blue/13 - Mr Blue Sky.flac
+58:ELO - Out of the Blue/14 - Sweet Is the Night.flac
+59:ELO - Out of the Blue/15 - The Whale.flac
+60:ELO - Out of the Blue/16 - Birmingham Blues.flac
+61:ELO - Out of the Blue/17 - Wild West Hero.flac
+62:HOME - Before The Night/HOME - Before The Night - 01 We're Finally Landing.flac
+63:HOME - Before The Night/HOME - Before The Night - 02 Synchronize.flac
+64:HOME - Before The Night/HOME - Before The Night - 03 Overflow.flac
+65:HOME - Before The Night/HOME - Before The Night - 04 Without A Sound.flac
+66:HOME - Before The Night/HOME - Before The Night - 05 Above All.flac
+67:HOME - Before The Night/HOME - Before The Night - 06 Pyxis.flac
+68:HOME - Before The Night/HOME - Before The Night - 07 Before The Night.flac
+69:HOME - Before The Night/HOME - Before The Night - 08 If I'm Wrong.flac
+70:HOME - Before The Night/HOME - Before The Night - 09 Nosebleed.flac
+71:HOME - Before The Night/HOME - Before The Night - 10 Sun.flac
+72:HOME - Before The Night/HOME - Before The Night - 11 Sleep.flac
+73:HOME - Falling Into Places/HOME - Falling Into Place - 05 Burning.flac
+74:HOME - Falling Into Places/HOME - Falling Into Place - 06 This Will Pass.flac
+75:HOME - Falling Into Places/HOME - Falling Into Place - 07 I See You.flac
+76:HOME - Falling Into Places/HOME - Falling Into Place - 08 Fata Morgana (Interlude).flac
+77:HOME - Falling Into Places/HOME - Falling Into Place - 09 Warmth.flac
+78:HOME - Falling Into Places/HOME - Falling Into Place - 10 Billiards.flac
+79:HOME - Falling Into Places/HOME - Falling Into Place - 11 Bright Lights In Silent Rooms.flac
+80:HOME - Falling Into Places/HOME - Falling Into Place - 12 Hold Your Breath.flac
+81:HOME - Falling Into Places/HOME - Falling Into Place - 13 Puzzle.flac
+82:HOME - Falling Into Places/HOME - Falling Into Place - 14 Climbing Out.flac
+83:HOME - Falling Into Places/HOME - Falling Into Place - 15 Falling Into Place.flac
+84:HOME - Odyssey/HOME - Odyssey - 01 Intro.flac
+85:HOME - Odyssey/HOME - Odyssey - 02 Native.flac
+86:HOME - Odyssey/HOME - Odyssey - 03 Decay.flac
+87:HOME - Odyssey/HOME - Odyssey - 04 Oort Cloud.flac
+88:HOME - Odyssey/HOME - Odyssey - 05 Tides.flac
+89:HOME - Odyssey/HOME - Odyssey - 06 Nights (I Wish I Could Be There).flac
+90:HOME - Odyssey/HOME - Odyssey - 07 Odyssey.flac
+91:HOME - Odyssey/HOME - Odyssey - 08 New Machines.flac
+92:HOME - Odyssey/HOME - Odyssey - 09 Resonance.flac
+93:HOME - Odyssey/HOME - Odyssey - 10 Come Back Down.flac
+94:HOME - Odyssey/HOME - Odyssey - 11 Half Moon.flac
+95:HOME - Odyssey/HOME - Odyssey - 12 On The Way Out.flac
+96:Kebu - To Jupiter and Back/Kebu - To Jupiter and Back - 01 Day One.flac
+97:Kebu - To Jupiter and Back/Kebu - To Jupiter and Back - 02 To Jupiter and Back.flac
+98:Kebu - To Jupiter and Back/Kebu - To Jupiter and Back - 03 Samba Saturn.flac
+99:Kebu - To Jupiter and Back/Kebu - To Jupiter and Back - 04 Basic Principles.flac
+100:Kebu - To Jupiter and Back/Kebu - To Jupiter and Back - 05 Just Another Space Odyssey.flac
+101:Kebu - To Jupiter and Back/Kebu - To Jupiter and Back - 06 Interlude No. 4.flac
+102:Kebu - To Jupiter and Back/Kebu - To Jupiter and Back - 07 Le Carnaval des Étoiles.flac
+103:Kebu - To Jupiter and Back/Kebu - To Jupiter and Back - 08 Pulsar.flac
+104:Kebu - To Jupiter and Back/Kebu - To Jupiter and Back - 09 Michael's Anthem.flac
+105:Kebu - To Jupiter and Back/Kebu - To Jupiter and Back - 10 The Lunar Effect.flac
+106:Kebu - To Jupiter and Back/Kebu - To Jupiter and Back - 11 Lullaby for Heidi.flac
+107:Kebu - To Jupiter and Back/Kebu - To Jupiter and Back - 12 Le Carnaval des Étoiles (extended version).flac
+108:Kebu - Urban Dreams/Kebu - Urban Dreams - 01 Enter Dreamland.flac
+109:Kebu - Urban Dreams/Kebu - Urban Dreams - 02 Discovering Utopia.flac
+110:Kebu - Urban Dreams/Kebu - Urban Dreams - 03 Another Reality.flac
+111:Kebu - Urban Dreams/Kebu - Urban Dreams - 04 Free from the Pain.flac
+112:Kebu - Urban Dreams/Kebu - Urban Dreams - 05 Memories of Youth.flac
+113:Kebu - Urban Dreams/Kebu - Urban Dreams - 06 Chased by the Ghost of Yesterday.flac
+114:Kebu - Urban Dreams/Kebu - Urban Dreams - 07 Echoes of the Moment.flac
+115:Kebu - Urban Dreams/Kebu - Urban Dreams - 08 Fleeting Lights.flac
+116:Kebu - Urban Dreams/Kebu - Urban Dreams - 09 Late for the Meeting in the Maze.flac
+117:Kebu - Urban Dreams/Kebu - Urban Dreams - 10 Hope.flac
+118:Kebu - Urban Dreams/Kebu - Urban Dreams - 11 Distant Shores.flac
+119:Kebu - Urban Dreams/Kebu - Urban Dreams - 12 Saved by MacGyver.flac
+120:Kebu - Urban Dreams/Kebu - Urban Dreams - 13 Meeting the Ice Princess.flac
+121:Kebu - Urban Dreams/Kebu - Urban Dreams - 14 Arrival of the Tomato Plant Monsters.flac
+122:Kebu - Urban Dreams/Kebu - Urban Dreams - 15 A Call of Loneliness.flac
+123:Kebu - Urban Dreams/Kebu - Urban Dreams - 16 Super Troopers.flac
+124:Kebu - Urban Dreams/Kebu - Urban Dreams - 17 Clear Skies.flac
+125:Kebu - Urban Dreams/Kebu - Urban Dreams - 18 Regrets.flac
+126:Kebu - Urban Dreams/Kebu - Urban Dreams - 19 Dreamwalkers.flac
+127:Kebu - Urban Dreams/Kebu - Urban Dreams - 20 Dream of Hope.flac
+128:KEYGEN CHURCH - ░ ▒ ▓ █/KEYGEN CHURCH - ░ ▒ ▓ █ - 01 Duhicebdo ed varicecag parvabiguf.flac
+129:KEYGEN CHURCH - ░ ▒ ▓ █/KEYGEN CHURCH - ░ ▒ ▓ █ - 02 Igparera fihi gexigug igpariug afc.flac
+130:KEYGEN CHURCH - ░ ▒ ▓ █/KEYGEN CHURCH - ░ ▒ ▓ █ - 03 E puro fobca dafluic eque pure.flac
+131:KEYGEN CHURCH - ░ ▒ ▓ █/KEYGEN CHURCH - ░ ▒ ▓ █ - 04 Ohfaquiug egidof, varicef odiug peric.flac
+132:KEYGEN CHURCH - ░ ▒ ▓ █/KEYGEN CHURCH - ░ ▒ ▓ █ - 05 Eliabe vicie ib odulif hehaguf e cargo bofcre fubc.flac
+133:KEYGEN CHURCH - ░ ▒ ▓ █/KEYGEN CHURCH - ░ ▒ ▓ █ - 06 Baqua irefdi, baqua edgireri, fad ibcalligara.flac
+134:KEYGEN CHURCH - ░ ▒ ▓ █/KEYGEN CHURCH - ░ ▒ ▓ █ - 07 Becureg axpallef furde. Cegab ufqua radurrac.flac
+135:KEYGEN CHURCH - ░ ▒ ▓ █/KEYGEN CHURCH - ░ ▒ ▓ █ - 08 Baqua ighallag farodaf progabarebc equilea dolugheg.flac
+136:KEYGEN CHURCH - ░ ▒ ▓ █/KEYGEN CHURCH - ░ ▒ ▓ █ - 09 Lax ubivarfe afc, quea iuhac befdi ac gori.flac
+137:KEYGEN CHURCH - ░█░█░░█░█░█░/KEYGEN CHURCH - ░█░█░░█░█░█░ - 01 H A R E K L A V I T.flac
+138:KEYGEN CHURCH - ░█░█░░█░█░█░/KEYGEN CHURCH - ░█░█░░█░█░█░ - 02 T I L A S K A R O T.flac
+139:KEYGEN CHURCH - ░█░█░░█░█░█░/KEYGEN CHURCH - ░█░█░░█░█░█░ - 03 G E B U E R J E I T.flac
+140:KEYGEN CHURCH - ░█░█░░█░█░█░/KEYGEN CHURCH - ░█░█░░█░█░█░ - 04 F A R B A S K E I N.flac
+141:KEYGEN CHURCH - ░█░█░░█░█░█░/KEYGEN CHURCH - ░█░█░░█░█░█░ - 05 A S G R E T A L O S.flac
+142:KEYGEN CHURCH - ░█░█░░█░█░█░/KEYGEN CHURCH - ░█░█░░█░█░█░ - 06 D I L E R K E F E T.flac
+143:KEYGEN CHURCH - ░█░█░░█░█░█░/KEYGEN CHURCH - ░█░█░░█░█░█░ - 07 B A R E G E R E S K.flac
+144:KEYGEN CHURCH - ░█░█░░█░█░█░/KEYGEN CHURCH - ░█░█░░█░█░█░ - 08 L A D I K E R F O S.flac
+145:KEYGEN CHURCH - ░█░█░░█░█░█░/KEYGEN CHURCH - ░█░█░░█░█░█░ - 09 S E V E R K E T O R.flac
+146:KEYGEN CHURCH - ░█░█░░█░█░█░/KEYGEN CHURCH - ░█░█░░█░█░█░ - 10 V A R E C K J E I T.flac
+147:KEYGEN CHURCH - Bullug Gegbug Ibgabiug Gixcure Dagabciea Fuic/KEYGEN CHURCH - Bullug Gegbug Ibgabiug Gixcure Dagabciea Fuic - 01 Bullug Gegbug Ibgabiug Gixcure Dagabciea Fuic.flac
+148:Led Zeppelin - Led Zeppelin IV (1971) (Classic 45 PBTHAL LP 24-96) [FLAC] vtwin88cube/01.-Black Dog.flac
+149:Led Zeppelin - Led Zeppelin IV (1971) (Classic 45 PBTHAL LP 24-96) [FLAC] vtwin88cube/02.-Rock And Roll.flac
+150:Led Zeppelin - Led Zeppelin IV (1971) (Classic 45 PBTHAL LP 24-96) [FLAC] vtwin88cube/03.-The Battle Of Evermore.flac
+151:Led Zeppelin - Led Zeppelin IV (1971) (Classic 45 PBTHAL LP 24-96) [FLAC] vtwin88cube/04.-Stairway To Heaven.flac
+152:Led Zeppelin - Led Zeppelin IV (1971) (Classic 45 PBTHAL LP 24-96) [FLAC] vtwin88cube/05.-Misty Mountain Hop.flac
+153:Led Zeppelin - Led Zeppelin IV (1971) (Classic 45 PBTHAL LP 24-96) [FLAC] vtwin88cube/06.-Four Sticks.flac
+154:Led Zeppelin - Led Zeppelin IV (1971) (Classic 45 PBTHAL LP 24-96) [FLAC] vtwin88cube/07.-Going To California.flac
+155:Led Zeppelin - Led Zeppelin IV (1971) (Classic 45 PBTHAL LP 24-96) [FLAC] vtwin88cube/08.-When The Levee Breaks.flac
+156:Louis Armstrong - What a Wonderful World (2012) [24-192 HD FLAC]/1-What A Wonderful World Singl.flac
+157:Louis Armstrong - What a Wonderful World (2012) [24-192 HD FLAC]/2-Cabaret Single Version.flac
+158:Louis Armstrong - What a Wonderful World (2012) [24-192 HD FLAC]/3-The Home Fire Album Version.flac
+159:Louis Armstrong - What a Wonderful World (2012) [24-192 HD FLAC]/4-Dream A Little Dream Of Me A.flac
+160:Louis Armstrong - What a Wonderful World (2012) [24-192 HD FLAC]/5-Give Me Your Kisses Album Ve.flac
+161:Louis Armstrong - What a Wonderful World (2012) [24-192 HD FLAC]/6-The Sunshine Of Love Single .flac
+162:Louis Armstrong - What a Wonderful World (2012) [24-192 HD FLAC]/7-Hello Brother Single Version.flac
+163:Louis Armstrong - What a Wonderful World (2012) [24-192 HD FLAC]/8-There Must Be A Way Album Ve.flac
+164:Louis Armstrong - What a Wonderful World (2012) [24-192 HD FLAC]/9-Fantastic Thats You Album Ve.flac
+165:Louis Armstrong - What a Wonderful World (2012) [24-192 HD FLAC]/10-I Guess Ill Get The Papers .flac
+166:Louis Armstrong - What a Wonderful World (2012) [24-192 HD FLAC]/11-Hellzapoppin Single Version.flac
+167:Michael Jackson - Greatest Hits (24Bit-96kHz) [FLAC] vtwin88cube/01.-Don't Stop 'Til You Get Enough.flac
+168:Michael Jackson - Greatest Hits (24Bit-96kHz) [FLAC] vtwin88cube/02.-Rock With You.flac
+169:Michael Jackson - Greatest Hits (24Bit-96kHz) [FLAC] vtwin88cube/03.-She's Out Of My Life.flac
+170:Michael Jackson - Greatest Hits (24Bit-96kHz) [FLAC] vtwin88cube/04.-Wanna Be Startin' Somethin'.flac
+171:Michael Jackson - Greatest Hits (24Bit-96kHz) [FLAC] vtwin88cube/05.-The Girl Is Mine.flac
+172:Michael Jackson - Greatest Hits (24Bit-96kHz) [FLAC] vtwin88cube/06.-Billie Jean.flac
+173:Michael Jackson - Greatest Hits (24Bit-96kHz) [FLAC] vtwin88cube/07.-Beat It.flac
+174:Michael Jackson - Greatest Hits (24Bit-96kHz) [FLAC] vtwin88cube/08.-Thriller.flac
+175:Michael Jackson - Greatest Hits (24Bit-96kHz) [FLAC] vtwin88cube/09.-I Just Can't Stop Loving You.flac
+176:Michael Jackson - Greatest Hits (24Bit-96kHz) [FLAC] vtwin88cube/10.-Bad.flac
+177:Michael Jackson - Greatest Hits (24Bit-96kHz) [FLAC] vtwin88cube/11.-Smooth Criminal.flac
+178:Michael Jackson - Greatest Hits (24Bit-96kHz) [FLAC] vtwin88cube/12.-The Way You Make Me Feel.flac
+179:Michael Jackson - Greatest Hits (24Bit-96kHz) [FLAC] vtwin88cube/13.-Man In The Mirror.flac
+180:Michael Jackson - Greatest Hits (24Bit-96kHz) [FLAC] vtwin88cube/14.-Dirty Diana.flac
+181:Michael Jackson - Greatest Hits (24Bit-96kHz) [FLAC] vtwin88cube/15.-Remember The Time.flac
+182:Michael Jackson - Greatest Hits (24Bit-96kHz) [FLAC] vtwin88cube/16.-Heal The World.flac
+183:Michael Jackson - Greatest Hits (24Bit-96kHz) [FLAC] vtwin88cube/17.-Black Or White.flac
+184:Pink Floyd - Greatest Hits (PBTHAL 24-96 FLAC) vtwin88cube/01.-Wish You Were Here.flac
+185:Pink Floyd - Greatest Hits (PBTHAL 24-96 FLAC) vtwin88cube/02.-Run Like Hell.flac
+186:Pink Floyd - Greatest Hits (PBTHAL 24-96 FLAC) vtwin88cube/03.-Us And Them.flac
+187:Pink Floyd - Greatest Hits (PBTHAL 24-96 FLAC) vtwin88cube/04.-Comfortably Numb.flac
+188:Pink Floyd - Greatest Hits (PBTHAL 24-96 FLAC) vtwin88cube/05.-One Of These Days.flac
+189:Pink Floyd - Greatest Hits (PBTHAL 24-96 FLAC) vtwin88cube/06.-Another Brick In The Wall (Part 2).flac
+190:Pink Floyd - Greatest Hits (PBTHAL 24-96 FLAC) vtwin88cube/07.-Time.flac
+191:Pink Floyd - Greatest Hits (PBTHAL 24-96 FLAC) vtwin88cube/08.-Shine On You Crazy Diamond (Parts 1-5).flac
+192:Pink Floyd - Greatest Hits (PBTHAL 24-96 FLAC) vtwin88cube/09.-Young Lust.flac
+193:Pink Floyd - Greatest Hits (PBTHAL 24-96 FLAC) vtwin88cube/10.-Sheep.flac
+194:Pink Floyd - Greatest Hits (PBTHAL 24-96 FLAC) vtwin88cube/11.-Learning To Fly.flac
+195:Pink Floyd - Greatest Hits (PBTHAL 24-96 FLAC) vtwin88cube/12.-Careful With That Axe, Eugene (Live).flac
+196:Pink Floyd - Greatest Hits (PBTHAL 24-96 FLAC) vtwin88cube/13.-Money.flac
+197:Pink Floyd - Greatest Hits (PBTHAL 24-96 FLAC) vtwin88cube/14.-Fearless.flac
+198:Pink Floyd - Greatest Hits (PBTHAL 24-96 FLAC) vtwin88cube/15.-Hey You.flac
+199:Pink Floyd - Greatest Hits (PBTHAL 24-96 FLAC) vtwin88cube/16.-Have A Cigar.flac
+200:Pink Floyd - Greatest Hits (PBTHAL 24-96 FLAC) vtwin88cube/17.-The Great Gig In The Sky.flac
+201:Pink Floyd - Greatest Hits (PBTHAL 24-96 FLAC) vtwin88cube/18.-Dogs.flac
+202:Pink Floyd - Greatest Hits (PBTHAL 24-96 FLAC) vtwin88cube/19.-Goodbye Blue Sky.flac
+203:Pink Floyd - Greatest Hits (PBTHAL 24-96 FLAC) vtwin88cube/20.-Echoes.flac
+204:Pink Floyd - Greatest Hits (PBTHAL 24-96 FLAC) vtwin88cube/21.-Free Four.flac
+205:Pink Floyd - Greatest Hits (PBTHAL 24-96 FLAC) vtwin88cube/22.-In The Flesh.flac
+206:Pink Floyd - Greatest Hits (PBTHAL 24-96 FLAC) vtwin88cube/23.-Brain Damage.flac
+207:Pink Floyd - Greatest Hits (PBTHAL 24-96 FLAC) vtwin88cube/24.-Eclipse.flac
+208:Pink Floyd - Greatest Hits (PBTHAL 24-96 FLAC) vtwin88cube/25.-Is There Anybody Out There.flac
+209:Pink Floyd - Greatest Hits (PBTHAL 24-96 FLAC) vtwin88cube/26.-Speak To Me.flac
+210:Pink Floyd - Greatest Hits (PBTHAL 24-96 FLAC) vtwin88cube/27.-Breathe.flac
+211:Pink Floyd - Greatest Hits (PBTHAL 24-96 FLAC) vtwin88cube/28.-Pigs (Three Different Ones).flac
+212:Pink Floyd - Greatest Hits (PBTHAL 24-96 FLAC) vtwin88cube/29.-High Hopes.flac
+213:Pink Floyd - Greatest Hits (PBTHAL 24-96 FLAC) vtwin88cube/30.-Welcome To The Machine.flac
+214:Pink Floyd - Greatest Hits (PBTHAL 24-96 FLAC) vtwin88cube/31.-Mother.flac
+215:Pink Floyd - Greatest Hits (PBTHAL 24-96 FLAC) vtwin88cube/32.-Any Colour You Like.flac
+216:Pink Floyd - Greatest Hits (PBTHAL 24-96 FLAC) vtwin88cube/33.-A Saucerful Of Secrets (Live).flac
+217:Pink Floyd - Greatest Hits (PBTHAL 24-96 FLAC) vtwin88cube/34.-Wot's... Uh The Deal.flac
+218:Pink Floyd - Greatest Hits (PBTHAL 24-96 FLAC) vtwin88cube/35.-Not Now John.flac
+219:Pink Floyd - Greatest Hits (PBTHAL 24-96 FLAC) vtwin88cube/36.-Nobody Home.flac
+220:Pink Floyd - Greatest Hits (PBTHAL 24-96 FLAC) vtwin88cube/37.-Take It Back.flac
+221:Pink Floyd - Greatest Hits (PBTHAL 24-96 FLAC) vtwin88cube/38.-The Gunner's Dream.flac
+222:Pink Floyd - Greatest Hits (PBTHAL 24-96 FLAC) vtwin88cube/39.-One Of My Turns.flac
+223:Pink Floyd - Greatest Hits (PBTHAL 24-96 FLAC) vtwin88cube/40.-On The Run.flac
+224:Pink Floyd The Dark Side Of The Moon [SACD] DODSKORPEN/Pink_Floyd-The_Dark_Side_Of_The_Moon-(Remastered_SACD)-CD-FLAC-2003-DODSKORPEN/01-speak_to_me.flac
+225:Pink Floyd The Dark Side Of The Moon [SACD] DODSKORPEN/Pink_Floyd-The_Dark_Side_Of_The_Moon-(Remastered_SACD)-CD-FLAC-2003-DODSKORPEN/02-breathe.flac
+226:Pink Floyd The Dark Side Of The Moon [SACD] DODSKORPEN/Pink_Floyd-The_Dark_Side_Of_The_Moon-(Remastered_SACD)-CD-FLAC-2003-DODSKORPEN/03-on_the_run.flac
+227:Pink Floyd The Dark Side Of The Moon [SACD] DODSKORPEN/Pink_Floyd-The_Dark_Side_Of_The_Moon-(Remastered_SACD)-CD-FLAC-2003-DODSKORPEN/04-time.flac
+228:Pink Floyd The Dark Side Of The Moon [SACD] DODSKORPEN/Pink_Floyd-The_Dark_Side_Of_The_Moon-(Remastered_SACD)-CD-FLAC-2003-DODSKORPEN/05-the_great_gig_in_the_sky.flac
+229:Pink Floyd The Dark Side Of The Moon [SACD] DODSKORPEN/Pink_Floyd-The_Dark_Side_Of_The_Moon-(Remastered_SACD)-CD-FLAC-2003-DODSKORPEN/06-money.flac
+230:Pink Floyd The Dark Side Of The Moon [SACD] DODSKORPEN/Pink_Floyd-The_Dark_Side_Of_The_Moon-(Remastered_SACD)-CD-FLAC-2003-DODSKORPEN/07-us_and_them.flac
+231:Pink Floyd The Dark Side Of The Moon [SACD] DODSKORPEN/Pink_Floyd-The_Dark_Side_Of_The_Moon-(Remastered_SACD)-CD-FLAC-2003-DODSKORPEN/08-any_colour_you_like.flac
+232:Pink Floyd The Dark Side Of The Moon [SACD] DODSKORPEN/Pink_Floyd-The_Dark_Side_Of_The_Moon-(Remastered_SACD)-CD-FLAC-2003-DODSKORPEN/09-brain_damage.flac
+233:Pink Floyd The Dark Side Of The Moon [SACD] DODSKORPEN/Pink_Floyd-The_Dark_Side_Of_The_Moon-(Remastered_SACD)-CD-FLAC-2003-DODSKORPEN/10-eclipse.flac
+234:Rick Astley - Never Gonna Give You Up [24bit FLAC] vinyl/01 - Never Gonna Give You Up (Cake Mix).flac
+235:Rick Astley - Never Gonna Give You Up [24bit FLAC] vinyl/02 - Never Gonna Give You Up (Instrumental).flac
+236:Rick Astley - Never Gonna Give You Up [24bit FLAC] vinyl/03 - Never Gonna Give You Up.flac
+237:Rick Astley - Never Gonna Give You Up [24bit FLAC] vinyl/04 - Never Gonna Give You Up (Escape to New York Mix).flac
+238:Rick Astley - Never Gonna Give You Up [24bit FLAC] vinyl/05 - Never Gonna Give You Up (Escape from Newton Mix).flac
+239:Scorpions - Love At First Sting (1984) (PBTHAL LP 24-96) [FLAC] vtwin88cube/01.-Bad Boys Running Wild.flac
+240:Scorpions - Love At First Sting (1984) (PBTHAL LP 24-96) [FLAC] vtwin88cube/02.-Rock You Like A Hurricane.flac
+241:Scorpions - Love At First Sting (1984) (PBTHAL LP 24-96) [FLAC] vtwin88cube/03.-I'm Leaving You.flac
+242:Scorpions - Love At First Sting (1984) (PBTHAL LP 24-96) [FLAC] vtwin88cube/04.-Coming Home.flac
+243:Scorpions - Love At First Sting (1984) (PBTHAL LP 24-96) [FLAC] vtwin88cube/05.-The Same Thrill.flac
+244:Scorpions - Love At First Sting (1984) (PBTHAL LP 24-96) [FLAC] vtwin88cube/06.-Big City Nights.flac
+245:Scorpions - Love At First Sting (1984) (PBTHAL LP 24-96) [FLAC] vtwin88cube/07.-As Soon As The Good Times Roll.flac
+246:Scorpions - Love At First Sting (1984) (PBTHAL LP 24-96) [FLAC] vtwin88cube/08.-Crossfire.flac
+247:Scorpions - Love At First Sting (1984) (PBTHAL LP 24-96) [FLAC] vtwin88cube/09.-Still Loving You.flac
+248:The Four Seasons [DVD-A] 96-24/01 - The Four Seasons Spring Concerto in E major, op. 8 no. 1, RV 269 I. Allegro.flac
+249:The Four Seasons [DVD-A] 96-24/02 - The Four Seasons Spring Concerto in E major, op. 8 no. 1, RV 269 II. Largo e .flac
+250:The Four Seasons [DVD-A] 96-24/03 - The Four Seasons Spring Concerto in E major, op. 8 no. 1, RV 269 III. Danza p.flac
+251:The Four Seasons [DVD-A] 96-24/04 - The Four Seasons Summer Concerto in G minor, op. 8 no. 3, RV 315 I. Allegro.flac
+252:The Four Seasons [DVD-A] 96-24/05 - The Four Seasons Summer Concerto in G minor, op. 8 no. 3, RV 315 II. Adagio.flac
+253:The Four Seasons [DVD-A] 96-24/06 - The Four Seasons Summer Concerto in G minor, op. 8 no. 2, RV 315 III. Presto.flac
+254:The Four Seasons [DVD-A] 96-24/07 - The Four Seasons Autumn Concerto in F major, op. 8 no. 3, RV 293 I. Allegro.flac
+255:The Four Seasons [DVD-A] 96-24/08 - The Four Seasons Autumn Concerto in F major, op. 8 no. 3, RV 293 II. Adagio.flac
+256:The Four Seasons [DVD-A] 96-24/09 - The Four Seasons Autumn Concerto in F minor, op. 8 no. 3, RV 293 III. La Cacc.flac
+257:The Four Seasons [DVD-A] 96-24/10 - The Four Seasons Winter Concerto in F minor, op. 8 no. 4, RV 297 I. Allegro n.flac
+258:The Four Seasons [DVD-A] 96-24/11 - The Four Seasons Winter Concerto in F minor, op. 8 no. 4, RV 297 II. Largo e .flac
+259:The Four Seasons [DVD-A] 96-24/12 - The Four Seasons Winter Concerto in F minor, op. 8 no. 4, RV 297 III. Allegro.flac
+260:The Four Seasons [DVD-A] 96-24/13 - Concerto in D major for Violin and Double Orchestra, RV 582 I. Allegro.flac
+261:The Four Seasons [DVD-A] 96-24/14 - Concerto in D major for Violin and Double Orchestra, RV 582 II. Grave.flac
+262:The Four Seasons [DVD-A] 96-24/15 - Concerto in D major for Violin and Double Orchestra, RV 582 III. Allegro.flac
+263:The Four Seasons [DVD-A] 96-24/16 - Concerto in C major for Violin and Double Orchestra, RV 581 I. Adagio e stacc.flac
+264:The Four Seasons [DVD-A] 96-24/17 - Concerto in C major for Violin and Double Orchestra, RV 581 II. Largo.flac
+265:The Four Seasons [DVD-A] 96-24/18 - Concerto in C major for Violin and Double Orchestra, RV 581 III. Allegro.flac
+266:The Police - Greatest Hits (PBTHAL 24-96 FLAC) vtwin88cube/01.-Next To You.flac
+267:The Police - Greatest Hits (PBTHAL 24-96 FLAC) vtwin88cube/02.-So Lonely.flac
+268:The Police - Greatest Hits (PBTHAL 24-96 FLAC) vtwin88cube/03.-Roxanne.flac
+269:The Police - Greatest Hits (PBTHAL 24-96 FLAC) vtwin88cube/04.-Can't Stand Losing You.flac
+270:The Police - Greatest Hits (PBTHAL 24-96 FLAC) vtwin88cube/05.-Message In A Bottle.flac
+271:The Police - Greatest Hits (PBTHAL 24-96 FLAC) vtwin88cube/06.-Walking On The Moon.flac
+272:The Police - Greatest Hits (PBTHAL 24-96 FLAC) vtwin88cube/07.-The Bed's Too Big Without You.flac
+273:The Police - Greatest Hits (PBTHAL 24-96 FLAC) vtwin88cube/08.-Don't Stand So Close To Me.flac
+274:The Police - Greatest Hits (PBTHAL 24-96 FLAC) vtwin88cube/09.-Driven To Tears.flac
+275:The Police - Greatest Hits (PBTHAL 24-96 FLAC) vtwin88cube/10.-De Do Do Do, De Da Da Da.flac
+276:The Police - Greatest Hits (PBTHAL 24-96 FLAC) vtwin88cube/11.-Tea In The Sahara.flac
+277:The Police - Greatest Hits (PBTHAL 24-96 FLAC) vtwin88cube/12.-Secret Journey.flac
+278:The Police - Greatest Hits (PBTHAL 24-96 FLAC) vtwin88cube/13.-Spirits In The Material World.flac
+279:The Police - Greatest Hits (PBTHAL 24-96 FLAC) vtwin88cube/14.-Every Little Thing She Does Is Magic.flac
+280:The Police - Greatest Hits (PBTHAL 24-96 FLAC) vtwin88cube/15.-Invisible Sun.flac
+281:The Police - Greatest Hits (PBTHAL 24-96 FLAC) vtwin88cube/16.-Rehumanize Yourself.flac
+282:The Police - Greatest Hits (PBTHAL 24-96 FLAC) vtwin88cube/17.-Synchronicity II.flac
+283:The Police - Greatest Hits (PBTHAL 24-96 FLAC) vtwin88cube/18.-Every Breath You Take.flac
+284:The Police - Greatest Hits (PBTHAL 24-96 FLAC) vtwin88cube/19.-King Of Pain.flac
+285:The Police - Greatest Hits (PBTHAL 24-96 FLAC) vtwin88cube/20.-Wrapped Around Your Finger.flac
+286:Waveshaper - Retro Future/Waveshaper - Retro Future - 01 Cyborg Telekinetics.flac
+287:Waveshaper - Retro Future/Waveshaper - Retro Future - 02 Electrical Feelings.flac
+288:Waveshaper - Retro Future/Waveshaper - Retro Future - 03 So French Disco.flac
+289:Waveshaper - Retro Future/Waveshaper - Retro Future - 04 Dangerous Love.flac
+290:Waveshaper - Retro Future/Waveshaper - Retro Future - 05 Surveillance.flac
+291:Waveshaper - Retro Future/Waveshaper - Retro Future - 06 Cabin Fever In Space.flac
+292:Waveshaper - Retro Future/Waveshaper - Retro Future - 07 Home at last.flac
+293:Waveshaper - Tracks To The Future/Waveshaper - Tracks To The Future - 01 Welcome.flac
+294:Waveshaper - Tracks To The Future/Waveshaper - Tracks To The Future - 02 Galactical.flac
+295:Waveshaper - Tracks To The Future/Waveshaper - Tracks To The Future - 03 Digital Predistortion.flac
+296:Waveshaper - Tracks To The Future/Waveshaper - Tracks To The Future - 04 Infracity.flac
+297:Waveshaper - Tracks To The Future/Waveshaper - Tracks To The Future - 05 Battle to the End.flac
+298:Waveshaper - Tracks To The Future/Waveshaper - Tracks To The Future - 06 Running Girl.flac
+299:Waveshaper - Tracks To The Future/Waveshaper - Tracks To The Future - 07 Cybertronic Battle.flac
+300:Waveshaper - Tracks To The Future/Waveshaper - Tracks To The Future - 08 Leaving Town.flac
+301:Waveshaper - Tracks To The Future/Waveshaper - Tracks To The Future - 09 Monolith.flac
+302:Waveshaper - Tracks To The Future/Waveshaper - Tracks To The Future - 10 Retrospecious.flac
+303:Waveshaper - Tracks To The Future/Waveshaper - Tracks To The Future - 11 Population 102.flac
+304:Waveshaper - Tracks To The Future/Waveshaper - Tracks To The Future - 12 Visitors.flac
+305:Waveshaper - Tracks To The Future/Waveshaper - Tracks To The Future.zip/Waveshaper - Tracks To The Future - 01 Welcome.flac
+306:Waveshaper - Tracks To The Future/Waveshaper - Tracks To The Future.zip/Waveshaper - Tracks To The Future - 02 Galactical.flac
+307:Waveshaper - Tracks To The Future/Waveshaper - Tracks To The Future.zip/Waveshaper - Tracks To The Future - 03 Digital Predistortion.flac
+308:Waveshaper - Tracks To The Future/Waveshaper - Tracks To The Future.zip/Waveshaper - Tracks To The Future - 04 Infracity.flac
+309:Waveshaper - Tracks To The Future/Waveshaper - Tracks To The Future.zip/Waveshaper - Tracks To The Future - 05 Battle to the End.flac
+310:Waveshaper - Tracks To The Future/Waveshaper - Tracks To The Future.zip/Waveshaper - Tracks To The Future - 06 Running Girl.flac
+311:Waveshaper - Tracks To The Future/Waveshaper - Tracks To The Future.zip/Waveshaper - Tracks To The Future - 07 Cybertronic Battle.flac
+312:Waveshaper - Tracks To The Future/Waveshaper - Tracks To The Future.zip/Waveshaper - Tracks To The Future - 08 Leaving Town.flac
+313:Waveshaper - Tracks To The Future/Waveshaper - Tracks To The Future.zip/Waveshaper - Tracks To The Future - 09 Monolith.flac
+314:Waveshaper - Tracks To The Future/Waveshaper - Tracks To The Future.zip/Waveshaper - Tracks To The Future - 10 Retrospecious.flac
+315:Waveshaper - Tracks To The Future/Waveshaper - Tracks To The Future.zip/Waveshaper - Tracks To The Future - 11 Population 102.flac
+316:Waveshaper - Tracks To The Future/Waveshaper - Tracks To The Future.zip/Waveshaper - Tracks To The Future - 12 Visitors.flac
+317:Robert Parker & Waveshaper - Modern Technology.flac
+318:Waveshaper - CRT Days.flac
+319:Waveshaper - Eternal Journey (Station Nova Bonus).flac
+320:THE POLICE Synchronicity. (DSD SACD 2496) FLAC/01 Synchronicity I.flac
+321:THE POLICE Synchronicity. (DSD SACD 2496) FLAC/02 Walking In Your Footsteps.flac
+322:THE POLICE Synchronicity. (DSD SACD 2496) FLAC/03 Oh My God.flac
+323:THE POLICE Synchronicity. (DSD SACD 2496) FLAC/04 Mother.flac
+324:THE POLICE Synchronicity. (DSD SACD 2496) FLAC/05 Miss Gradenko.flac
+325:THE POLICE Synchronicity. (DSD SACD 2496) FLAC/06 Synchronicity II.flac
+326:THE POLICE Synchronicity. (DSD SACD 2496) FLAC/07 Every Breath You Take.flac
+327:THE POLICE Synchronicity. (DSD SACD 2496) FLAC/08 King Of Pain.flac
+328:THE POLICE Synchronicity. (DSD SACD 2496) FLAC/09 Wrapped Around Your Finger.flac
+329:THE POLICE Synchronicity. (DSD SACD 2496) FLAC/10 Tea In The Sahara.flac
+330:THE POLICE Synchronicity. (DSD SACD 2496) FLAC/11 Murder By Numbers.flac
 playlist_end

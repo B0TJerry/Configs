@@ -1,0 +1,2239 @@
+Mono path[0] = '/home/jy/.local/share/Steam/steamapps/common/Valheim/valheim_Data/Managed'
+Mono config path = '/home/jy/.local/share/Steam/steamapps/common/Valheim/valheim_Data/MonoBleedingEdge/etc'
+Preloaded 'libsteam_api.so'
+Display 0 'Z321QU 31"': 2560x1440 (primary device).
+Display 1 'C27HG7x 27"': 1440x2560 (secondary device).
+Unable to load player prefs
+Desktop is 2560 x 1440 @ 165 Hz
+Initialize engine version: 2019.4.24f1 (5da6f0345e82)
+[Subsystems] Discovering subsystems at path /home/jy/.local/share/Steam/steamapps/common/Valheim/valheim_Data/UnitySubsystems
+Forcing GfxDevice: OpenGL Core
+GfxDevice: creating device client; threaded=1
+Renderer: NVIDIA GeForce GTX 1070 Ti/PCIe/SSE2
+Vendor:   NVIDIA Corporation
+Version:  4.5.0 NVIDIA 465.31
+GLES:     0
+ GL_AMD_multi_draw_indirect GL_AMD_seamless_cubemap_per_texture GL_AMD_vertex_shader_viewport_index GL_AMD_vertex_shader_layer GL_ARB_arrays_of_arrays GL_ARB_base_instance GL_ARB_bindless_texture GL_ARB_blend_func_extended GL_ARB_buffer_storage GL_ARB_clear_buffer_object GL_ARB_clear_texture GL_ARB_clip_control GL_ARB_color_buffer_float GL_ARB_compressed_texture_pixel_storage GL_ARB_conservative_depth GL_ARB_compute_shader GL_ARB_compute_variable_group_size GL_ARB_conditional_render_inverted GL_ARB_copy_buffer GL_ARB_copy_image GL_ARB_cull_distance GL_ARB_debug_output GL_ARB_depth_buffer_float GL_ARB_depth_clamp GL_ARB_depth_texture GL_ARB_derivative_control GL_ARB_direct_state_access GL_ARB_draw_buffers GL_ARB_draw_buffers_blend GL_ARB_draw_indirect GL_ARB_draw_elements_base_vertex GL_ARB_draw_instanced GL_ARB_enhanced_layouts GL_ARB_ES2_compatibility GL_ARB_ES3_compatibility GL_ARB_ES3_1_compatibility GL_ARB_ES3_2_compatibility GL_ARB_explicit_attrib_location GL_ARB_explicit_uniform_location GL_ARB_fragmen
+t_coord_conventions GL_ARB_fragment_layer_viewport GL_ARB_fragment_program GL_ARB_fragment_program_shadow GL_ARB_fragment_shader GL_ARB_fragment_shader_interlock GL_ARB_framebuffer_no_attachments GL_ARB_framebuffer_object GL_ARB_framebuffer_sRGB GL_ARB_geometry_shader4 GL_ARB_get_program_binary GL_ARB_get_texture_sub_image GL_ARB_gl_spirv GL_ARB_gpu_shader5 GL_ARB_gpu_shader_fp64 GL_ARB_gpu_shader_int64 GL_ARB_half_float_pixel GL_ARB_half_float_vertex GL_ARB_imaging GL_ARB_indirect_parameters GL_ARB_instanced_arrays GL_ARB_internalformat_query GL_ARB_internalformat_query2 GL_ARB_invalidate_subdata GL_ARB_map_buffer_alignment GL_ARB_map_buffer_range GL_ARB_multi_bind GL_ARB_multi_draw_indirect GL_ARB_multisample GL_ARB_multitexture GL_ARB_occlusion_query GL_ARB_occlusion_query2 GL_ARB_parallel_shader_compile GL_ARB_pipeline_statistics_query GL_ARB_pixel_buffer_object GL_ARB_point_parameters GL_ARB_point_sprite GL_ARB_polygon_offset_clamp GL_ARB_post_depth_coverage GL_ARB_program_interface_query GL_ARB_provoki
+ng_vertex GL_ARB_query_buffer_object GL_ARB_robust_buffer_access_behavior GL_ARB_robustness GL_ARB_sample_locations GL_ARB_sample_shading GL_ARB_sampler_objects GL_ARB_seamless_cube_map GL_ARB_seamless_cubemap_per_texture GL_ARB_separate_shader_objects GL_ARB_shader_atomic_counter_ops GL_ARB_shader_atomic_counters GL_ARB_shader_ballot GL_ARB_shader_bit_encoding GL_ARB_shader_clock GL_ARB_shader_draw_parameters GL_ARB_shader_group_vote GL_ARB_shader_image_load_store GL_ARB_shader_image_size GL_ARB_shader_objects GL_ARB_shader_precision GL_ARB_shader_storage_buffer_object GL_ARB_shader_subroutine GL_ARB_shader_texture_image_samples GL_ARB_shader_texture_lod GL_ARB_shading_language_100 GL_ARB_shader_viewport_layer_array GL_ARB_shading_language_420pack GL_ARB_shading_language_include GL_ARB_shading_language_packing GL_ARB_shadow GL_ARB_sparse_buffer GL_ARB_sparse_texture GL_ARB_sparse_texture2 GL_ARB_sparse_texture_clamp GL_ARB_spirv_extensions GL_ARB_stencil_texturing GL_ARB_sync GL_ARB_tessellation_shader GL_A
+RB_texture_barrier GL_ARB_texture_border_clamp GL_ARB_texture_buffer_object GL_ARB_texture_buffer_object_rgb32 GL_ARB_texture_buffer_range GL_ARB_texture_compression GL_ARB_texture_compression_bptc GL_ARB_texture_compression_rgtc GL_ARB_texture_cube_map GL_ARB_texture_cube_map_array GL_ARB_texture_env_add GL_ARB_texture_env_combine GL_ARB_texture_env_crossbar GL_ARB_texture_env_dot3 GL_ARB_texture_filter_anisotropic GL_ARB_texture_filter_minmax GL_ARB_texture_float GL_ARB_texture_gather GL_ARB_texture_mirror_clamp_to_edge GL_ARB_texture_mirrored_repeat GL_ARB_texture_multisample GL_ARB_texture_non_power_of_two GL_ARB_texture_query_levels GL_ARB_texture_query_lod GL_ARB_texture_rectangle GL_ARB_texture_rg GL_ARB_texture_rgb10_a2ui GL_ARB_texture_stencil8 GL_ARB_texture_storage GL_ARB_texture_storage_multisample GL_ARB_texture_swizzle GL_ARB_texture_view GL_ARB_timer_query GL_ARB_transform_feedback2 GL_ARB_transform_feedback3 GL_ARB_transform_feedback_instanced GL_ARB_transform_feedback_overflow_query GL_ARB_t
+ranspose_matrix GL_ARB_uniform_buffer_object GL_ARB_vertex_array_bgra GL_ARB_vertex_array_object GL_ARB_vertex_attrib_64bit GL_ARB_vertex_attrib_binding GL_ARB_vertex_buffer_object GL_ARB_vertex_program GL_ARB_vertex_shader GL_ARB_vertex_type_10f_11f_11f_rev GL_ARB_vertex_type_2_10_10_10_rev GL_ARB_viewport_array GL_ARB_window_pos GL_ATI_draw_buffers GL_ATI_texture_float GL_ATI_texture_mirror_once GL_S3_s3tc GL_EXT_texture_env_add GL_EXT_abgr GL_EXT_bgra GL_EXT_bindable_uniform GL_EXT_blend_color GL_EXT_blend_equation_separate GL_EXT_blend_func_separate GL_EXT_blend_minmax GL_EXT_blend_subtract GL_EXT_compiled_vertex_array GL_EXT_Cg_shader GL_EXT_depth_bounds_test GL_EXT_direct_state_access GL_EXT_draw_buffers2 GL_EXT_draw_instanced GL_EXT_draw_range_elements GL_EXT_fog_coord GL_EXT_framebuffer_blit GL_EXT_framebuffer_multisample GL_EXTX_framebuffer_mixed_formats GL_EXT_framebuffer_multisample_blit_scaled GL_EXT_framebuffer_object GL_EXT_framebuffer_sRGB GL_EXT_geometry_shader4 GL_EXT_gpu_program_parameters 
+GL_EXT_gpu_shader4 GL_EXT_multi_draw_arrays GL_EXT_multiview_texture_multisample GL_EXT_multiview_timer_query GL_EXT_packed_depth_stencil GL_EXT_packed_float GL_EXT_packed_pixels GL_EXT_pixel_buffer_object GL_EXT_point_parameters GL_EXT_polygon_offset_clamp GL_EXT_post_depth_coverage GL_EXT_provoking_vertex GL_EXT_raster_multisample GL_EXT_rescale_normal GL_EXT_secondary_color GL_EXT_separate_shader_objects GL_EXT_separate_specular_color GL_EXT_shader_image_load_formatted GL_EXT_shader_image_load_store GL_EXT_shader_integer_mix GL_EXT_shadow_funcs GL_EXT_sparse_texture2 GL_EXT_stencil_two_side GL_EXT_stencil_wrap GL_EXT_texture3D GL_EXT_texture_array GL_EXT_texture_buffer_object GL_EXT_texture_compression_dxt1 GL_EXT_texture_compression_latc GL_EXT_texture_compression_rgtc GL_EXT_texture_compression_s3tc GL_EXT_texture_cube_map GL_EXT_texture_edge_clamp GL_EXT_texture_env_combine GL_EXT_texture_env_dot3 GL_EXT_texture_filter_anisotropic GL_EXT_texture_filter_minmax GL_EXT_texture_integer GL_EXT_texture_lod G
+L_EXT_texture_lod_bias GL_EXT_texture_mirror_clamp GL_EXT_texture_object GL_EXT_texture_shadow_lod GL_EXT_texture_shared_exponent GL_EXT_texture_sRGB GL_EXT_texture_sRGB_R8 GL_EXT_texture_sRGB_decode GL_EXT_texture_storage GL_EXT_texture_swizzle GL_EXT_timer_query GL_EXT_transform_feedback2 GL_EXT_vertex_array GL_EXT_vertex_array_bgra GL_EXT_vertex_attrib_64bit GL_EXT_window_rectangles GL_EXT_import_sync_object GL_NV_robustness_video_memory_purge GL_IBM_rasterpos_clip GL_IBM_texture_mirrored_repeat GL_KHR_context_flush_control GL_KHR_debug GL_EXT_memory_object GL_EXT_memory_object_fd GL_NV_memory_object_sparse GL_KHR_parallel_shader_compile GL_KHR_no_error GL_KHR_robust_buffer_access_behavior GL_KHR_robustness GL_EXT_semaphore GL_EXT_semaphore_fd GL_NV_timeline_semaphore GL_KHR_shader_subgroup GL_KTX_buffer_region GL_NV_alpha_to_coverage_dither_control GL_NV_bindless_multi_draw_indirect GL_NV_bindless_multi_draw_indirect_count GL_NV_bindless_texture GL_NV_blend_equation_advanced GL_NV_blend_equation_advanced
+_coherent GL_NVX_blend_equation_advanced_multi_draw_buffers GL_NV_blend_minmax_factor GL_NV_blend_square GL_NV_clip_space_w_scaling GL_NV_command_list GL_NV_compute_program5 GL_NV_conditional_render GL_NV_conservative_raster GL_NV_conservative_raster_dilate GL_NV_conservative_raster_pre_snap_triangles GL_NV_copy_depth_to_color GL_NV_copy_image GL_NV_depth_buffer_float GL_NV_depth_clamp GL_NV_draw_texture GL_NV_draw_vulkan_image GL_NV_ES1_1_compatibility GL_NV_ES3_1_compatibility GL_NV_explicit_multisample GL_NV_feature_query GL_NV_fence GL_NV_fill_rectangle GL_NV_float_buffer GL_NV_fog_distance GL_NV_fragment_coverage_to_color GL_NV_fragment_program GL_NV_fragment_program_option GL_NV_fragment_program2 GL_NV_fragment_shader_interlock GL_NV_framebuffer_mixed_samples GL_NV_framebuffer_multisample_coverage GL_NV_geometry_shader4 GL_NV_geometry_shader_passthrough GL_NV_gpu_program4 GL_NV_internalformat_sample_query GL_NV_gpu_program4_1 GL_NV_gpu_program5 GL_NV_gpu_program5_mem_extended GL_NV_gpu_program_fp64 GL_
+NV_gpu_shader5 GL_NV_half_float GL_NV_light_max_exponent GL_NV_memory_attachment GL_NV_multisample_coverage GL_NV_multisample_filter_hint GL_NV_occlusion_query GL_NV_packed_depth_stencil GL_NV_parameter_buffer_object GL_NV_parameter_buffer_object2 GL_NV_path_rendering GL_NV_path_rendering_shared_edge GL_NV_pixel_data_range GL_NV_point_sprite GL_NV_primitive_restart GL_NV_query_resource GL_NV_query_resource_tag GL_NV_register_combiners GL_NV_register_combiners2 GL_NV_sample_locations GL_NV_sample_mask_override_coverage GL_NV_shader_atomic_counters GL_NV_shader_atomic_float GL_NV_shader_atomic_float64 GL_NV_shader_atomic_fp16_vector GL_NV_shader_atomic_int64 GL_NV_shader_buffer_load GL_NV_shader_storage_buffer_object GL_NV_shader_subgroup_partitioned GL_NV_stereo_view_rendering GL_NV_texgen_reflection GL_NV_texture_barrier GL_NV_texture_compression_vtc GL_NV_texture_env_combine4 GL_NV_texture_multisample GL_NV_texture_rectangle GL_NV_texture_rectangle_compressed GL_NV_texture_shader GL_NV_texture_shader2 GL_NV
+_texture_shader3 GL_NV_transform_feedback GL_NV_transform_feedback2 GL_NV_uniform_buffer_unified_memory GL_NV_vdpau_interop GL_NV_vdpau_interop2 GL_NV_vertex_array_range GL_NV_vertex_array_range2 GL_NV_vertex_attrib_integer_64bit GL_NV_vertex_buffer_unified_memory GL_NV_vertex_program GL_NV_vertex_program1_1 GL_NV_vertex_program2 GL_NV_vertex_program2_option GL_NV_vertex_program3 GL_NV_viewport_array2 GL_NV_viewport_swizzle GL_NVX_conditional_render GL_NV_gpu_multicast GL_NVX_progress_fence GL_NVX_gpu_memory_info GL_NVX_nvenc_interop GL_NV_shader_thread_group GL_NV_shader_thread_shuffle GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent GL_OVR_multiview GL_OVR_multiview2 GL_SGIS_generate_mipmap GL_SGIS_texture_lod GL_SGIX_depth_texture GL_SGIX_shadow GL_SUN_slice_accum
+OPENGL LOG: Creating OpenGL 4.5 graphics device ; Context level  <OpenGL 4.5> ; Context handle 25848296
+Begin MonoManager ReloadAssembly
+- Completed reload, in  0.058 seconds
+Default vsync count 1
+requesting resize 1366 x 768
+resizing window to 1366 x 768
+Desktop is 2560 x 1440 @ 165 Hz
+UnloadTime: 0.840566 ms
+Desktop is 2560 x 1440 @ 165 Hz
+05/27/2021 14:54:31: Starting to load scene:start
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Couldn't create a Convex Mesh from source mesh "default" within the maximum polygons limit (256). The partial hull will be used. Consider simplifying your mesh. 
+(Filename:  Line: 91)
+
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+Setting up 6 worker threads for Enlighten.
+  Thread -> id: 7fd77ca36640 -> priority: 1 
+  Thread -> id: 7fd777fff640 -> priority: 1 
+  Thread -> id: 7fd7777fe640 -> priority: 1 
+  Thread -> id: 7fd776ffd640 -> priority: 1 
+  Thread -> id: 7fd87ffff640 -> priority: 1 
+  Thread -> id: 7fd87f7fe640 -> priority: 1 
+UnloadTime: 6.256715 ms
+Only custom filters can be played. Please add a custom filter or an audioclip to the audiosource (Amb_MainMenu). 
+(Filename:  Line: 516)
+
+05/27/2021 14:54:40: Valheim version:0.153.2
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 14:54:40: Render threading mode:MultiThreaded
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 14:54:40: Using environment steamid 892970
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 14:54:40: Using steam APPID:892970
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[S_API] SteamAPI_Init(): Loaded '/home/jy/.local/share/Steam/linux64/steamclient.so' OK.
+Setting breakpad minidump AppID = 892970
+SteamInternal_SetMinidumpSteamID:  Caching Steam ID:  76561198253569037 [API loaded no]
+05/27/2021 14:54:40: Authentication:k_ESteamNetworkingAvailability_Attempting
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 14:54:40: Steam initialized, persona:BOT Jerry
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 14:54:40: Missing audio clip in music respawn
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 14:54:40: Checking for installed DLCs
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 14:54:40: DLC:beta installed:False
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 14:54:40: Builder started
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 14:54:41: Loaded localization CSV:localization language:English
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 14:54:41: Failed to load language file localization_extra
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+requesting resize 2560 x 1405
+resizing window to 2560 x 1405
+Desktop is 2560 x 1440 @ 165 Hz
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 88154.
+Total: 48.337821 ms (FindLiveObjects: 3.471251 ms CreateObjectMapping: 6.207082 ms MarkObjects: 38.368303 ms  DeleteObjects: 0.290585 ms)
+
+05/27/2021 14:54:45: UI Group status changed Menu = True
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 14:54:47: Current res 2560x1440     2560x1405
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 14:54:47: UI Group status changed Menu = False
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 14:54:47: FOund selected Settings
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 14:54:51: FOund selected Ok (1)
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+requesting resize 2560 x 1405
+requesting fullscreen 2560 x 1405 at 165 Hz
+Setting up downscaled viewport at 2560 x 1405
+Desktop is 2560 x 1440 @ 165 Hz
+05/27/2021 14:54:51: UI Group status changed Menu = True
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 14:54:53: Current res 2560x1440     2560x1405
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 14:54:53: UI Group status changed Menu = False
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 14:54:53: FOund selected Settings
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 14:54:57: FOund selected Ok
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 14:54:57: UI Group status changed Menu = True
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 14:55:11: FOund selected Start game
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 14:55:11: show character selection
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 14:55:17: OnCharacterStart
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 14:55:25: Failed to get lobby gameserver
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 10.020734 ms
+05/27/2021 14:55:56: Loading player profile heman
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 14:55:56: Zonesystem Awake 3766
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 14:55:56: DungeonDB Awake 3766
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 14:55:56: Steam initialized, persona:BOT Jerry
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 14:55:56: Registering lobby
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 14:55:59: Audioman already exist, destroying self
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 14:55:59: Checking for installed DLCs
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 14:55:59: DLC:beta installed:False
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+
+Unloading 515 unused Assets to reduce memory usage. Loaded Objects now: 87340.
+Total: 59.412513 ms (FindLiveObjects: 3.401821 ms CreateObjectMapping: 6.866488 ms MarkObjects: 44.910312 ms  DeleteObjects: 4.233039 ms)
+
+05/27/2021 14:56:02: Zonesystem Start 3766
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 14:56:02: DungeonDB Start 3766
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 14:56:02: Load world coomer
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 14:56:02: Loading 42665 zdos , my id 1796627939 data version:27
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 14:56:03: Loaded 700 dead zdos
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 14:56:03: Removed 0 OLD generated ZDOS
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 14:56:03: Loaded 7141 locations
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 14:56:03: Starting respawn
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 14:56:03: Lobby was created k_EResultOK  109775240993188564  error:False
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 14:56:03: Got requested lobby data
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 14:56:11: tip:$loadscreen_tip09
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 14:56:11: Got requested lobby data
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 14:56:19: Spawned after 8.019994
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 14:56:19: Minimap: Adding unique location (-3.0, 71.6, 1.0)
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 14:56:21: Resumed music meadows at 0
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 14:56:28: Setting selected recipe 0
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 14:56:28: UI Group status changed root = True
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 14:56:28: UI Group status changed Player = True
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 14:56:54: Got status changed msg k_ESteamNetworkingConnectionState_Connecting
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 14:56:54: New connection
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 14:56:54: Accepting connection k_EResultOK
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 14:56:54: Connecting to Steamworks.SteamNetworkingIdentity
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 14:56:54: Got status changed msg k_ESteamNetworkingConnectionState_FindingRoute
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 14:56:55: Got status changed msg k_ESteamNetworkingConnectionState_Connected
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 14:56:55: Got handshake from client 76561199013074761
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 14:56:55: VERSION check their:0.153.2  mine:0.153.2
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 14:56:55: Server: New peer connected,sending global keys
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 14:57:06: Setting selected recipe 0
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 14:57:06: UI Group status changed root = True
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 14:57:06: UI Group status changed Player = True
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 14:57:09: Got character ZDOID from Nigger : -670729842:1
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 14:57:11: Placed locations in zone -10,-3  duration 12.622 ms
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 14:57:11: Placed locations in zone -9,-1  duration 12.296 ms
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 14:57:11: Placed locations in zone -11,0  duration 13.448 ms
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 14:57:14: Placed locations in zone -10,-2  duration 0.073 ms
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 14:57:14: Placed locations in zone -9,-2  duration 4.874 ms
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 14:57:15: Placed locations in zone -12,0  duration 3.315 ms
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 14:57:16: Placed locations in zone -10,0  duration 0.118 ms
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 14:57:17: Placed locations in zone -11,1  duration 40.875 ms
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 14:57:17: Placed locations in zone -11,2  duration 2.669 ms
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 14:57:18: Placed locations in zone -9,2  duration 2.798 ms
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 14:57:18: Placed locations in zone -10,3  duration 2.408 ms
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 14:57:19: Placed locations in zone -11,4  duration 2.768 ms
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 14:57:30: Spawned Greyling x 1
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 14:57:52: Placed locations in zone -8,-2  duration 0.108 ms
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 14:57:52: Loading dungeon
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 14:57:52: Dungeon loaded 0
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 14:57:52: Dungeon load time 0.076 ms
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 14:57:52: Available rooms:18
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 14:57:52: To place:40
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 14:57:52: Connections 4
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 14:57:52: placed 6 doors
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 14:57:52: Placed 16 rooms
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 14:57:52: Placed locations in zone -8,-1  duration 48.127 ms
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 14:57:53: Loading dungeon
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 14:57:53: Dungeon loaded 0
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 14:57:53: Dungeon load time 0.049 ms
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 14:57:53: Available rooms:13
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 14:57:53: To place:30
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 14:57:53: Placed 10 rooms
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 14:57:53: Force generaeting hmap (-512.0, 0.0, 0.0)
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 14:57:53: Placed locations in zone -8,0  duration 137.118 ms
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 14:57:53: Placed locations in zone -8,2  duration 2.775 ms
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 14:57:53: Placed locations in zone -8,3  duration 4.066 ms
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 14:57:55: Loading dungeon
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 14:57:55: Dungeon loaded 0
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 14:57:55: Dungeon load time 0.048 ms
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 14:57:55: Available rooms:18
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 14:57:55: To place:40
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 14:57:55: Connections 4
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 14:57:55: placed 13 doors
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 14:57:55: Placed 41 rooms
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 14:57:55: Placed locations in zone -11,5  duration 43.487 ms
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 14:57:56: Placed locations in zone -7,-1  duration 0.128 ms
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 14:57:57: Placed locations in zone -7,3  duration 10.098 ms
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 14:57:57: Placed locations in zone -7,4  duration 3.58 ms
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 14:58:00: Placed locations in zone -6,-1  duration 19.069 ms
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 14:58:00: Placed locations in zone -6,0  duration 0.126 ms
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 14:58:17: Placed locations in zone -5,-7  duration 9.623 ms
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 14:58:17: Placed locations in zone -4,-7  duration 5.037 ms
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 14:58:46: Player -670729842 wants to pickup Wood(Clone)   im: 1796627939
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 14:58:50: Destroying valkyrie
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 14:58:58: Setting selected recipe 1
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 14:58:58: UI Group status changed root = True
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 14:58:58: UI Group status changed Player = True
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 14:58:59: UI Group status changed MenuRoot = True
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 14:59:01: Current res 2560x1440     2560x1405
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 14:59:01: UI Group status changed MenuRoot = False
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 14:59:01: FOund selected Settings
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 14:59:06: Current res 2560x1440     2560x1405
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 14:59:06: UI Group status changed MenuRoot = True
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 14:59:17: Setting selected recipe 1
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 14:59:17: UI Group status changed root = True
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 14:59:17: UI Group status changed Player = True
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 14:59:19: SIZE 0
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 14:59:19: UI Group status changed root = False
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 14:59:19: FOund selected Trophies
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 14:59:19: UI Group status changed Player = False
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 14:59:20: UI Group status changed root = True
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 14:59:20: UI Group status changed Player = True
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 14:59:20: Player -670729842 wants to pickup Stone(Clone)   im: 1796627939
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 14:59:20: Player -670729842 wants to pickup Stone(Clone)   im: 1796627939
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 14:59:20: UI Group status changed root = False
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 14:59:20: FOund selected Skills
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 14:59:20: UI Group status changed Player = False
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 14:59:21: UI Group status changed root = True
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 14:59:21: UI Group status changed Player = True
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 14:59:21: Player -670729842 wants to pickup Stone(Clone)   im: 1796627939
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 14:59:33: Player -670729842 wants to pickup Wood(Clone)   im: 1796627939
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 14:59:33: Player -670729842 wants to pickup Wood(Clone)   im: 1796627939
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 14:59:35: Player -670729842 wants to pickup Wood(Clone)   im: 1796627939
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 14:59:35: Player -670729842 wants to pickup Wood(Clone)   im: 1796627939
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 14:59:35: Player -670729842 wants to pickup Wood(Clone)   im: 1796627939
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 14:59:43: Spawned Greyling x 1
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 14:59:45: UI Group status changed MenuRoot = True
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:00:23: Player -670729842 wants to pickup Wood(Clone)   im: 1796627939
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:00:23: Player -670729842 wants to pickup Stone(Clone)   im: 1796627939
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:00:25: Player -670729842 wants to pickup Stone(Clone)   im: 1796627939
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:00:27: Player -670729842 wants to pickup Stone(Clone)   im: 1796627939
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:00:29: Player -670729842 wants to pickup Wood(Clone)   im: 1796627939
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:00:29: Player -670729842 wants to pickup Wood(Clone)   im: 1796627939
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:00:29:   but im not the owner
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:00:30: Player -670729842 wants to pickup Wood(Clone)   im: 1796627939
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:00:30:   but im not the owner
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:00:30: Player -670729842 wants to pickup Wood(Clone)   im: 1796627939
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:00:30:   but im not the owner
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:00:30: Player -670729842 wants to pickup Wood(Clone)   im: 1796627939
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:00:30:   but im not the owner
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:00:31: Player -670729842 wants to pickup Wood(Clone)   im: 1796627939
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:00:47: Im still nto the owner
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:00:47: Im still nto the owner
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:00:47: Im still nto the owner
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:00:47: Im still nto the owner
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:00:47: Im still nto the owner
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:00:47: Im still nto the owner
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:00:47: Im still nto the owner
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:00:47: Im still nto the owner
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:00:47: Im finally the owner
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:00:49: Player -670729842 wants to pickup Wood(Clone)   im: 1796627939
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:00:54: Spawned Boar x 3
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:00:54: Spawned Greyling x 1
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:00:54: Spawned Greyling x 1
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:01:18: Setting selected recipe 1
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:01:18: UI Group status changed root = True
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:01:18: UI Group status changed Player = True
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:01:21: SIZE 0
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:01:21: UI Group status changed root = False
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:01:21: FOund selected Trophies
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:01:21: UI Group status changed Player = False
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:01:21: UI Group status changed Trophies = True
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:01:22: UI Group status changed root = True
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:01:22: UI Group status changed Player = True
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:01:23: UI Group status changed root = False
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:01:23: FOund selected Skills
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:01:23: UI Group status changed Player = False
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:01:23: UI Group status changed Skills = True
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:01:24: UI Group status changed root = True
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:01:24: UI Group status changed Player = True
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:01:25: UI Group status changed MenuRoot = True
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:01:28: Show text :HUNT HIS KIN
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:01:52: Setting selected recipe 1
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:01:52: UI Group status changed root = True
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:01:52: UI Group status changed Player = True
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:01:54: Setting selected recipe 0
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:01:57: Setting selected recipe 0
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:02:00: Setting selected recipe 0
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:02:01: Item is not in this container
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:02:01: Setting selected recipe 0
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:02:02: Setting selected recipe 0
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:02:30: Spawned Greyling x 1
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:02:44: Setting selected recipe 0
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:02:44: UI Group status changed root = True
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:02:44: UI Group status changed Player = True
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:03:01: Spawned Deer x 2
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:03:01: Spawned Boar x 1
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:03:01: Spawned Greyling x 1
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:03:26: Show text :HUNT HIS KIN
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:03:54: Setting selected recipe 0
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:03:54: UI Group status changed root = True
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:03:54: UI Group status changed Player = True
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:03:57: Setting selected recipe 0
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:03:59: Setting selected recipe 0
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:04:02: SIZE 0
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:04:02: UI Group status changed root = False
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:04:02: FOund selected Trophies
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:04:02: UI Group status changed Player = False
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:04:02: UI Group status changed Trophies = True
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:04:03: UI Group status changed root = True
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:04:03: UI Group status changed Player = True
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:04:04: UI Group status changed root = False
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:04:04: FOund selected Skills
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:04:04: UI Group status changed Player = False
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:04:04: UI Group status changed Skills = True
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:04:08: UI Group status changed root = True
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:04:08: UI Group status changed Player = True
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:04:09: UI Group status changed root = False
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:04:09: FOund selected Texts
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:04:09: UI Group status changed Player = False
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:04:11: UI Group status changed root = True
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:04:11: UI Group status changed Player = True
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:04:27: Setting selected recipe 0
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:04:27: UI Group status changed root = True
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:04:27: UI Group status changed Player = True
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:04:32: FOund selected PVP
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:04:46: DiscoverClosestLocation
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:04:46: Found location of type Eikthyrnir
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:05:10: Setting selected recipe 0
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:05:10: UI Group status changed root = True
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:05:10: UI Group status changed Player = True
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:05:18: Spawned Greyling x 1
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:05:29: Setting selected recipe 0
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:05:29: UI Group status changed root = True
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:05:29: UI Group status changed Player = True
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:05:34: Player -670729842 wants to pickup Wood(Clone)   im: 1796627939
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:05:37: Setting selected recipe 0
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:05:37: UI Group status changed root = True
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:05:37: UI Group status changed Player = True
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:05:40: Player -670729842 wants to pickup Wood(Clone)   im: 1796627939
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:05:56: Setting selected recipe 0
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:05:56: UI Group status changed root = True
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:05:56: UI Group status changed Player = True
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:05:59: Setting selected recipe 0
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:06:01: UI Group status changed root = False
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:06:01: FOund selected Texts
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:06:01: UI Group status changed Player = False
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:06:01: UI Group status changed Texts = True
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:06:01: UI Group status changed root = True
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:06:01: UI Group status changed Player = True
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:06:03: Setting selected recipe 1
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:06:03: Setting selected recipe 0
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:06:08: Setting selected recipe 0
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:06:08: UI Group status changed root = True
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:06:08: UI Group status changed Player = True
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:06:10: SIZE 0
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:06:10: UI Group status changed root = False
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:06:10: FOund selected Trophies
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:06:10: UI Group status changed Player = False
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:06:10: UI Group status changed Trophies = True
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+
+Unloading 1071 unused Assets to reduce memory usage. Loaded Objects now: 1322706.
+Total: 494.292612 ms (FindLiveObjects: 77.596698 ms CreateObjectMapping: 20.381237 ms MarkObjects: 390.278345 ms  DeleteObjects: 6.035430 ms)
+
+05/27/2021 15:06:12: UI Group status changed root = True
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:06:12: UI Group status changed Player = True
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:06:20: Player -670729842 wants to pickup Wood(Clone)   im: 1796627939
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:06:20: Player -670729842 wants to pickup Resin(Clone)   im: 1796627939
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:06:23: Player -670729842 wants to pickup Wood(Clone)   im: 1796627939
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:06:23: Player -670729842 wants to pickup Wood(Clone)   im: 1796627939
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:06:23: Player -670729842 wants to pickup Wood(Clone)   im: 1796627939
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:06:27: Player -670729842 wants to pickup Wood(Clone)   im: 1796627939
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:06:27: Player -670729842 wants to pickup Wood(Clone)   im: 1796627939
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:06:30: Player -670729842 wants to pickup Wood(Clone)   im: 1796627939
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:06:30: Player -670729842 wants to pickup Wood(Clone)   im: 1796627939
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:06:30: Player -670729842 wants to pickup Wood(Clone)   im: 1796627939
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:06:36: Show text :His antlers are branches of iron
+They crack the rocks and bring down mountains
+His hooves are the sound of thunder
+His voice a howling gale
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:06:51: Placed locations in zone -5,5  duration 0.081 ms
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:06:53: Spawned Boar x 1
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:06:53: Spawned Boar x 1
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:07:07: Player -670729842 wants to pickup Mushroom(Clone)   im: 1796627939
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:07:09: Player -670729842 wants to pickup Mushroom(Clone)   im: 1796627939
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:07:10: Queue unlock msg:$msg_newmaterial:$item_dandelion
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:07:12: Setting selected recipe 0
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:07:12: UI Group status changed root = True
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:07:12: UI Group status changed Player = True
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:07:23: Player -670729842 wants to pickup Mushroom(Clone)   im: 1796627939
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:07:23: Player -670729842 wants to pickup Mushroom(Clone)   im: 1796627939
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:07:23: Player -670729842 wants to pickup Mushroom(Clone)   im: 1796627939
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:07:23: Player -670729842 wants to pickup Mushroom(Clone)   im: 1796627939
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:07:24: Player -670729842 wants to pickup Mushroom(Clone)   im: 1796627939
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:07:26: Player -670729842 wants to pickup Stone(Clone)   im: 1796627939
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:07:28: Player -670729842 wants to pickup Dandelion(Clone)   im: 1796627939
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:07:32: Player -670729842 wants to pickup Wood(Clone)   im: 1796627939
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:07:49: Im still nto the owner
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:07:49: Im still nto the owner
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:07:49: Im still nto the owner
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:07:49: Im still nto the owner
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:07:49: Im finally the owner
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:07:49: Queue unlock msg:$msg_newmaterial:$item_stone
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:07:49: Queue unlock msg:$msg_newrecipe:$item_axe_stone
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:07:49: Queue unlock msg:$msg_newrecipe:$item_hammer
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:07:51: Setting selected recipe 0
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:07:51: UI Group status changed root = True
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:07:51: UI Group status changed Player = True
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:08:00: Stoped music meadows at 1686121
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:08:20: Queue unlock msg:$msg_newstation:$piece_workbench
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:08:20: Queue unlock msg:$msg_newrecipe:$item_chest_rags
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:08:20: Queue unlock msg:$msg_newrecipe:$item_legs_rags
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:08:20: Queue unlock msg:$msg_newrecipe:$item_arrow_wood
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:08:20: Queue unlock msg:$msg_newrecipe:$item_bow
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:08:20: Queue unlock msg:$msg_newrecipe:$item_hoe
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:08:20: Queue unlock msg:$msg_newrecipe:$item_shield_wood
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:08:20: Queue unlock msg:$msg_newrecipe:$item_shield_woodtower
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:08:43: Placed locations in zone -6,6  duration 4.489 ms
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:08:45: Spawned Boar x 2
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:08:50: Im finally the owner
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:09:01: Setting selected recipe 0
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:09:01: UI Group status changed root = True
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:09:01: UI Group status changed Player = True
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:09:03: Setting selected recipe 2
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:09:12: Placed locations in zone -6,7  duration 11.482 ms
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:09:14: Placed locations in zone -7,5  duration 7.319 ms
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:09:14: Placed locations in zone -7,6  duration 5.155 ms
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:09:16: Spawned Deer x 2
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:09:16: Spawned Boar x 1
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:09:16: Spawned Greyling x 1
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:09:33: Placed locations in zone -1,8  duration 0.844 ms
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:09:34: Spawned Deer x 1
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:09:34: Spawned Boar x 1
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:09:34: Spawned Greyling x 1
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:10:27: Im still nto the owner
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:10:28: Im still nto the owner
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:10:28: Im still nto the owner
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:10:28: Im still nto the owner
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:10:28: Im still nto the owner
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:10:28: Im still nto the owner
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:10:28: Im still nto the owner
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:10:28: Im finally the owner
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:10:41: Setting selected recipe 3
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:10:41: UI Group status changed root = True
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:10:41: UI Group status changed Player = True
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:10:43: Setting selected recipe 0
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:10:47: Queue unlock msg:$msg_newitem:$item_axe_stone
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:10:47: Setting selected recipe 2
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:10:49: Setting selected recipe 3
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:11:38: Setting selected recipe 1
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:11:38: UI Group status changed root = True
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:11:38: UI Group status changed Player = True
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:12:11: Queue unlock msg:$msg_newmaterial:$item_beechseeds
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:12:50: Setting selected recipe 1
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:12:51: UI Group status changed root = True
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:12:51: UI Group status changed Player = True
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:12:54: Setting selected recipe 1
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:13:20: Setting selected recipe 1
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:13:20: UI Group status changed root = True
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:13:20: UI Group status changed Player = True
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:13:24: Setting selected recipe 1
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:13:24: UI Group status changed root = True
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:13:24: UI Group status changed Player = True
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:14:06: Setting selected recipe 1
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:14:06: UI Group status changed root = True
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:14:06: UI Group status changed Player = True
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:14:10: Spawned Greyling x 1
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:14:16: Placed locations in zone -8,6  duration 13.842 ms
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:14:18: Spawned Deer x 1
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:14:18: Spawned Boar x 1
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:14:18: Spawned Greyling x 1
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:14:22: Placed locations in zone -8,7  duration 2.241 ms
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:14:25: Im still nto the owner
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:14:25: Im still nto the owner
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:14:25: Im still nto the owner
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:14:25: Im still nto the owner
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:14:26: Im still nto the owner
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:14:26: Im finally the owner
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:14:29: Im still nto the owner
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:14:29: Im still nto the owner
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:14:29: Im finally the owner
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:14:35: Im finally the owner
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:14:39: Setting selected recipe 2
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:14:39: UI Group status changed root = True
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:14:39: UI Group status changed Player = True
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:14:55: Setting selected recipe 2
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:14:55: UI Group status changed root = True
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:14:55: UI Group status changed Player = True
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:15:41: Placed locations in zone -8,8  duration 3.288 ms
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:15:44: Spawned Neck x 3
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:15:44: Spawned Seagal x 2
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:15:47: Setting selected recipe 2
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:15:47: UI Group status changed root = True
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:15:47: UI Group status changed Player = True
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:15:50: Setting selected recipe 2
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:15:50: UI Group status changed root = True
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:15:50: UI Group status changed Player = True
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:15:52: Setting selected recipe 2
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:15:53: Item is not in this container
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:15:53: Setting selected recipe 2
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:15:54: Item is not in this container
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:15:54: Setting selected recipe 2
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:15:58: UI Group status changed root = False
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:15:58: FOund selected Texts
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:15:58: UI Group status changed Player = False
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:15:58: UI Group status changed Texts = True
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:15:59: UI Group status changed root = True
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:15:59: UI Group status changed Player = True
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:16:00: SIZE 0
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:16:00: UI Group status changed root = False
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:16:00: FOund selected Trophies
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:16:00: UI Group status changed Player = False
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:16:00: UI Group status changed Trophies = True
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:16:02: UI Group status changed root = True
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:16:02: UI Group status changed Player = True
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:16:12: clone 96
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+
+Unloading 706 unused Assets to reduce memory usage. Loaded Objects now: 1253647.
+Total: 458.583336 ms (FindLiveObjects: 90.957808 ms CreateObjectMapping: 19.170005 ms MarkObjects: 344.198098 ms  DeleteObjects: 4.256413 ms)
+
+05/27/2021 15:16:12: Saved 59822 zdos
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:16:12: World saved ( 487.139ms )
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:16:57: Spawned Greyling x 1
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:17:01: Poison damage: 2 ttl:2.414214 hits:2 dmg perhit:1
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:17:18: Player -670729842 wants to pickup Mushroom(Clone)   im: 1796627939
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:17:18: Player -670729842 wants to pickup Mushroom(Clone)   im: 1796627939
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:17:19: Player -670729842 wants to pickup Mushroom(Clone)   im: 1796627939
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:17:19: Player -670729842 wants to pickup Mushroom(Clone)   im: 1796627939
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:17:20: Player -670729842 wants to pickup Mushroom(Clone)   im: 1796627939
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:17:20: Im still nto the owner
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:17:20: Im still nto the owner
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:17:20: Im still nto the owner
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:17:20: Im still nto the owner
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:17:20: Im still nto the owner
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:17:20: Im still nto the owner
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:17:20: Im still nto the owner
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:17:20: Im finally the owner
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:17:21: Im still nto the owner
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:17:21: Im still nto the owner
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:17:21: Im finally the owner
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:17:22: Player -670729842 wants to pickup Mushroom(Clone)   im: 1796627939
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:17:36: Im still nto the owner
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:17:36: Im still nto the owner
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:17:36: Im still nto the owner
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:17:36: Im still nto the owner
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:17:36: Im still nto the owner
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:17:36: Im still nto the owner
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:17:36: Im finally the owner
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:17:36: Im still nto the owner
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:17:36: Im still nto the owner
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:17:36: Im still nto the owner
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:17:36: Im still nto the owner
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:17:36: Im still nto the owner
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:17:36: Im still nto the owner
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:17:36: Im finally the owner
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:17:40: Player -670729842 wants to pickup LeatherScraps(Clone)   im: 1796627939
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:17:48: Player -670729842 wants to pickup LeatherScraps(Clone)   im: 1796627939
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:17:48: Player -670729842 wants to pickup TrophyBoar(Clone)   im: 1796627939
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:18:04: Im still nto the owner
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:18:04: Im still nto the owner
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:18:04: Im still nto the owner
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:18:04: Im still nto the owner
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:18:04: Im still nto the owner
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:18:04: Im still nto the owner
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:18:04: Im finally the owner
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:18:06: Im still nto the owner
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:18:06: Im still nto the owner
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:18:06: Im still nto the owner
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:18:06: Im finally the owner
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:18:08: Setting selected recipe 2
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:18:08: UI Group status changed root = True
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:18:08: UI Group status changed Player = True
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:18:14: UI Group status changed root = False
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:18:14: FOund selected Texts
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:18:14: UI Group status changed Player = False
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:18:14: UI Group status changed Texts = True
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:18:16: UI Group status changed root = True
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:18:16: UI Group status changed Player = True
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:18:17: SIZE 0
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:18:17: UI Group status changed root = False
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:18:17: FOund selected Trophies
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:18:17: UI Group status changed Player = False
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:18:17: UI Group status changed Trophies = True
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:18:18: UI Group status changed root = True
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:18:18: UI Group status changed Player = True
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:18:20: Setting selected recipe 2
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:18:20: UI Group status changed root = True
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:18:20: UI Group status changed Player = True
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:18:33: Player -670729842 wants to pickup Stone(Clone)   im: 1796627939
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:18:35: Player -670729842 wants to pickup Wood(Clone)   im: 1796627939
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:18:36: Player -670729842 wants to pickup Stone(Clone)   im: 1796627939
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:18:36: Player -670729842 wants to pickup Stone(Clone)   im: 1796627939
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:18:39: Player -670729842 wants to pickup Stone(Clone)   im: 1796627939
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:18:50: Spawned Greyling x 1
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:19:12: RPC_Disconnect 
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:19:12: Destroying abandoned non persistent zdo -670729842:1952 owner -670729842
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:19:12: Destroying abandoned non persistent zdo -670729842:1955 owner -670729842
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:19:12: Destroying abandoned non persistent zdo -670729842:1954 owner -670729842
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:19:12: Destroying abandoned non persistent zdo -670729842:1 owner -670729842
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:19:12: Destroying abandoned non persistent zdo -670729842:1956 owner -670729842
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:19:12: Destroying abandoned non persistent zdo -670729842:1953 owner -670729842
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:19:12: Disposing socket
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:19:12: Closing socket 76561199013074761
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:19:12:   send queue size:0
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:19:12: Disposing socket
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:19:12: Got status changed msg k_ESteamNetworkingConnectionState_ClosedByPeer
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:19:12: Socket closed by peer Steamworks.SteamNetConnectionStatusChangedCallback_t
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:19:12: Got status changed msg k_ESteamNetworkingConnectionState_None
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+
+Unloading 438 unused Assets to reduce memory usage. Loaded Objects now: 1317662.
+Total: 437.820804 ms (FindLiveObjects: 85.438316 ms CreateObjectMapping: 19.600492 ms MarkObjects: 329.827255 ms  DeleteObjects: 2.953990 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+
+Unloading 85 unused Assets to reduce memory usage. Loaded Objects now: 1317649.
+Total: 445.941865 ms (FindLiveObjects: 82.934269 ms CreateObjectMapping: 16.947977 ms MarkObjects: 344.864699 ms  DeleteObjects: 1.193909 ms)
+
+05/27/2021 15:36:13: clone 96
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:36:13: Saved 59808 zdos
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:36:13: World saved ( 154.548ms )
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:38:01: Stoped music meadows at 5543539
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+
+Unloading 78 unused Assets to reduce memory usage. Loaded Objects now: 1317695.
+Total: 452.341609 ms (FindLiveObjects: 84.304138 ms CreateObjectMapping: 18.700885 ms MarkObjects: 348.159398 ms  DeleteObjects: 1.176256 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+
+Unloading 82 unused Assets to reduce memory usage. Loaded Objects now: 1317624.
+Total: 407.377475 ms (FindLiveObjects: 79.135274 ms CreateObjectMapping: 15.992585 ms MarkObjects: 311.098448 ms  DeleteObjects: 1.150297 ms)
+
+05/27/2021 15:56:13: clone 97
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:56:13: Saved 59806 zdos
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 15:56:13: World saved ( 190.883ms )
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+
+Unloading 83 unused Assets to reduce memory usage. Loaded Objects now: 1317603.
+Total: 459.196846 ms (FindLiveObjects: 91.122066 ms CreateObjectMapping: 18.000912 ms MarkObjects: 348.863629 ms  DeleteObjects: 1.209288 ms)
+
+05/27/2021 16:08:01: Stoped music meadows at 5535072
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 16:11:11: Game - OnApplicationQuit
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 16:11:12: ZNet Shutdown
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 16:11:12: clone 83
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 16:11:12: Saved 59804 zdos
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 16:11:12: World saved ( 130.627ms )
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 16:11:12: Sending disconnect msg
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 16:11:12: Disposing socket
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 16:11:12: Stopping listening socket
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 16:11:12: Last socket, unregistering callback
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 16:11:12: ZSteamSocket  UnregisterGlobalCallbacks, existing sockets:0
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 16:11:15: ZNet OnDestroy
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 16:11:15: Net scene destroyed
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 16:11:15: Steam manager on destroy
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/27/2021 16:11:15: Local player destroyed
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+

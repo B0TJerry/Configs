@@ -239,3 +239,359 @@ btop++ needs an interactive shell to run.
 2021/10/15 (07:56:49) | DEBUG: Setting LC_ALL=en_US.UTF-8
 2021/10/15 (07:56:49) | INFO: Running on /dev/pts/1
 2021/10/15 (07:56:50) | INFO: Quitting! Runtime: 00:00:01
+
+2021/10/19 (08:30:42) | ===> btop++ v.1.0.2
+2021/10/19 (08:30:42) | INFO: Logger set to DEBUG
+2021/10/19 (08:30:42) | DEBUG: Setting LC_ALL=en_US.UTF-8
+2021/10/19 (08:30:42) | INFO: Running on /dev/pts/4
+
+2021/10/19 (12:31:42) | ===> btop++ v.1.0.2
+2021/10/19 (12:31:42) | INFO: Logger set to DEBUG
+2021/10/19 (12:31:42) | DEBUG: Setting LC_ALL=en_US.UTF-8
+2021/10/19 (12:31:42) | INFO: Running on /dev/pts/0
+
+2021/10/19 (23:10:31) | ===> btop++ v.1.0.2
+2021/10/19 (23:10:31) | INFO: Logger set to DEBUG
+2021/10/19 (23:10:31) | DEBUG: Setting LC_ALL=en_US.UTF-8
+2021/10/19 (23:10:31) | INFO: Running on /dev/pts/2
+
+2021/10/20 (08:50:03) | ===> btop++ v.1.0.2
+2021/10/20 (08:50:03) | INFO: Logger set to DEBUG
+2021/10/20 (08:50:03) | DEBUG: Setting LC_ALL=en_US.UTF-8
+2021/10/20 (08:50:03) | INFO: Running on /dev/pts/5
+2021/10/20 (08:50:08) | INFO: Quitting! Runtime: 00:00:05
+
+2021/10/20 (09:02:22) | ===> btop++ v.1.0.2
+2021/10/20 (09:02:22) | INFO: Logger set to DEBUG
+2021/10/20 (09:02:22) | DEBUG: Setting LC_ALL=en_US.UTF-8
+2021/10/20 (09:02:22) | INFO: Running on /dev/pts/5
+2021/10/20 (09:04:13) | DEBUG: Loading theme file: /usr/local/share/btop/themes/adapta.theme
+2021/10/20 (09:04:14) | DEBUG: Loading theme file: /usr/local/share/btop/themes/whiteout.theme
+2021/10/20 (09:04:15) | DEBUG: Loading theme file: /usr/local/share/btop/themes/solarized_dark.theme
+2021/10/20 (09:04:15) | DEBUG: Loading theme file: /usr/local/share/btop/themes/nord.theme
+2021/10/20 (09:04:16) | DEBUG: Loading theme file: /usr/local/share/btop/themes/monokai.theme
+2021/10/20 (09:04:16) | DEBUG: Loading theme file: /usr/local/share/btop/themes/matcha-dark-sea.theme
+2021/10/20 (09:04:17) | DEBUG: Loading theme file: /usr/local/share/btop/themes/kyli0x.theme
+2021/10/20 (09:04:17) | DEBUG: Loading theme file: /usr/local/share/btop/themes/gruvbox_dark.theme
+2021/10/20 (09:10:51) | DEBUG: Writing new config file
+2021/10/20 (09:10:51) | INFO: Quitting! Runtime: 00:08:29
+
+2021/11/03 (09:26:58) | ===> btop++ v.1.0.2
+2021/11/03 (09:26:58) | INFO: Logger set to DEBUG
+2021/11/03 (09:26:58) | DEBUG: Setting LC_ALL=en_US.UTF-8
+2021/11/03 (09:26:58) | INFO: Running on /dev/pts/4
+2021/11/03 (09:26:58) | DEBUG: Loading theme file: /usr/local/share/btop/themes/gruvbox_dark.theme
+
+2021/11/08 (08:07:05) | ===> btop++ v.1.0.2
+2021/11/08 (08:07:05) | INFO: Logger set to DEBUG
+2021/11/08 (08:07:05) | DEBUG: Setting LC_ALL=en_US.UTF-8
+2021/11/08 (08:07:05) | INFO: Running on /dev/pts/2
+2021/11/08 (08:07:05) | DEBUG: Loading theme file: /usr/local/share/btop/themes/gruvbox_dark.theme
+
+2021/11/09 (11:52:42) | ===> btop++ v.1.0.2
+2021/11/09 (11:52:42) | INFO: Logger set to DEBUG
+2021/11/09 (11:52:42) | DEBUG: Setting LC_ALL=en_US.UTF-8
+2021/11/09 (11:52:42) | INFO: Running on /dev/pts/8
+2021/11/09 (11:52:42) | DEBUG: Loading theme file: /usr/local/share/btop/themes/gruvbox_dark.theme
+
+2021/11/12 (10:54:40) | ===> btop++ v.1.0.2
+2021/11/12 (10:54:40) | INFO: Logger set to DEBUG
+2021/11/12 (10:54:40) | DEBUG: Setting LC_ALL=en_US.UTF-8
+2021/11/12 (10:54:40) | INFO: Running on /dev/pts/5
+2021/11/12 (10:54:40) | DEBUG: Loading theme file: /usr/local/share/btop/themes/gruvbox_dark.theme
+
+2021/11/12 (11:31:10) | ===> btop++ v.1.0.2
+2021/11/12 (11:31:10) | INFO: Logger set to DEBUG
+2021/11/12 (11:31:10) | DEBUG: Setting LC_ALL=en_US.UTF-8
+2021/11/12 (11:31:10) | INFO: Running on /dev/pts/0
+2021/11/12 (11:31:10) | DEBUG: Loading theme file: /usr/local/share/btop/themes/gruvbox_dark.theme
+2021/11/12 (11:31:26) | DEBUG: Loading theme file: /usr/local/share/btop/themes/gruvbox_dark.theme
+2021/11/12 (11:31:27) | DEBUG: Loading theme file: /usr/local/share/btop/themes/gruvbox_dark.theme
+2021/11/12 (11:31:27) | DEBUG: Loading theme file: /usr/local/share/btop/themes/gruvbox_dark.theme
+2021/11/12 (11:31:30) | DEBUG: Loading theme file: /usr/local/share/btop/themes/gruvbox_dark.theme
+2021/11/12 (11:31:30) | DEBUG: Loading theme file: /usr/local/share/btop/themes/gruvbox_dark.theme
+2021/11/12 (11:31:38) | DEBUG: Loading theme file: /usr/local/share/btop/themes/gruvbox_dark.theme
+2021/11/12 (11:31:39) | DEBUG: Loading theme file: /usr/local/share/btop/themes/gruvbox_dark.theme
+2021/11/12 (11:31:40) | DEBUG: Loading theme file: /usr/local/share/btop/themes/gruvbox_dark.theme
+2021/11/12 (11:31:41) | DEBUG: Loading theme file: /usr/local/share/btop/themes/gruvbox_dark.theme
+2021/11/12 (11:32:15) | DEBUG: Loading theme file: /usr/local/share/btop/themes/gruvbox_dark.theme
+2021/11/12 (11:32:17) | DEBUG: Loading theme file: /usr/local/share/btop/themes/gruvbox_dark.theme
+2021/11/12 (11:32:17) | DEBUG: Loading theme file: /usr/local/share/btop/themes/gruvbox_dark.theme
+2021/11/12 (11:33:17) | DEBUG: Loading theme file: /usr/local/share/btop/themes/gruvbox_dark.theme
+2021/11/12 (11:33:22) | DEBUG: Loading theme file: /usr/local/share/btop/themes/gruvbox_dark.theme
+2021/11/12 (11:34:17) | DEBUG: Loading theme file: /usr/local/share/btop/themes/gruvbox_dark.theme
+2021/11/12 (11:34:28) | DEBUG: Loading theme file: /usr/local/share/btop/themes/gruvbox_dark.theme
+
+2021/11/13 (18:49:57) | ===> btop++ v.1.0.2
+2021/11/13 (18:49:57) | INFO: Logger set to DEBUG
+2021/11/13 (18:49:57) | DEBUG: Setting LC_ALL=en_US.UTF-8
+2021/11/13 (18:49:57) | INFO: Running on /dev/pts/1
+2021/11/13 (18:49:57) | DEBUG: Loading theme file: /usr/local/share/btop/themes/gruvbox_dark.theme
+2021/11/13 (18:50:13) | INFO: Quitting! Runtime: 00:00:16
+
+2021/11/13 (19:14:58) | ===> btop++ v.1.0.2
+2021/11/13 (19:14:58) | INFO: Logger set to DEBUG
+2021/11/13 (19:14:58) | DEBUG: Setting LC_ALL=en_US.UTF-8
+2021/11/13 (19:14:58) | INFO: Running on /dev/pts/5
+2021/11/13 (19:14:58) | DEBUG: Loading theme file: /usr/local/share/btop/themes/gruvbox_dark.theme
+
+2021/11/13 (22:45:25) | ===> btop++ v.1.0.2
+2021/11/13 (22:45:25) | INFO: Logger set to DEBUG
+2021/11/13 (22:45:25) | DEBUG: Setting LC_ALL=en_US.UTF-8
+2021/11/13 (22:45:25) | INFO: Running on /dev/pts/0
+2021/11/13 (22:45:25) | DEBUG: Loading theme file: /usr/local/share/btop/themes/gruvbox_dark.theme
+
+2021/11/14 (14:12:34) | ===> btop++ v.1.0.2
+2021/11/14 (14:12:34) | INFO: Logger set to DEBUG
+2021/11/14 (14:12:34) | DEBUG: Setting LC_ALL=en_US.UTF-8
+2021/11/14 (14:12:34) | INFO: Running on /dev/pts/4
+2021/11/14 (14:12:34) | DEBUG: Loading theme file: /usr/local/share/btop/themes/gruvbox_dark.theme
+2021/11/14 (14:16:29) | INFO: Quitting! Runtime: 00:03:55
+
+2021/11/16 (11:39:40) | ===> btop++ v.1.0.2
+2021/11/16 (11:39:40) | INFO: Logger set to DEBUG
+2021/11/16 (11:39:40) | DEBUG: Setting LC_ALL=en_US.UTF-8
+2021/11/16 (11:39:40) | INFO: Running on /dev/pts/0
+2021/11/16 (11:39:40) | DEBUG: Loading theme file: /usr/local/share/btop/themes/gruvbox_dark.theme
+2021/11/16 (11:39:58) | INFO: Quitting! Runtime: 00:00:18
+
+2021/11/18 (14:16:05) | ===> btop++ v.1.0.2
+2021/11/18 (14:16:05) | INFO: Logger set to DEBUG
+2021/11/18 (14:16:05) | DEBUG: Setting LC_ALL=en_US.UTF-8
+2021/11/18 (14:16:05) | INFO: Running on /dev/pts/9
+2021/11/18 (14:16:05) | DEBUG: Loading theme file: /usr/local/share/btop/themes/gruvbox_dark.theme
+
+2021/11/18 (14:18:12) | ===> btop++ v.1.0.2
+2021/11/18 (14:18:12) | INFO: Logger set to DEBUG
+2021/11/18 (14:18:12) | DEBUG: Setting LC_ALL=en_US.UTF-8
+2021/11/18 (14:18:12) | INFO: Running on /dev/pts/8
+2021/11/18 (14:18:12) | DEBUG: Loading theme file: /usr/local/share/btop/themes/gruvbox_dark.theme
+
+2021/12/06 (15:39:08) | ===> btop++ v.1.0.2
+2021/12/06 (15:39:08) | INFO: Logger set to DEBUG
+2021/12/06 (15:39:08) | DEBUG: Setting LC_ALL=en_US.UTF-8
+2021/12/06 (15:39:08) | INFO: Running on /dev/pts/8
+2021/12/06 (15:39:08) | ERROR: Runner thread died unexpectedly!
+2021/12/06 (15:39:08) | INFO: Quitting! Runtime: 00:00:00
+
+2021/12/06 (15:39:08) | ===> btop++ v.1.0.2
+2021/12/06 (15:39:08) | INFO: Logger set to DEBUG
+2021/12/06 (15:39:08) | DEBUG: Setting LC_ALL=en_US.UTF-8
+2021/12/06 (15:39:08) | INFO: Running on /dev/pts/10
+2021/12/06 (15:39:08) | ERROR: Runner thread died unexpectedly!
+2021/12/06 (15:39:08) | INFO: Quitting! Runtime: 00:00:00
+
+2021/12/06 (15:39:08) | ===> btop++ v.1.0.2
+2021/12/06 (15:39:08) | INFO: Logger set to DEBUG
+2021/12/06 (15:39:08) | DEBUG: Setting LC_ALL=en_US.UTF-8
+2021/12/06 (15:39:08) | INFO: Running on /dev/pts/8
+2021/12/06 (15:39:08) | ERROR: Runner thread died unexpectedly!
+2021/12/06 (15:39:08) | INFO: Quitting! Runtime: 00:00:00
+
+2021/12/06 (15:39:08) | ===> btop++ v.1.0.2
+2021/12/06 (15:39:08) | INFO: Logger set to DEBUG
+2021/12/06 (15:39:08) | DEBUG: Setting LC_ALL=en_US.UTF-8
+2021/12/06 (15:39:08) | INFO: Running on /dev/pts/8
+2021/12/06 (15:39:08) | ERROR: Runner thread died unexpectedly!
+2021/12/06 (15:39:08) | INFO: Quitting! Runtime: 00:00:00
+
+2021/12/14 (10:09:02) | ===> btop++ v.1.0.2
+2021/12/14 (10:09:02) | INFO: Logger set to DEBUG
+2021/12/14 (10:09:02) | DEBUG: Setting LC_ALL=en_US.UTF-8
+2021/12/14 (10:09:02) | INFO: Running on /dev/pts/3
+2021/12/14 (10:09:02) | DEBUG: Loading theme file: /usr/local/share/btop/themes/gruvbox_dark.theme
+
+2021/12/14 (15:13:53) | ===> btop++ v.1.0.2
+2021/12/14 (15:13:53) | INFO: Logger set to DEBUG
+2021/12/14 (15:13:53) | DEBUG: Setting LC_ALL=en_US.UTF-8
+2021/12/14 (15:13:53) | INFO: Running on /dev/pts/3
+2021/12/14 (15:13:53) | DEBUG: Loading theme file: /usr/local/share/btop/themes/gruvbox_dark.theme
+
+2021/12/15 (10:29:33) | ===> btop++ v.1.0.2
+2021/12/15 (10:29:33) | INFO: Logger set to DEBUG
+2021/12/15 (10:29:33) | DEBUG: Setting LC_ALL=en_US.UTF-8
+2021/12/15 (10:29:33) | INFO: Running on /dev/pts/1
+2021/12/15 (10:29:33) | DEBUG: Loading theme file: /usr/local/share/btop/themes/gruvbox_dark.theme
+2021/12/15 (10:30:07) | DEBUG: Writing new config file
+2021/12/15 (10:30:07) | INFO: Quitting! Runtime: 00:00:34
+
+2021/12/15 (10:30:09) | ===> btop++ v.1.0.2
+2021/12/15 (10:30:09) | INFO: Logger set to DEBUG
+2021/12/15 (10:30:09) | DEBUG: Setting LC_ALL=en_US.UTF-8
+2021/12/15 (10:30:09) | INFO: Running on /dev/pts/1
+2021/12/15 (10:30:09) | DEBUG: Loading theme file: /usr/local/share/btop/themes/gruvbox_dark.theme
+2021/12/15 (10:30:20) | DEBUG: Writing new config file
+2021/12/15 (10:30:20) | INFO: Quitting! Runtime: 00:00:11
+
+2021/12/18 (14:28:15) | ===> btop++ v.1.0.2
+2021/12/18 (14:28:15) | INFO: Logger set to DEBUG
+2021/12/18 (14:28:15) | DEBUG: Setting LC_ALL=en_US.UTF-8
+2021/12/18 (14:28:15) | INFO: Running on /dev/pts/8
+2021/12/18 (14:28:15) | DEBUG: Loading theme file: /usr/local/share/btop/themes/gruvbox_dark.theme
+2021/12/18 (14:28:15) | ERROR: Terminal size to small for current config.
+(WxH) Current: 80x23 | Needed: 80x24
+Resize terminal or disable some boxes in config file to fix this.
+2021/12/18 (14:28:15) | INFO: Quitting! Runtime: 00:00:00
+
+2021/12/18 (14:28:23) | ===> btop++ v.1.0.2
+2021/12/18 (14:28:23) | INFO: Logger set to DEBUG
+2021/12/18 (14:28:23) | DEBUG: Setting LC_ALL=en_US.UTF-8
+2021/12/18 (14:28:23) | INFO: Running on /dev/pts/8
+2021/12/18 (14:28:23) | DEBUG: Loading theme file: /usr/local/share/btop/themes/gruvbox_dark.theme
+
+2021/12/24 (14:43:46) | ===> btop++ v.1.0.2
+2021/12/24 (14:43:46) | INFO: Logger set to DEBUG
+2021/12/24 (14:43:46) | DEBUG: Setting LC_ALL=en_US.UTF-8
+2021/12/24 (14:43:46) | INFO: Running on /dev/pts/6
+2021/12/24 (14:43:46) | DEBUG: Loading theme file: /usr/local/share/btop/themes/gruvbox_dark.theme
+2021/12/24 (14:46:10) | ERROR: Exception in runner thread -> Proc:: -> array::at: __n (which is 18446744071562068066) >= _Nm (which is 101)
+2021/12/24 (14:46:10) | INFO: Quitting! Runtime: 00:02:24
+
+2021/12/24 (15:03:18) | ===> btop++ v.1.0.2
+2021/12/24 (15:03:18) | INFO: Logger set to DEBUG
+2021/12/24 (15:03:18) | DEBUG: Setting LC_ALL=en_US.UTF-8
+2021/12/24 (15:03:18) | INFO: Running on /dev/pts/6
+2021/12/24 (15:03:18) | DEBUG: Loading theme file: /usr/local/share/btop/themes/gruvbox_dark.theme
+2021/12/24 (15:29:37) | DEBUG: Writing new config file
+2021/12/24 (15:29:37) | ERROR: Exception in runner thread -> Proc:: -> array::at: __n (which is 18446744071562068066) >= _Nm (which is 101)
+2021/12/24 (15:29:37) | INFO: Quitting! Runtime: 00:26:19
+
+2021/12/25 (09:46:44) | ===> btop++ v.1.0.2
+2021/12/25 (09:46:44) | INFO: Logger set to DEBUG
+2021/12/25 (09:46:44) | DEBUG: Setting LC_ALL=en_US.UTF-8
+2021/12/25 (09:46:44) | INFO: Running on /dev/pts/5
+2021/12/25 (09:46:45) | DEBUG: Loading theme file: /usr/local/share/btop/themes/gruvbox_dark.theme
+2021/12/25 (13:07:35) | DEBUG: Writing new config file
+2021/12/25 (13:07:35) | ERROR: Exception in runner thread -> Proc:: -> array::at: __n (which is 18446744071562068068) >= _Nm (which is 101)
+2021/12/25 (13:07:35) | INFO: Quitting! Runtime: 03:20:51
+
+2021/12/25 (14:30:17) | ===> btop++ v.1.0.2
+2021/12/25 (14:30:17) | INFO: Logger set to DEBUG
+2021/12/25 (14:30:17) | DEBUG: Setting LC_ALL=en_US.UTF-8
+2021/12/25 (14:30:17) | INFO: Running on /dev/pts/4
+2021/12/25 (14:30:17) | DEBUG: Loading theme file: /usr/local/share/btop/themes/gruvbox_dark.theme
+2021/12/25 (15:10:31) | ERROR: Exception in runner thread -> Proc:: -> array::at: __n (which is 18446744071562068064) >= _Nm (which is 101)
+2021/12/25 (15:10:31) | INFO: Quitting! Runtime: 00:40:14
+
+2021/12/26 (08:41:09) | ===> btop++ v.1.0.2
+2021/12/26 (08:41:09) | INFO: Logger set to DEBUG
+2021/12/26 (08:41:09) | DEBUG: Setting LC_ALL=en_US.UTF-8
+2021/12/26 (08:41:09) | INFO: Running on /dev/pts/4
+2021/12/26 (08:41:09) | DEBUG: Loading theme file: /usr/local/share/btop/themes/gruvbox_dark.theme
+2021/12/26 (21:03:27) | DEBUG: Writing new config file
+2021/12/26 (21:03:27) | ERROR: Exception in runner thread -> Proc:: -> array::at: __n (which is 18446744071562068068) >= _Nm (which is 101)
+2021/12/26 (21:03:27) | INFO: Quitting! Runtime: 12:22:18
+
+2021/12/27 (10:07:27) | ===> btop++ v.1.0.2
+2021/12/27 (10:07:27) | INFO: Logger set to DEBUG
+2021/12/27 (10:07:27) | DEBUG: Setting LC_ALL=en_US.UTF-8
+2021/12/27 (10:07:27) | INFO: Running on /dev/pts/3
+2021/12/27 (10:07:27) | DEBUG: Loading theme file: /usr/local/share/btop/themes/gruvbox_dark.theme
+2021/12/27 (10:34:02) | DEBUG: Writing new config file
+2021/12/27 (10:34:02) | ERROR: Exception in runner thread -> Proc:: -> array::at: __n (which is 18446744071562068068) >= _Nm (which is 101)
+2021/12/27 (10:34:02) | INFO: Quitting! Runtime: 00:26:35
+
+2021/12/27 (10:38:07) | ===> btop++ v.1.0.2
+2021/12/27 (10:38:07) | INFO: Logger set to DEBUG
+2021/12/27 (10:38:07) | DEBUG: Setting LC_ALL=en_US.UTF-8
+2021/12/27 (10:38:07) | INFO: Running on /dev/pts/3
+2021/12/27 (10:38:07) | DEBUG: Loading theme file: /usr/local/share/btop/themes/gruvbox_dark.theme
+2021/12/27 (12:47:11) | DEBUG: Writing new config file
+2021/12/27 (12:47:11) | ERROR: Exception in runner thread -> Proc:: -> array::at: __n (which is 18446744071562068068) >= _Nm (which is 101)
+2021/12/27 (12:47:11) | INFO: Quitting! Runtime: 02:09:04
+
+2021/12/27 (12:55:00) | ===> btop++ v.1.0.2
+2021/12/27 (12:55:00) | INFO: Logger set to DEBUG
+2021/12/27 (12:55:00) | DEBUG: Setting LC_ALL=en_US.UTF-8
+2021/12/27 (12:55:00) | INFO: Running on /dev/pts/3
+2021/12/27 (12:55:00) | DEBUG: Loading theme file: /usr/local/share/btop/themes/gruvbox_dark.theme
+2021/12/27 (12:58:17) | ERROR: Exception in runner thread -> Proc:: -> array::at: __n (which is 18446744071562068068) >= _Nm (which is 101)
+2021/12/27 (12:58:17) | INFO: Quitting! Runtime: 00:03:17
+
+2021/12/27 (14:42:58) | ===> btop++ v.1.0.2
+2021/12/27 (14:42:58) | INFO: Logger set to DEBUG
+2021/12/27 (14:42:58) | DEBUG: Setting LC_ALL=en_US.UTF-8
+2021/12/27 (14:42:58) | INFO: Running on /dev/pts/3
+2021/12/27 (14:42:58) | DEBUG: Loading theme file: /usr/local/share/btop/themes/gruvbox_dark.theme
+2021/12/27 (15:15:45) | DEBUG: Writing new config file
+2021/12/27 (15:15:45) | ERROR: Exception in runner thread -> Proc:: -> array::at: __n (which is 18446744071562068068) >= _Nm (which is 101)
+2021/12/27 (15:15:45) | INFO: Quitting! Runtime: 00:32:47
+
+2021/12/27 (23:23:35) | ===> btop++ v.1.0.2
+2021/12/27 (23:23:35) | INFO: Logger set to DEBUG
+2021/12/27 (23:23:35) | DEBUG: Setting LC_ALL=en_US.UTF-8
+2021/12/27 (23:23:35) | INFO: Running on /dev/pts/3
+2021/12/27 (23:23:35) | DEBUG: Loading theme file: /usr/local/share/btop/themes/gruvbox_dark.theme
+
+2021/12/28 (09:17:05) | ===> btop++ v.1.0.2
+2021/12/28 (09:17:05) | INFO: Logger set to DEBUG
+2021/12/28 (09:17:05) | DEBUG: Setting LC_ALL=en_US.UTF-8
+2021/12/28 (09:17:05) | INFO: Running on /dev/pts/3
+2021/12/28 (09:17:05) | DEBUG: Loading theme file: /usr/local/share/btop/themes/gruvbox_dark.theme
+
+2021/12/28 (09:19:06) | ===> btop++ v.1.0.2
+2021/12/28 (09:19:06) | INFO: Logger set to DEBUG
+2021/12/28 (09:19:06) | DEBUG: Setting LC_ALL=en_US.UTF-8
+2021/12/28 (09:19:06) | INFO: Running on /dev/pts/3
+2021/12/28 (09:19:06) | DEBUG: Loading theme file: /usr/local/share/btop/themes/gruvbox_dark.theme
+2021/12/28 (09:42:48) | ERROR: Exception in runner thread -> Proc:: -> array::at: __n (which is 18446744071562068068) >= _Nm (which is 101)
+2021/12/28 (09:42:48) | INFO: Quitting! Runtime: 00:23:42
+
+2021/12/29 (13:50:24) | ===> btop++ v.1.0.2
+2021/12/29 (13:50:24) | INFO: Logger set to DEBUG
+2021/12/29 (13:50:24) | DEBUG: Setting LC_ALL=en_US.UTF-8
+2021/12/29 (13:50:24) | INFO: Running on /dev/pts/16
+2021/12/29 (13:50:25) | DEBUG: Loading theme file: /usr/local/share/btop/themes/gruvbox_dark.theme
+2021/12/29 (13:50:26) | INFO: Quitting! Runtime: 00:00:02
+
+2021/12/29 (13:50:57) | ===> btop++ v.1.0.2
+2021/12/29 (13:50:57) | INFO: Logger set to DEBUG
+2021/12/29 (13:50:57) | DEBUG: Setting LC_ALL=en_US.UTF-8
+2021/12/29 (13:50:57) | INFO: Running on /dev/pts/13
+2021/12/29 (13:50:57) | DEBUG: Loading theme file: /usr/local/share/btop/themes/gruvbox_dark.theme
+
+2021/12/29 (13:52:12) | ===> btop++ v.1.0.2
+2021/12/29 (13:52:12) | INFO: Logger set to DEBUG
+2021/12/29 (13:52:12) | DEBUG: Setting LC_ALL=en_US.UTF-8
+2021/12/29 (13:52:12) | INFO: Running on /dev/pts/13
+2021/12/29 (13:52:13) | DEBUG: Loading theme file: /usr/local/share/btop/themes/gruvbox_dark.theme
+
+2021/12/29 (15:15:09) | ===> btop++ v.1.0.2
+2021/12/29 (15:15:09) | INFO: Logger set to DEBUG
+2021/12/29 (15:15:09) | DEBUG: Setting LC_ALL=en_US.UTF-8
+2021/12/29 (15:15:09) | INFO: Running on /dev/pts/9
+2021/12/29 (15:15:09) | DEBUG: Loading theme file: /usr/local/share/btop/themes/gruvbox_dark.theme
+2021/12/29 (16:12:38) | DEBUG: Writing new config file
+2021/12/29 (16:12:38) | INFO: Quitting! Runtime: 00:57:29
+
+2021/12/29 (16:13:08) | ===> btop++ v.1.0.2
+2021/12/29 (16:13:08) | INFO: Logger set to DEBUG
+2021/12/29 (16:13:08) | DEBUG: Setting LC_ALL=en_US.UTF-8
+2021/12/29 (16:13:08) | INFO: Running on /dev/pts/9
+2021/12/29 (16:13:08) | DEBUG: Loading theme file: /usr/local/share/btop/themes/gruvbox_dark.theme
+
+2021/12/29 (16:27:11) | ===> btop++ v.1.0.2
+2021/12/29 (16:27:11) | INFO: Logger set to DEBUG
+2021/12/29 (16:27:11) | DEBUG: Setting LC_ALL=en_US.UTF-8
+2021/12/29 (16:27:11) | INFO: Running on /dev/pts/1
+2021/12/29 (16:27:12) | DEBUG: Loading theme file: /usr/local/share/btop/themes/gruvbox_dark.theme
+
+2021/12/29 (16:40:39) | ===> btop++ v.1.0.2
+2021/12/29 (16:40:39) | INFO: Logger set to DEBUG
+2021/12/29 (16:40:39) | DEBUG: Setting LC_ALL=en_US.UTF-8
+2021/12/29 (16:40:39) | INFO: Running on /dev/pts/3
+2021/12/29 (16:40:39) | DEBUG: Loading theme file: /usr/local/share/btop/themes/gruvbox_dark.theme
+
+2021/12/30 (07:41:18) | ===> btop++ v.1.0.2
+2021/12/30 (07:41:18) | INFO: Logger set to DEBUG
+2021/12/30 (07:41:18) | DEBUG: Setting LC_ALL=en_US.UTF-8
+2021/12/30 (07:41:18) | INFO: Running on /dev/pts/4
+2021/12/30 (07:41:18) | DEBUG: Loading theme file: /usr/local/share/btop/themes/gruvbox_dark.theme
+2021/12/30 (07:47:58) | ERROR: Exception in runner thread -> Proc:: -> array::at: __n (which is 18446744071562068066) >= _Nm (which is 101)
+2021/12/30 (07:47:58) | INFO: Quitting! Runtime: 00:06:40
+
+2022/01/03 (14:30:40) | ===> btop++ v.1.0.2
+2022/01/03 (14:30:40) | INFO: Logger set to DEBUG
+2022/01/03 (14:30:40) | DEBUG: Setting LC_ALL=en_US.UTF-8
+2022/01/03 (14:30:40) | INFO: Running on /dev/pts/9
+2022/01/03 (14:30:40) | DEBUG: Loading theme file: /usr/local/share/btop/themes/gruvbox_dark.theme

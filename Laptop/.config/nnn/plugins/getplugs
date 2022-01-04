@@ -1,5 +1,7 @@
 #!/usr/bin/env sh
 
+!/usr/bin/env sh
+
 # Description: Update nnn plugins to installed nnn version
 #
 # Shell: POSIX compliant

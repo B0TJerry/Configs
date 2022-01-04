@@ -1,0 +1,456 @@
+[0.0] Log file initialized - /home/jy/.config/unity3d/Milkstone Studios/Ziggurat2/Ziggurat2_log_20210512_1821.txt
+[0.0] Initializing platform
+[0.1] Game version: v61
+Date: 05/12/2021 22:21
+OS: Linux 5.12 Arch Linux  64bit
+Processor: AMD Ryzen 5 2600X Six-Core Processor - Count:12 - Mhz:3600
+System RAM:16000MB
+Graphics card: NVIDIA GeForce GTX 1070 Ti - Version: Vulkan 1.1.0 [0x7446c000] - RAM: 8438MB
+Platform: pc PC 64bit
+System language: English
+Screen Resolution: 2560x1440@165 Fullscreen:True Mode:FullScreenWindow
+Game Resolution: 2560x1440
+Arguments: ./Ziggurat2.x64 -force-vulkan
+[0.1] Initializing Steam API
+[0.1] Steam API Initialized. Steam is running:True
+[0.1] Compiled Packsize: 8 Steamworks Packsize: 8
+[0.1] Save Folder: /home/jy/My Games/Ziggurat2/76561198253569037/ - Machine: /home/jy/My Games/Ziggurat2/Local/
+[0.1] Steam API initialized
+[0.1] No stats file found!
+
+[0.1] No awards file found!
+
+[0.1] No DLC file found!
+
+[0.4] Opening file /home/jy/My Games/Ziggurat2/Local/globalconfig.json - Mode:Open
+[0.5] MilkAddressables initialized. 2764 assets.
+[0.5] Loaded bundle theme_common. Load time: 0.001409352
+[0.6] Loaded bundle base. Load time: 0.03494328
+[0.6] Loaded bundle bigmap. Load time: 0.001027703
+[0.6] Loaded bundle characters. Load time: 0.003533959
+[0.6] Loaded bundle duplicates. Load time: 0.001388788
+[0.6] Loaded bundle enemies. Load time: 0.009091377
+[0.6] Loaded bundle fx. Load time: 0.001361907
+[0.6] Loaded bundle hands. Load time: 0.001640677
+[0.6] Loaded bundle pickups. Load time: 0.002089679
+[0.6] Loaded bundle theme_cathedral. Load time: 0.02550942
+[0.6] Loaded bundle ui. Load time: 0.01949972
+[0.6] Loaded bundle weapons. Load time: 0.006448805
+[0.8] Playfab Login Success: DF90C501F6EFCFAD
+[3.9] Loaded bundle music. Load time: 0.0005879402
+[4.2] Won focus
+[4.3] Setting resolution from 2560x1440@165 to 2560x1440 Fullscreen:ExclusiveFullScreen
+[4.3] Initalizing Analytics
+[4.3] GameAnalytics: Unsupported platform (events will not be sent in editor; or missing platform in settings): LinuxPlayer
+
+[4.5] Loaded bundle lore. Load time: 0.001896858
+[9.6] LoadScene
+[9.6] IntroScript: Slideshow finished!
+[10.3] Push UI/Menu/Title
+[74.7] Press A to Start pressed by gamepad KeyboardMouse
+[74.7] Switch UI/Menu/LoadingPlayer
+[74.7] Choosing main player: BOT Jerry - PlayerIndex One
+[74.7] Opening file /home/jy/My Games/Ziggurat2/76561198253569037/config.json - Mode:Open
+[74.7] Unlocked DLCs: None
+[74.7] Opening file /home/jy/My Games/Ziggurat2/76561198253569037/campaign.mlk - Mode:Open
+[74.7] Switch UI/Menu/MainMenu
+[80.8] Switch UI/Campaign/Main
+[81.8] Push UI/Campaign/Map
+[91.9] Push UI/Campaign/MissionBriefing
+[95.9] Loaded bundle amulets. Load time: 0.002845764
+[96.3] Switch UI/Campaign/MissionReady
+[100.3] Mission Reward Multiplier: 140%
+[100.3] Push UI/Menu/Loading
+[100.3] Loaded bundle loadingscreenshots. Load time: 0.000579834
+[101.5] Scanning - Process took 1 ms to complete
+[101.5] Using Seed 1196976236
+[101.6] Loaded bundle theme_egypt. Load time: 0.01320648
+[101.7] Loaded bundle rooms. Load time: 0.1419907
+[107.8] Push UI/Game/IntroLevelHud
+[114.8] Switch UI/Game/GameHud
+[114.8] Loaded bundle minimap. Load time: 0.001075745
+[129.2] Picked up Key! IsSecret:False
+[129.2] Room 3 cleared
+[138.1] Starting fight on room Combat_1x1_Room2 (2)
+Enemies to spawn: ZombieToxic ArmorIce Goblin_Shotgun 
+[188.3] Fight complete
+[188.3] Room 2 cleared
+[201.8] Starting fight on room Combat_1x1_ZRoom10 (5)
+Enemies to spawn: Goblin_Shotgun ArmorFlyElectric BansheeElectric 
+[236.2] Player level up!
+[239.7] Picked up Key! IsSecret:True
+[270.9] Fight complete
+[270.9] Room 5 cleared
+[272.2] Push UI/Game/Upgrade
+[279.7] Earned perk Bookworm Lv.Level1
+[283.8] Push UI/Game/Map
+[290.7] Push UI/Game/Map
+[299.2] Push UI/Game/Map
+[305.5] Starting fight on room Combat_1x1_Room4 (4)2
+Enemies to spawn: Carrot_Pepper IceDrone LavaDrone 
+[355.9] Fight complete
+[355.9] Room 4 cleared
+[358.8] Player level up!
+[360.4] Push UI/Game/Upgrade
+[377.1] Earned perk Rogue_Loot Lv.Level1
+[382.9] Push UI/Game/Map
+[394.1] Push UI/Game/IntroBossHud
+[394.1] Health Multiplier: 1.125
+[401.2] Starting boss fight on room Boss_Room10 (6)
+[540.4] Player died!
+[540.4] AddPlaytime 397.5916
+[540.5] CampaignManager.Save - Backup: True
+[540.5] Opening file /home/jy/My Games/Ziggurat2/76561198253569037/campaign.mlk - Mode:Create
+[540.5] Opening file /home/jy/My Games/Ziggurat2/76561198253569037/campaign.bak - Mode:Create
+[544.1] Push UI/Menu/Loading
+[548.3] Push UI/Campaign/MissionComplete
+[553.8] Switch UI/Campaign/MissionCompletePopup
+[555.1] Switch UI/Campaign/MissionCompleteRewards
+[556.3] Push UI/Campaign/CharacterDetails
+[558.1] Switch UI/Campaign/Main
+[559.3] Push UI/Campaign/SelectDifficulty
+[561.4] Switch UI/Menu/MainMenu
+[562.4] Switch UI/Campaign/Main
+[563.2] Push UI/Campaign/Map
+[568.1] Push UI/Campaign/MissionBriefing
+[574.4] Switch UI/Campaign/MissionReady
+[578.4] Mission Reward Multiplier: 140%
+[578.4] Push UI/Menu/Loading
+[579.5] Scanning - Process took 0 ms to complete
+[579.5] Using Seed 1763287604
+[583.3] Push UI/Game/IntroLevelHud
+[590.3] Switch UI/Game/GameHud
+[597.1] Starting fight on room Combat_1x1_ZRoom21 (2)
+Enemies to spawn: ArmorIce 
+[654.3] Fight complete
+[654.3] Room 2 cleared
+[658.6] Push UI/Game/Map
+[671.7] Push UI/Game/Map
+[679.4] Picked up Key! IsSecret:False
+[679.4] Room 3 cleared
+[681.1] Push UI/Game/Map
+[688.7] Starting fight on room Combat_1x1_Room10 (5)1
+Enemies to spawn: Carrot_Pepper Banshee IceDrone 
+[729.4] Player level up!
+[779.9] Fight complete
+[779.9] Room 5 cleared
+[783.0] Push UI/Game/Upgrade
+[797.5] Earned perk Warcry Lv.Level1
+[799.8] Push UI/Game/Map
+[803.8] Push UI/Game/Map
+[807.7] Push UI/Game/Map
+[810.0] Starting fight on room Combat_1x1_ZRoom7 (6)
+Enemies to spawn: Zombie Orc 
+[873.9] Fight complete
+[873.9] Room 6 cleared
+[874.4] Player level up!
+[876.0] Push UI/Game/Upgrade
+[882.0] Earned perk WandFinisher Lv.Level1
+[886.7] Push UI/Game/Map
+[889.0] Push UI/Game/Map
+[903.5] Push UI/Game/SelectModifierShrine
+[916.3] Push UI/Game/PlayerInfo
+[927.6] Applying RunModifier RunModifier_Pos_Dash RunModifier_Neg_ManaUsage
+[927.6] Applying run modifier RunModifier_Pos_Dash:RunModifier_Neg_ManaUsage
+[927.6] Room 1 cleared
+[933.6] Push UI/Game/Map
+[947.0] Push UI/Game/Map
+[952.6] Push UI/Game/Map
+[961.3] Push UI/Game/IntroBossHud
+[961.4] Health Multiplier: 1.125
+[968.4] Starting boss fight on room Boss_Room7 (7)
+[1101.2] Player died!
+[1101.2] AddPlaytime 459.0467
+[1101.3] CampaignManager.Save - Backup: True
+[1101.3] Opening file /home/jy/My Games/Ziggurat2/76561198253569037/campaign.mlk - Mode:Create
+[1101.3] Opening file /home/jy/My Games/Ziggurat2/76561198253569037/campaign.bak - Mode:Create
+[1104.9] Push UI/Menu/Loading
+[1109.1] Push UI/Campaign/MissionComplete
+[1114.6] Switch UI/Campaign/MissionCompletePopup
+[1116.2] Switch UI/Campaign/MissionCompleteRewards
+[1118.4] Push UI/Campaign/CharacterDetails
+[1120.6] Switch UI/Campaign/Main
+[1122.2] Push UI/Campaign/Lab
+[1123.9] Push UI/Campaign/Weapons
+[1127.0] Push UI/Campaign/WeaponDetails
+[1128.2] Weapon upgraded
+[1130.8] Push UI/Campaign/Amulets
+[1132.4] Opening file /home/jy/My Games/Ziggurat2/76561198253569037/config.json - Mode:Create
+[1132.4] Opening file /home/jy/My Games/Ziggurat2/Local/globalconfig.json - Mode:Create
+[1133.7] Switch UI/Menu/MainMenu
+[1134.8] Switch UI/Campaign/Main
+[1136.0] Push UI/Campaign/Map
+[1139.5] Push UI/Campaign/MissionBriefing
+[1153.3] Switch UI/Campaign/MissionReady
+[1157.3] Mission Reward Multiplier: 110%
+[1157.3] Push UI/Menu/Loading
+[1158.4] Scanning - Process took 0 ms to complete
+[1158.4] Using Seed 988513810
+[1166.1] Push UI/Game/IntroLevelHud
+[1173.1] Switch UI/Game/GameHud
+[1175.8] Lost focus
+[1186.0] Won focus
+[1186.0] Lost focus
+[1186.0] Won focus
+[1191.4] Lost focus
+[1191.5] Won focus
+[1191.6] Lost focus
+[1191.6] Won focus
+[1191.7] Lost focus
+[1194.6] Won focus
+[1194.6] Lost focus
+[1194.6] Won focus
+[1202.0] Push UI/Game/Pause
+[1205.0] Lost focus
+[1207.0] Won focus
+[1207.0] Lost focus
+[1207.0] Won focus
+[1212.9] Starting fight on room Combat_L_Room6 (2)0
+Enemies to spawn: ArmorIce 
+[1291.1] Player level up!
+[1301.0] Fight complete
+[1301.0] Room 2 cleared
+[1302.0] Push UI/Game/Upgrade
+[1306.9] Earned perk Scavenger Lv.Level1
+[1315.8] Push UI/Game/Map
+[1318.0] Lost focus
+[1323.3] Won focus
+[1323.3] Lost focus
+[1323.3] Won focus
+[1326.3] Push UI/Game/Pause
+[1328.2] Lost focus
+[1331.6] Won focus
+[1331.6] Lost focus
+[1331.6] Won focus
+[1335.8] Push UI/Game/Map
+[1337.7] Push UI/Game/Map
+[1343.8] Push UI/Game/Map
+[1352.0] Picked up Key! IsSecret:False
+[1352.0] Room 4 cleared
+[1353.9] Push UI/Game/Map
+[1361.5] Push UI/Game/Map
+[1366.3] Starting fight on room Combat_1x1_ZRoom13 (5)
+Enemies to spawn: ArmorIce Carrot_Pepper 
+[1421.6] Fight complete
+[1421.6] Room 5 cleared
+[1423.0] Player level up!
+[1424.1] Push UI/Game/Upgrade
+[1434.4] Earned perk Spellslinger Lv.Level1
+[1437.7] Push UI/Game/Map
+[1443.8] Push UI/Game/SelectModifierShrine
+[1453.1] Applying RunModifier RunModifier_Pos_PickDistance RunModifier_Neg_Damage
+[1453.1] Applying run modifier RunModifier_Pos_PickDistance:RunModifier_Neg_Damage
+[1453.1] Room 6 cleared
+[1454.7] Push UI/Game/Map
+[1459.7] Push UI/Game/Map
+[1461.7] Starting fight on room Combat_2x1_Room11 (10)
+Enemies to spawn: Carrot_Pepper Zombie SlimeBlue 
+[1550.4] Fight complete
+[1550.4] Room 10 cleared
+[1562.1] Push UI/Game/Map
+[1569.6] Push UI/Game/Map
+[1573.9] Starting fight on room Combat_1x1_ZRoom6 (11)
+Enemies to spawn: Skull 
+[1622.8] Player level up!
+[1624.8] Push UI/Game/Pause
+[1626.6] Push UI/EmptyPanel
+[1627.1] Exiting Game
+[1627.1] AddPlaytime 380.4984
+[1627.1] CampaignManager.Save - Backup: True
+[1627.1] Opening file /home/jy/My Games/Ziggurat2/76561198253569037/campaign.mlk - Mode:Create
+[1627.1] Opening file /home/jy/My Games/Ziggurat2/76561198253569037/campaign.bak - Mode:Create
+[1627.3] Push UI/Menu/Loading
+[1631.6] Push UI/Campaign/MissionComplete
+[1637.3] Switch UI/Campaign/MissionCompletePopup
+[1638.9] Switch UI/Campaign/MissionCompleteRewards
+[1640.4] Push UI/Campaign/CharacterDetails
+[1642.7] Switch UI/Campaign/Main
+[1644.6] Push UI/Campaign/Map
+[1646.7] Push UI/Campaign/MissionBriefing
+[1655.3] Switch UI/Campaign/MissionReady
+[1659.3] Mission Reward Multiplier: 120%
+[1659.3] Push UI/Menu/Loading
+[1660.4] Scanning - Process took 0 ms to complete
+[1660.4] Using Seed 2054399553
+[1666.8] Push UI/Game/IntroLevelHud
+[1673.9] Switch UI/Game/GameHud
+[1683.8] Push UI/Game/SelectModifierShrine
+[1690.0] Applying RunModifier RunModifier_Pos_AmuletCharges RunModifier_Neg_DamagePoison
+[1690.0] Applying run modifier RunModifier_Pos_AmuletCharges:RunModifier_Neg_DamagePoison
+[1690.0] Room 2 cleared
+[1693.6] Push UI/Game/Map
+[1698.3] Starting fight on room Combat_2x1_Room6 (3)
+Enemies to spawn: IceDrone 
+[1785.8] Fight complete
+[1785.8] Room 3 cleared
+[1790.6] Push UI/Game/Map
+[1793.0] Push UI/Game/Map
+[1795.2] Push UI/Game/Map
+[1801.3] Picked up Key! IsSecret:False
+[1801.3] Room 4 cleared
+[1807.8] Starting fight on room Combat_1x1_Room5 (6)
+Enemies to spawn: ZombieArmor 
+[1826.2] Player level up!
+[1852.4] Fight complete
+[1852.4] Room 6 cleared
+[1857.0] Push UI/Game/Map
+[1860.4] Push UI/Game/Map
+[1861.9] Push UI/Game/Map
+[1865.3] Push UI/Game/Upgrade
+[1872.2] Earned perk Endure Lv.Level1
+[1875.8] Push UI/Game/Map
+[1880.9] Starting fight on room Combat_1x1_ZRoom15 (5)
+Enemies to spawn: Zombie 
+[1934.5] Fight complete
+[1934.5] Room 5 cleared
+[1940.3] Player level up!
+[1941.4] Push UI/Game/Upgrade
+[1952.0] Earned perk Meditation Lv.Level1
+[1954.0] Push UI/Game/Map
+[1968.1] Starting fight on room Combat_1x1_ZRoom20 (7)
+Enemies to spawn: ZombieArmor ArmorFly 
+[1977.4] Picked up Key! IsSecret:True
+[2019.9] Fight complete
+[2019.9] Room 7 cleared
+[2031.9] Push UI/Game/Map
+[2039.7] Push UI/Game/Map
+[2056.1] Player died!
+[2056.1] AddPlaytime 347.4658
+[2056.1] CampaignManager.Save - Backup: True
+[2056.1] Opening file /home/jy/My Games/Ziggurat2/76561198253569037/campaign.mlk - Mode:Create
+[2056.1] Opening file /home/jy/My Games/Ziggurat2/76561198253569037/campaign.bak - Mode:Create
+[2059.7] Push UI/Menu/Loading
+[2063.9] Push UI/Campaign/MissionComplete
+[2074.0] Switch UI/Campaign/MissionCompletePopup
+[2075.1] Switch UI/Campaign/MissionCompleteRewards
+[2076.9] Push UI/Campaign/CharacterDetails
+[2078.5] Switch UI/Campaign/Main
+[2080.4] Push UI/Campaign/Lab
+[2081.9] Push UI/Campaign/Weapons
+[2084.0] Push UI/Campaign/WeaponDetails
+[2085.5] Weapon upgraded
+[2088.1] Opening file /home/jy/My Games/Ziggurat2/76561198253569037/config.json - Mode:Create
+[2088.1] Opening file /home/jy/My Games/Ziggurat2/Local/globalconfig.json - Mode:Create
+[2089.0] Switch UI/Menu/MainMenu
+[2090.0] Switch UI/Campaign/Main
+[2091.1] Push UI/Campaign/Map
+[2098.3] Push UI/Campaign/MissionBriefing
+[2101.6] Switch UI/Campaign/MissionReady
+[2105.6] Mission Reward Multiplier: 140%
+[2105.6] Push UI/Menu/Loading
+[2106.7] Scanning - Process took 0 ms to complete
+[2106.7] Using Seed 800239034
+[2114.1] Push UI/Game/IntroLevelHud
+[2121.1] Switch UI/Game/GameHud
+[2126.1] Starting fight on room Combat_1x1_ZRoom14 (2)0
+Enemies to spawn: ZombieArmor 
+[2159.0] Fight complete
+[2159.0] Room 2 cleared
+[2163.7] Push UI/Game/Map
+[2169.7] Starting fight on room Combat_1x1_Room12 (1)
+Enemies to spawn: SlimeBlue Carrot_Pepper 
+[2211.1] Player level up!
+[2224.4] Fight complete
+[2224.4] Room 1 cleared
+[2226.4] Push UI/Game/Upgrade
+[2228.7] Earned perk Scholar Lv.Level1
+[2230.3] Push UI/Game/Map
+[2234.9] Push UI/Game/SelectModifierShrine
+[2240.0] Applying RunModifier RunModifier_Pos_PlayerStatusEffect RunModifier_Neg_Mana
+[2240.0] Applying run modifier RunModifier_Pos_PlayerStatusEffect:RunModifier_Neg_Mana
+[2240.0] Room 6 cleared
+[2244.3] Push UI/Game/Map
+[2250.7] Push UI/Game/Map
+[2256.3] Starting fight on room Combat_1x1_ZRoom2 (5)
+Enemies to spawn: Banshee ArmorFly DemonDrone 
+[2295.2] Player level up!
+[2299.8] Fight complete
+[2299.8] Room 5 cleared
+[2302.3] Push UI/Game/Upgrade
+[2309.3] Earned perk Scholar Lv.Level2
+[2311.0] Push UI/Game/Map
+[2315.6] Push UI/Game/Map
+[2317.8] Push UI/Game/Map
+[2324.0] Picked up Key! IsSecret:False
+[2324.0] Room 4 cleared
+[2326.4] Push UI/Game/PlayerInfo
+[2327.9] Push UI/Game/Map
+[2330.4] Push UI/Game/PlayerInfo
+[2340.0] Push UI/Game/Map
+[2342.6] Push UI/Game/IntroBossHud
+[2342.6] Health Multiplier: 1
+[2349.7] Starting boss fight on room Boss_Room3 (7)
+[2471.4] Player died!
+[2471.4] AddPlaytime 319.4604
+[2471.4] CampaignManager.Save - Backup: True
+[2471.4] Opening file /home/jy/My Games/Ziggurat2/76561198253569037/campaign.mlk - Mode:Create
+[2471.4] Opening file /home/jy/My Games/Ziggurat2/76561198253569037/campaign.bak - Mode:Create
+[2475.0] Push UI/Menu/Loading
+[2479.2] Push UI/Campaign/MissionComplete
+[2485.3] Switch UI/Campaign/MissionCompletePopup
+[2486.5] Switch UI/Campaign/MissionCompleteRewards
+[2488.8] Switch UI/Campaign/Main
+[2490.6] Switch UI/Menu/MainMenu
+[2492.2] Switch UI/ExtraModes/Main
+[2492.8] Switch UI/Menu/MainMenu
+[2493.6] Switch UI/Campaign/Main
+[2494.8] Push UI/Campaign/Map
+[2498.4] Push UI/Campaign/MissionBriefing
+[2510.7] Switch UI/Campaign/MissionReady
+[2514.7] Mission Reward Multiplier: 120%
+[2514.7] Push UI/Menu/Loading
+[2515.8] Scanning - Process took 0 ms to complete
+[2515.8] Using Seed 1684066222
+[2520.9] Push UI/Game/IntroLevelHud
+[2527.9] Switch UI/Game/GameHud
+[2536.9] Push UI/Game/Map
+[2539.2] Starting fight on room Combat_1x1_ZRoom2 (6)
+Enemies to spawn: ArmorFly 
+[2582.3] Fight complete
+[2582.3] Room 6 cleared
+[2585.0] Push UI/Game/Map
+[2586.3] Push UI/Game/Map
+[2591.9] Starting fight on room Combat_1x1_ZRoom1 (5)
+Enemies to spawn: Carrot_Pepper Carrot Orc 
+[2592.5] Push UI/Game/Map
+[2616.1] Player level up!
+[2639.5] Fight complete
+[2639.5] Room 5 cleared
+[2642.0] Push UI/Game/Upgrade
+[2647.2] Earned perk Enraged Lv.Level1
+[2653.7] Push UI/Game/Map
+[2655.7] Push UI/Game/Map
+[2656.6] Push UI/Game/PlayerInfo
+[2666.7] Push UI/Game/Map
+[2679.7] Picked up Key! IsSecret:False
+[2679.7] Room 4 cleared
+[2681.8] Push UI/Game/Map
+[2687.1] Starting fight on room Combat_1x1_Room16 (1)
+Enemies to spawn: LavaDrone 
+[2715.8] Fight complete
+[2715.8] Room 1 cleared
+[2721.7] Player level up!
+[2723.3] Push UI/Game/Upgrade
+[2741.6] Earned perk Fury Lv.Level1
+[2744.7] Push UI/Game/Map
+[2750.6] Push UI/Game/Map
+[2751.6] Push UI/Game/Map
+[2768.3] Room 2 cleared
+[2769.3] Spawning treasure reward Perk
+[2769.3] Spawning treasure reward Money
+[2772.1] Earned perk Druid Lv.Level1
+[2779.8] Push UI/Game/Map
+[2787.1] Push UI/Game/Pause
+[2820.3] Push UI/Game/IntroBossHud
+[2820.3] Health Multiplier: 1
+[2827.4] Starting boss fight on room Boss_Room11 (7)
+[2942.5] Player died!
+[2942.5] AddPlaytime 380.2
+[2942.5] CampaignManager.Save - Backup: True
+[2942.5] Opening file /home/jy/My Games/Ziggurat2/76561198253569037/campaign.mlk - Mode:Create
+[2942.5] Opening file /home/jy/My Games/Ziggurat2/76561198253569037/campaign.bak - Mode:Create
+[2946.1] Push UI/Menu/Loading
+[2950.3] Push UI/Campaign/MissionComplete
+[2955.2] Lost focus
+[2964.7] Won focus
+[2964.7] Lost focus

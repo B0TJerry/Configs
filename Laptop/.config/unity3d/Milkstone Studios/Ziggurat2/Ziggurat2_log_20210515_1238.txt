@@ -1,0 +1,100 @@
+[0.0] Log file initialized - /home/jy/.config/unity3d/Milkstone Studios/Ziggurat2/Ziggurat2_log_20210515_1238.txt
+[0.0] Initializing platform
+[0.0] Game version: v64
+Date: 05/15/2021 16:38
+OS: Linux 5.12 Arch Linux  64bit
+Processor: AMD Ryzen 5 2600X Six-Core Processor - Count:12 - Mhz:3600
+System RAM:16000MB
+Graphics card: NVIDIA GeForce GTX 1070 Ti - Version: Vulkan 1.1.0 [0x7446c000] - RAM: 8438MB
+Platform: pc PC 64bit
+System language: English
+Screen Resolution: 2560x1440@165 Fullscreen:True Mode:FullScreenWindow
+Game Resolution: 2560x1440
+Arguments: ./Ziggurat2.x64 -force-vulkan
+[0.1] Initializing Steam API
+[0.1] Steam API Initialized. Steam is running:True
+[0.1] Compiled Packsize: 8 Steamworks Packsize: 8
+[0.1] Save Folder: /home/jy/My Games/Ziggurat2/76561198253569037/ - Machine: /home/jy/My Games/Ziggurat2/Local/
+[0.1] Steam API initialized
+[0.1] No stats file found!
+
+[0.1] No awards file found!
+
+[0.1] No DLC file found!
+
+[0.3] Opening file /home/jy/My Games/Ziggurat2/Local/globalconfig.json - Mode:Open
+[0.5] MilkAddressables initialized. 2787 assets.
+[0.5] Loaded bundle theme_common. Load time: 0.0008385777
+[0.5] Loaded bundle base. Load time: 0.03287172
+[0.5] Loaded bundle bigmap. Load time: 0.001026928
+[0.5] Loaded bundle characters. Load time: 0.002331316
+[0.5] Loaded bundle duplicates. Load time: 0.001265466
+[0.5] Loaded bundle enemies. Load time: 0.007886827
+[0.5] Loaded bundle fx. Load time: 0.0005567074
+[0.5] Loaded bundle hands. Load time: 0.001498342
+[0.5] Loaded bundle pickups. Load time: 0.001043677
+[0.5] Loaded bundle theme_cathedral. Load time: 0.02328837
+[0.6] Loaded bundle ui. Load time: 0.01949424
+[0.6] Loaded bundle weapons. Load time: 0.005518675
+[0.9] Playfab Login Success: DF90C501F6EFCFAD
+[4.2] Loaded bundle music. Load time: 0.0003480911
+[4.4] Won focus
+[4.5] Setting resolution from 2560x1440@165 to 2560x1440 Fullscreen:ExclusiveFullScreen
+[4.5] Initalizing Analytics
+[4.6] GameAnalytics: Unsupported platform (events will not be sent in editor; or missing platform in settings): LinuxPlayer
+
+[4.8] Loaded bundle lore. Load time: 0.001729012
+[9.8] LoadScene
+[9.8] IntroScript: Slideshow finished!
+[10.4] Push UI/Menu/Title
+[14.8] Press A to Start pressed by gamepad KeyboardMouse
+[14.8] Switch UI/Menu/LoadingPlayer
+[14.8] Choosing main player: BOT Jerry - PlayerIndex One
+[14.8] Opening file /home/jy/My Games/Ziggurat2/76561198253569037/config.json - Mode:Open
+[14.8] Unlocked DLCs: None
+[14.8] Opening file /home/jy/My Games/Ziggurat2/76561198253569037/campaign.mlk - Mode:Open
+[14.9] Switch UI/Menu/MainMenu
+[29.1] Push UI/Menu/Settings
+[30.7] Push UI/Menu/SettingsGame
+[33.0] Setting resolution from 2560x1440@165 to 2560x1440 Fullscreen:ExclusiveFullScreen
+[33.0] Opening file /home/jy/My Games/Ziggurat2/76561198253569037/config.json - Mode:Create
+[33.0] Opening file /home/jy/My Games/Ziggurat2/Local/globalconfig.json - Mode:Create
+[34.1] Push UI/Menu/SettingsVideo
+[34.1] Current resolution: 2560 x 1440 @ 165Hz Fullscreen Mode:ExclusiveFullScreen
+[39.4] Push UI/Menu/SettingsVideoAdvanced
+[45.9] Reported resolution: 2560x1440@165Hz Fullscreen:ExclusiveFullScreen, no need to change
+[45.9] Opening file /home/jy/My Games/Ziggurat2/Local/globalconfig.json - Mode:Create
+[54.5] Reported resolution: 2560x1440@165Hz Fullscreen:ExclusiveFullScreen, no need to change
+[54.5] Opening file /home/jy/My Games/Ziggurat2/Local/globalconfig.json - Mode:Create
+[55.7] Reported resolution: 2560x1440@165Hz Fullscreen:ExclusiveFullScreen, no need to change
+[55.7] Opening file /home/jy/My Games/Ziggurat2/Local/globalconfig.json - Mode:Create
+[56.4] Reported resolution: 2560x1440@165Hz Fullscreen:ExclusiveFullScreen, no need to change
+[56.4] Opening file /home/jy/My Games/Ziggurat2/Local/globalconfig.json - Mode:Create
+[56.6] Reported resolution: 2560x1440@165Hz Fullscreen:ExclusiveFullScreen, no need to change
+[56.6] Opening file /home/jy/My Games/Ziggurat2/Local/globalconfig.json - Mode:Create
+[56.7] Reported resolution: 2560x1440@165Hz Fullscreen:ExclusiveFullScreen, no need to change
+[56.7] Opening file /home/jy/My Games/Ziggurat2/Local/globalconfig.json - Mode:Create
+[62.6] Reported resolution: 2560x1440@165Hz Fullscreen:ExclusiveFullScreen, no need to change
+[62.6] Opening file /home/jy/My Games/Ziggurat2/Local/globalconfig.json - Mode:Create
+[65.4] Push UI/Menu/SettingsVideoAdvanced
+[69.9] Setting resolution from 2560x1440@165 to 2560x1440 Fullscreen:ExclusiveFullScreen
+[69.9] Opening file /home/jy/My Games/Ziggurat2/Local/globalconfig.json - Mode:Create
+[72.0] Reported resolution: 2560x1440@165Hz Fullscreen:ExclusiveFullScreen, no need to change
+[72.0] Opening file /home/jy/My Games/Ziggurat2/Local/globalconfig.json - Mode:Create
+[72.9] Reported resolution: 2560x1440@165Hz Fullscreen:ExclusiveFullScreen, no need to change
+[72.9] Opening file /home/jy/My Games/Ziggurat2/Local/globalconfig.json - Mode:Create
+[73.2] Reported resolution: 2560x1440@165Hz Fullscreen:ExclusiveFullScreen, no need to change
+[73.2] Opening file /home/jy/My Games/Ziggurat2/Local/globalconfig.json - Mode:Create
+[73.3] Reported resolution: 2560x1440@165Hz Fullscreen:ExclusiveFullScreen, no need to change
+[73.3] Opening file /home/jy/My Games/Ziggurat2/Local/globalconfig.json - Mode:Create
+[73.5] Reported resolution: 2560x1440@165Hz Fullscreen:ExclusiveFullScreen, no need to change
+[73.5] Opening file /home/jy/My Games/Ziggurat2/Local/globalconfig.json - Mode:Create
+[73.7] Reported resolution: 2560x1440@165Hz Fullscreen:ExclusiveFullScreen, no need to change
+[73.7] Opening file /home/jy/My Games/Ziggurat2/Local/globalconfig.json - Mode:Create
+[73.8] Reported resolution: 2560x1440@165Hz Fullscreen:ExclusiveFullScreen, no need to change
+[73.8] Opening file /home/jy/My Games/Ziggurat2/Local/globalconfig.json - Mode:Create
+[74.0] Reported resolution: 2560x1440@165Hz Fullscreen:ExclusiveFullScreen, no need to change
+[74.0] Opening file /home/jy/My Games/Ziggurat2/Local/globalconfig.json - Mode:Create
+[76.6] CampaignManager.Save - Backup: False
+[76.6] OnApplicationQuit
+[76.6] Opening file /home/jy/My Games/Ziggurat2/76561198253569037/campaign.mlk - Mode:Create

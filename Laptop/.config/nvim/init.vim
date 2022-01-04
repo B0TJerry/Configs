@@ -1,3 +1,4 @@
+"plugins 
 " Plugins will be downloaded under the specified directory.
 call plug#begin(has('nvim') ? stdpath('data') . '/plugged' : '~/.vim/plugged')
 
@@ -22,14 +23,23 @@ Plug 'ryanoasis/vim-devicons'
 Plug 'tpope/vim-surround'
 Plug 'mhinz/vim-startify'
 Plug 'rust-lang/rust.vim'
+Plug 'mcchrish/nnn.vim'
+Plug 'lambdalisue/suda.vim'
 " List ends here. Plugins become visible to Vim after this call.
 call plug#end()
-
 "Auto Command
+ "had to put the before the autocmd to configure gruvbox
+ "gruvbox 
+let g:gruvbox_transparent_bg = 1
+let g:gruvbox_termcolors = 16
+let g:gruvbox_bold = 1
+let g:gruvbox_italic = 1
+"let g:gruvbox_contrast_dark = 'soft'
 autocmd vimenter * ++nested colorscheme gruvbox
-
  " Start NERDTree and put the cursor back in the other window.
- autocmd VimEnter * NERDTree | wincmd p
+ " Nerd Tree 
+autocmd VimEnter * NERDTree | wincmd p
+ 
 
  " Exit Vim if NERDTree is the only window left.
  autocmd BufEnter * if tabpagenr('$') == 1 && winnr('$') == 1 && exists('b:NERDTree') && b:NERDTree.isTabTree() |
@@ -54,20 +64,21 @@ if &shell =~# 'fish$'
 endif
 
 let NERDTreeShowHidden = 1
-"Startify Settings
+"Startify Settings 
 	"Sets order and name of the items on the start page
 let g:startify_lists = [
           \ { 'type': 'files',     'header': ['   Most Recently Used']            },
           \ { 'type': 'sessions',  'header': ['   Sessions']                      },
           \ { 'type': 'bookmarks', 'header': ['   Bookmarks']                     },
           \ { 'type': 'commands',  'header': ['   Commands']                      },
+	  \ { 'type': 'sessions',  'header': ['   Sessions']                      },
           \ ]
 	"changes the ammount of files allowed to be listed by the files header
 let g:startify_files_number = 5 
  	"changes the default session directory
-let g:startify_session_dir = '~/.config/nvim/session'
+let g:startify_session_dir = '~/.config/nvim/sessions'
 	"sets bookmarks
-let g:startify_bookmarks = [ '~/.config', '~/.config/suckless/dwm', '~/.config/suckless/dmenu', '~/.config/fish', '~/.config/nvim/init.vim']
+let g:startify_bookmarks = [ '~/.config', '~/.config/suckless/', '~/Projects/cpp/', '~/.config/fish', '~/.config/nvim/init.vim']
 	"sets commands
 let g:startify_commands = [
 	\ ':help reference',
@@ -91,5 +102,10 @@ let g:startify_custom_header = [
 	    \ '▒ ▒ ▒    ▒▓▓  ▒ ▒ ▒▒  ▒ ▒ ▒ ▒      ▒      ▒ ▒ ▒▒ ▒▓▒  ▒▒▒   ▒▒▓▒', 
 	    \]
                                                                  
-                                                                 
+set foldmethod=marker
+set tabstop=4
+set shiftwidth=4
+set expandtab
 
+"sudaedit settings
+let g:suda_smart_edit = 1

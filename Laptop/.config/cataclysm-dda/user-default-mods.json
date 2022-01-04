@@ -1,0 +1,5 @@
+{
+  "type": "MOD_INFO",
+  "id": "user:default",
+  "dependencies": [ "dda", "no_npc_food", "package_bionic_professions", "sees_player_retro", "blazeindustries", "aftershock", "crt_expansion", "No_Rail_Stations" ]
+}

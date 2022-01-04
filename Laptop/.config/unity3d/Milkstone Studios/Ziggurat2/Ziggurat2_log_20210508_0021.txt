@@ -1,0 +1,564 @@
+[0.0] Log file initialized - /home/jy/.config/unity3d/Milkstone Studios/Ziggurat2/Ziggurat2_log_20210508_0021.txt
+[0.0] Initializing platform
+[0.0] Game version: v61
+Date: 05/08/2021 04:21
+OS: Linux 5.12 Arch Linux  64bit
+Processor: AMD Ryzen 5 2600X Six-Core Processor - Count:12 - Mhz:2200
+System RAM:16000MB
+Graphics card: NVIDIA GeForce GTX 1070 Ti - Version: Vulkan 1.1.0 [0x7446c000] - RAM: 8438MB
+Platform: pc PC 64bit
+System language: English
+Screen Resolution: 1440x2560@144 Fullscreen:False Mode:Windowed
+Game Resolution: 2560x1440
+Arguments: ./Ziggurat2.x64 -force-vulkan
+[0.1] Initializing Steam API
+[0.1] Steam API Initialized. Steam is running:True
+[0.1] Compiled Packsize: 8 Steamworks Packsize: 8
+[0.1] Save Folder: /home/jy/My Games/Ziggurat2/76561198253569037/ - Machine: /home/jy/My Games/Ziggurat2/Local/
+[0.1] Steam API initialized
+[0.1] No stats file found!
+
+[0.1] No awards file found!
+
+[0.1] No DLC file found!
+
+[0.4] Opening file /home/jy/My Games/Ziggurat2/Local/globalconfig.json - Mode:Open
+[0.5] MilkAddressables initialized. 2764 assets.
+[0.5] Loaded bundle theme_common. Load time: 0.0007998347
+[0.5] Loaded bundle base. Load time: 0.03191602
+[0.5] Loaded bundle bigmap. Load time: 0.00043571
+[0.5] Loaded bundle characters. Load time: 0.002319276
+[0.5] Loaded bundle duplicates. Load time: 0.0006453395
+[0.5] Loaded bundle enemies. Load time: 0.007641792
+[0.5] Loaded bundle fx. Load time: 0.0006528497
+[0.6] Loaded bundle hands. Load time: 0.0006464124
+[0.6] Loaded bundle pickups. Load time: 0.00105691
+[0.6] Loaded bundle theme_cathedral. Load time: 0.02294374
+[0.6] Loaded bundle ui. Load time: 0.01771092
+[0.6] Loaded bundle weapons. Load time: 0.005292654
+[2.4] Playfab Login Success: DF90C501F6EFCFAD
+[4.1] Loaded bundle music. Load time: 0.0001373291
+[4.3] Won focus
+[4.4] Reported resolution: 2560x1440@165Hz Fullscreen:Windowed, no need to change
+[4.4] Initalizing Analytics
+[4.4] GameAnalytics: Unsupported platform (events will not be sent in editor; or missing platform in settings): LinuxPlayer
+
+[4.6] Loaded bundle lore. Load time: 0.001304626
+[9.6] LoadScene
+[9.6] IntroScript: Slideshow finished!
+[10.1] Push UI/Menu/Title
+[12.8] Press A to Start pressed by gamepad KeyboardMouse
+[12.8] Switch UI/Menu/LoadingPlayer
+[12.8] Choosing main player: BOT Jerry - PlayerIndex One
+[12.9] Unlocked DLCs: None
+[12.9] Opening file /home/jy/My Games/Ziggurat2/76561198253569037/campaign.mlk - Mode:Open
+[12.9] Switch UI/Menu/MainMenu
+[15.4] Push UI/Menu/CreateSlot
+[25.1] CampaignManager.Save - Backup: True
+[25.1] CampaignManager.Save - Backup: False
+[25.1] Switch UI/Campaign/Lore
+[25.1] Opening file /home/jy/My Games/Ziggurat2/76561198253569037/campaign.mlk - Mode:Create
+[25.1] Opening file /home/jy/My Games/Ziggurat2/76561198253569037/campaign.bak - Mode:Create
+[25.2] Opening file /home/jy/My Games/Ziggurat2/76561198253569037/campaign.mlk - Mode:Create
+[34.2] Push UI/Menu/Loading
+[34.2] Loaded bundle loadingscreenshots. Load time: 0.0002861023
+[35.5] Scanning - Process took 2 ms to complete
+[35.6] Loaded bundle rooms. Load time: 0.1115379
+[42.7] Push UI/Game/IntroLevelHud
+[49.8] Switch UI/Game/GameHud
+[49.8] Loaded bundle minimap. Load time: 0.000541687
+[56.3] Push UI/Game/Pause
+[57.5] Push UI/Menu/Settings
+[58.8] Push UI/Menu/SettingsControls
+[62.7] Reported resolution: 2560x1440@165Hz Fullscreen:Windowed, no need to change
+[62.7] Opening file /home/jy/My Games/Ziggurat2/76561198253569037/config.json - Mode:Create
+[107.8] Starting fight on room Tutorial_Combat1 (1)
+Enemies to spawn: Carrot 
+[121.6] Push UI/Game/Pause
+[122.5] Push UI/Menu/Settings
+[123.9] Push UI/Menu/SettingsControls
+[127.1] Reported resolution: 2560x1440@165Hz Fullscreen:Windowed, no need to change
+[127.1] Opening file /home/jy/My Games/Ziggurat2/76561198253569037/config.json - Mode:Create
+[133.1] Fight complete
+[133.1] Room 1 cleared
+[140.7] Starting fight on room Tutorial_Combat2 (2)
+Enemies to spawn: Goblin 
+[169.8] Fight complete
+[169.8] Room 2 cleared
+[182.0] Push UI/Game/Map
+[188.6] Push UI/Game/Map
+[189.6] Push UI/Game/Map
+[204.0] Push UI/Game/Pause
+[205.5] Push UI/Menu/Settings
+[207.0] Push UI/Menu/SettingsControls
+[214.3] Reported resolution: 2560x1440@165Hz Fullscreen:Windowed, no need to change
+[214.3] Opening file /home/jy/My Games/Ziggurat2/76561198253569037/config.json - Mode:Create
+[216.1] Push UI/Game/Pause
+[228.0] Push UI/Game/Pause
+[229.1] Push UI/Menu/Settings
+[230.3] Push UI/Menu/SettingsInterface
+[232.5] Opening file /home/jy/My Games/Ziggurat2/76561198253569037/config.json - Mode:Create
+[232.5] Opening file /home/jy/My Games/Ziggurat2/Local/globalconfig.json - Mode:Create
+[233.1] Push UI/Menu/SettingsGame
+[240.5] Reported resolution: 2560x1440@165Hz Fullscreen:Windowed, no need to change
+[240.5] Opening file /home/jy/My Games/Ziggurat2/76561198253569037/config.json - Mode:Create
+[240.5] Opening file /home/jy/My Games/Ziggurat2/Local/globalconfig.json - Mode:Create
+[241.9] Push UI/Game/Pause
+[246.7] Push UI/Game/PlayerInfo
+[250.2] Room 4 cleared
+[252.8] Push UI/Game/PlayerInfo
+[264.3] Starting fight on room Tutorial_Combat3 (7)
+Enemies to spawn: Goblin 
+[274.2] Picked up Key! IsSecret:True
+[279.7] Fight complete
+[279.7] Room 7 cleared
+[280.0] Player level up!
+[290.2] Push UI/Game/Upgrade
+[298.2] Earned perk Meditation Lv.Level1
+[314.7] Picked up Key! IsSecret:False
+[314.7] Room 8 cleared
+[328.8] Push UI/Game/Pause
+[329.8] Push UI/Menu/Settings
+[330.8] Push UI/Menu/SettingsVideo
+[330.8] Current resolution: 2560 x 1440 @ 165Hz Fullscreen Mode:Windowed
+[334.0] Push UI/Menu/SettingsVideoAdvanced
+[365.4] Reported resolution: 2560x1440@165Hz Fullscreen:Windowed, no need to change
+[365.4] Opening file /home/jy/My Games/Ziggurat2/Local/globalconfig.json - Mode:Create
+[381.9] Setting resolution from 2560x1440@165 to 2560x1440 Fullscreen:ExclusiveFullScreen
+[381.9] Opening file /home/jy/My Games/Ziggurat2/Local/globalconfig.json - Mode:Create
+[384.1] Push UI/Game/Pause
+[398.1] Push UI/Game/Map
+[399.3] Push UI/Game/PlayerInfo
+[420.3] Push UI/Game/Pause
+[423.8] Health Multiplier: 1
+[423.8] Starting boss fight on room Tutorial_Boss (6)
+[461.0] Fight complete
+[461.0] Room 6 cleared
+[462.7] Player level up!
+[465.6] Push UI/Game/Upgrade
+[480.6] Earned perk Spellslinger Lv.Level1
+[492.1] AddPlaytime 301.9429
+[492.1] Push UI/Game/OutroLevelHud
+[501.2] Push UI/EmptyPanel
+[501.2] CampaignManager.Save - Backup: True
+[501.2] Opening file /home/jy/My Games/Ziggurat2/76561198253569037/campaign.mlk - Mode:Create
+[501.2] Opening file /home/jy/My Games/Ziggurat2/76561198253569037/campaign.bak - Mode:Create
+[501.3] Push UI/Menu/Loading
+[505.5] Push UI/Campaign/Main
+[511.7] Push UI/Campaign/SelectDifficulty
+[515.3] CampaignManager.Save - Backup: False
+[515.3] Opening file /home/jy/My Games/Ziggurat2/76561198253569037/campaign.mlk - Mode:Create
+[516.9] Push UI/Campaign/Lab
+[518.8] Push UI/Campaign/Weapons
+[522.0] Opening file /home/jy/My Games/Ziggurat2/76561198253569037/config.json - Mode:Create
+[522.0] Opening file /home/jy/My Games/Ziggurat2/Local/globalconfig.json - Mode:Create
+[522.8] Switch UI/Menu/MainMenu
+[524.2] Switch UI/Campaign/Main
+[526.7] Push UI/Campaign/Map
+[530.5] Push UI/Campaign/MissionBriefing
+[557.0] Loaded bundle amulets. Load time: 0.002807617
+[562.3] Switch UI/Campaign/MissionReady
+[566.3] Mission Reward Multiplier: 140%
+[566.3] Push UI/Menu/Loading
+[567.4] Scanning - Process took 0 ms to complete
+[567.4] Using Seed 1348311166
+[574.9] Push UI/Game/IntroLevelHud
+[581.9] Switch UI/Game/GameHud
+[601.9] Push UI/Game/Map
+[602.9] Push UI/Game/PlayerInfo
+[624.7] Picked up Key! IsSecret:False
+[624.7] Room 4 cleared
+[634.8] Starting fight on room Combat_1x1_ZRoom15 (6)0
+Enemies to spawn: Zombie Goblin_Shotgun ArmorFly 
+[684.4] Fight complete
+[684.4] Room 6 cleared
+[692.5] Starting fight on room Combat_1x1_Room5 (3)0
+Enemies to spawn: Goblin_Shotgun IceDrone ArmorFly 
+[716.7] Player level up!
+[731.8] Fight complete
+[731.8] Room 3 cleared
+[733.4] Push UI/Game/Upgrade
+[757.3] Earned perk Foundry Lv.Level1
+[798.5] Starting fight on room Combat_1x1_ZRoom12 (5)
+Enemies to spawn: Goblin_Shotgun Armor 
+[836.3] Fight complete
+[836.3] Room 5 cleared
+[854.1] Room 2 cleared
+[855.1] Spawning treasure reward Amulet
+[886.5] Starting fight on room Combat_2x1_Room3 (7)
+Enemies to spawn: Zombie Goblin 
+[886.7] Push UI/Game/Map
+[891.8] Push UI/Game/Map
+[903.2] Player level up!
+[947.9] Fight complete
+[947.9] Room 7 cleared
+[948.8] Push UI/Game/Upgrade
+[956.4] Earned perk Transmutation Lv.Level1
+[966.2] Push UI/Game/Map
+[982.7] Push UI/Game/IntroBossHud
+[982.7] Health Multiplier: 1
+[989.8] Starting boss fight on room Boss_Room (9)
+[1079.5] Fight complete
+[1079.5] Room 9 cleared
+[1082.6] Player level up!
+[1084.2] Push UI/Game/Upgrade
+[1093.5] Earned perk GoldenWeapon Lv.Level1
+[1107.3] Push UI/Game/Map
+[1123.8] AddPlaytime 485.6797
+[1123.8] Level Complete
+[1126.0] Push UI/Campaign/LevelComplete
+[1134.1] Push UI/Menu/Loading
+[1135.1] Using Seed 883948265
+[1139.9] Push UI/Game/IntroLevelHud
+[1146.9] Switch UI/Game/GameHud
+[1154.2] Room 0 cleared
+[1155.2] Spawning treasure reward Weapon
+[1167.4] Picked up Key! IsSecret:False
+[1167.4] Room 1 cleared
+[1190.4] Starting fight on room Combat_L_Room3 (2)1
+Enemies to spawn: Skull 
+[1290.0] Player level up!
+[1291.3] Push UI/Game/PlayerInfo
+[1311.6] Fight complete
+[1311.6] Room 2 cleared
+[1314.1] Push UI/Game/Upgrade
+[1329.8] Earned perk Spellslinger Lv.Level1
+[1336.1] Push UI/Game/Map
+[1345.9] Room 3 cleared
+[1346.9] Spawning treasure reward Weapon
+[1366.3] Starting fight on room Combat_1x1_ZRoom2 (8)
+Enemies to spawn: Armor ZombieArmor Goblin 
+[1417.9] Fight complete
+[1417.9] Room 8 cleared
+[1447.3] Push UI/Game/Map
+[1466.0] Earned perk ArcaneSummoning Lv.Level1
+[1467.1] Push UI/Game/Upgrade
+[1489.0] Earned perk Berserker Lv.Level1
+[1505.6] Starting fight on room Combat_1x1_ZRoom13 (9)0
+Enemies to spawn: Zombie Goblin 
+[1512.3] Picked up Key! IsSecret:True
+[1544.0] Fight complete
+[1544.0] Room 9 cleared
+[1573.1] Push UI/Game/Map
+[1575.2] Push UI/Game/Map
+[1576.1] Push UI/Game/Pause
+[1578.0] Push UI/Game/PlayerInfo
+[1593.4] Push UI/Game/Map
+[1613.7] Push UI/Game/Map
+[1617.5] Push UI/Game/Map
+[1623.4] Starting fight on room Combat_1x1_ZRoom17 (7)
+Enemies to spawn: Goblin Banshee IceDrone 
+[1674.4] Fight complete
+[1674.4] Room 7 cleared
+[1674.8] Player level up!
+[1676.1] Push UI/Game/Upgrade
+[1684.9] Earned perk KnowledgeSpell Lv.Level1
+[1694.2] Push UI/Game/Map
+[1708.6] Push UI/Game/Map
+[1714.5] Push UI/Game/Map
+[1728.2] Push UI/Game/Map
+[1735.5] Starting overload fight on room SpecialCombat_Room2 (4)
+[1859.7] Player died!
+[1859.7] AddPlaytime 628.6415
+[1859.7] CampaignManager.Save - Backup: True
+[1859.7] Opening file /home/jy/My Games/Ziggurat2/76561198253569037/campaign.mlk - Mode:Create
+[1859.7] Opening file /home/jy/My Games/Ziggurat2/76561198253569037/campaign.bak - Mode:Create
+[1863.3] Push UI/Menu/Loading
+[1867.6] Push UI/Campaign/MissionComplete
+[1873.8] Switch UI/Campaign/MissionCompletePopup
+[1875.4] Switch UI/Campaign/MissionCompletePopup
+[1877.0] Switch UI/Campaign/MissionCompletePopup
+[1878.2] Switch UI/Campaign/MissionCompleteRewards
+[1886.4] Switch UI/Campaign/Main
+[1888.1] Push UI/Campaign/Lab
+[1889.4] Push UI/Campaign/Weapons
+[1890.8] Push UI/Campaign/WeaponDetails
+[1893.5] Weapon upgraded
+[1901.4] Opening file /home/jy/My Games/Ziggurat2/76561198253569037/config.json - Mode:Create
+[1901.4] Opening file /home/jy/My Games/Ziggurat2/Local/globalconfig.json - Mode:Create
+[1904.0] Push UI/Campaign/Map
+[1907.6] Push UI/Campaign/MissionBriefing
+[1929.3] Push UI/Campaign/MissionBriefing
+[1952.4] Switch UI/Campaign/MissionReady
+[1956.4] Mission Reward Multiplier: 140%
+[1956.4] Push UI/Menu/Loading
+[1957.4] Scanning - Process took 0 ms to complete
+[1957.4] Using Seed 1055343050
+[1964.6] Push UI/Game/IntroLevelHud
+[1971.6] Switch UI/Game/GameHud
+[1977.9] Starting fight on room Combat_L_Room7 (1)
+Enemies to spawn: Goblin ZombieArmor Skull 
+[2089.6] Player level up!
+[2110.7] Fight complete
+[2110.7] Room 1 cleared
+[2111.8] Push UI/Game/Upgrade
+[2126.0] Earned perk Transmutation Lv.Level1
+[2145.1] Push UI/Game/Map
+[2160.8] Push UI/Game/Map
+[2164.5] Starting fight on room Combat_1x1_ZRoom3 (2)2
+Enemies to spawn: ZombieArmor Carrot 
+[2190.9] Fight complete
+[2190.9] Room 2 cleared
+[2207.8] Push UI/Game/Pause
+[2209.1] Push UI/Menu/Settings
+[2209.9] Push UI/Menu/SettingsVideo
+[2209.9] Current resolution: 2560 x 1440 @ 165Hz Fullscreen Mode:FullScreenWindow
+[2211.6] Push UI/Menu/SettingsVideoAdvanced
+[2215.5] Setting resolution from 2560x1440@165 to 2560x1440 Fullscreen:ExclusiveFullScreen
+[2215.5] Opening file /home/jy/My Games/Ziggurat2/Local/globalconfig.json - Mode:Create
+[2227.0] Starting fight on room Combat_1x1_ZRoom17 (4)
+Enemies to spawn: Carrot ZombieArmor Skull 
+[2252.6] Player level up!
+[2266.6] Fight complete
+[2266.6] Room 4 cleared
+[2267.6] Push UI/Game/Upgrade
+[2289.6] Earned perk Apprentice2_NaturalSpeed Lv.Level1
+[2304.1] Push UI/Game/Map
+[2325.3] Earned perk Vigilant Lv.Level1
+[2330.8] Push UI/Game/Map
+[2339.9] Push UI/Game/SelectModifierShrine
+[2346.3] Applying RunModifier RunModifier_Pos_DamageStaff RunModifier_Neg_Health
+[2346.3] Applying run modifier RunModifier_Pos_DamageStaff:RunModifier_Neg_Health
+[2346.3] Room 6 cleared
+[2351.6] Push UI/Game/Map
+[2353.0] Push UI/Game/Map
+[2361.0] Push UI/Game/Map
+[2368.6] Starting fight on room Combat_2x1_Room11 (10)
+Enemies to spawn: Goblin_Shotgun 
+[2436.1] Fight complete
+[2436.1] Room 10 cleared
+[2447.1] Push UI/Game/Map
+[2447.9] Push UI/Game/Map
+[2480.5] Room 11 cleared
+[2481.5] Spawning treasure reward Amulet
+[2481.5] Spawning treasure reward Money
+[2492.1] Push UI/Game/Map
+[2502.5] Picked up Key! IsSecret:False
+[2502.5] Room 7 cleared
+[2503.5] Push UI/Game/Map
+[2509.2] Starting fight on room Combat_1x1_ZRoom7 (8)
+Enemies to spawn: Armor Goblin_Shotgun DemonDrone 
+[2527.8] Player level up!
+[2547.0] Fight complete
+[2547.0] Room 8 cleared
+[2548.0] Push UI/Game/Upgrade
+[2555.8] Earned perk InnerWisdom Lv.Level1
+[2562.2] Push UI/Game/Map
+[2569.3] Push UI/Game/Map
+[2594.3] Push UI/Game/Map
+[2604.7] Push UI/Game/Map
+[2609.1] Push UI/Game/IntroBossHud
+[2609.1] Health Multiplier: 1
+[2616.2] Starting boss fight on room Boss_Room7 (12)
+[2682.2] Fight complete
+[2682.2] Room 12 cleared
+[2686.2] Player level up!
+[2688.2] Push UI/Game/Upgrade
+[2702.1] Earned perk Specialist Lv.Level1
+[2713.0] Push UI/Game/Map
+[2716.0] AddPlaytime 646.2507
+[2716.0] Level Complete
+[2718.1] Push UI/Campaign/LevelComplete
+[2725.1] Push UI/Menu/Loading
+[2726.1] Using Seed 1365614895
+[2734.3] Push UI/Game/IntroLevelHud
+[2741.3] Switch UI/Game/GameHud
+[2746.5] Room 0 cleared
+[2747.5] Spawning treasure reward Weapon
+[2757.4] Starting fight on room Combat_1x1_ZRoom2 (3)
+Enemies to spawn: Goblin Carrot Banshee 
+[2796.0] Fight complete
+[2796.0] Room 3 cleared
+[2818.3] Push UI/Game/Map
+[2821.9] Starting fight on room Combat_1x1_ZRoom5 (4)2
+Enemies to spawn: Goblin 
+[2852.4] Fight complete
+[2852.4] Room 4 cleared
+[2869.6] Push UI/Game/Map
+[2877.3] Push UI/Game/Map
+[2891.4] Room 7 cleared
+[2892.4] Spawning treasure reward Amulet
+[2892.4] Spawning treasure reward Money
+[2915.9] Push UI/Game/Pause
+[2916.6] Push UI/Menu/Settings
+[2918.0] Push UI/Menu/SettingsVideo
+[2918.0] Current resolution: 2560 x 1440 @ 165Hz Fullscreen Mode:ExclusiveFullScreen
+[2919.5] Push UI/Menu/SettingsVideoAdvanced
+[2927.0] Push UI/Game/Pause
+[2927.9] Push UI/Menu/Settings
+[2929.2] Push UI/Menu/SettingsVideo
+[2929.2] Current resolution: 2560 x 1440 @ 165Hz Fullscreen Mode:ExclusiveFullScreen
+[2930.1] Push UI/Menu/SettingsVideoAdvanced
+[2933.1] Reported resolution: 2560x1440@165Hz Fullscreen:ExclusiveFullScreen, no need to change
+[2933.1] Opening file /home/jy/My Games/Ziggurat2/Local/globalconfig.json - Mode:Create
+[2935.7] Push UI/Game/Pause
+[2939.3] Push UI/Game/Pause
+[2940.2] Push UI/Menu/Settings
+[2941.6] Push UI/Menu/SettingsVideo
+[2941.6] Current resolution: 2560 x 1440 @ 165Hz Fullscreen Mode:ExclusiveFullScreen
+[2944.0] Push UI/Menu/SettingsVideoAdvanced
+[2952.8] Reported resolution: 2560x1440@165Hz Fullscreen:ExclusiveFullScreen, no need to change
+[2952.8] Opening file /home/jy/My Games/Ziggurat2/Local/globalconfig.json - Mode:Create
+[2988.3] Push UI/Game/Map
+[2989.4] Push UI/Game/Pause
+[2990.3] Push UI/Menu/Settings
+[2991.4] Push UI/Menu/SettingsVideo
+[2991.4] Current resolution: 2560 x 1440 @ 165Hz Fullscreen Mode:ExclusiveFullScreen
+[2992.5] Push UI/Menu/SettingsVideoAdvanced
+[2995.8] Push UI/Game/Pause
+[3001.4] Push UI/Game/Pause
+[3002.3] Push UI/Menu/Settings
+[3003.7] Push UI/Menu/SettingsVideo
+[3003.7] Current resolution: 2560 x 1440 @ 165Hz Fullscreen Mode:ExclusiveFullScreen
+[3005.0] Push UI/Menu/SettingsVideoAdvanced
+[3008.3] Reported resolution: 2560x1440@165Hz Fullscreen:ExclusiveFullScreen, no need to change
+[3008.3] Opening file /home/jy/My Games/Ziggurat2/Local/globalconfig.json - Mode:Create
+[3009.8] Reported resolution: 2560x1440@165Hz Fullscreen:ExclusiveFullScreen, no need to change
+[3009.8] Opening file /home/jy/My Games/Ziggurat2/Local/globalconfig.json - Mode:Create
+[3021.5] Starting fight on room Combat_1x1_ZRoom20 (8)
+Enemies to spawn: Goblin_Shotgun ZombieArmor Banshee 
+[3037.3] Picked up Key! IsSecret:True
+[3063.2] Player level up!
+[3075.9] Fight complete
+[3075.9] Room 8 cleared
+[3076.7] Push UI/Game/Upgrade
+[3086.0] Earned perk ArcaneSummoning Lv.Level1
+[3086.0] Push UI/Game/Upgrade
+[3096.3] Earned perk Apprentice2_NaturalSpeed Lv.Level2
+[3108.3] Push UI/Game/Map
+[3121.0] Picked up Key! IsSecret:False
+[3121.0] Room 6 cleared
+[3130.2] Push UI/Game/Map
+[3139.6] Push UI/Game/Map
+[3144.1] Starting fight on room Combat_1x1_ZRoom24 (1)
+Enemies to spawn: Goblin ZombieArmor 
+[3190.5] Fight complete
+[3190.5] Room 1 cleared
+[3200.4] Push UI/Game/Map
+[3208.8] Push UI/Game/Map
+[3216.6] Push UI/Game/Map
+[3230.6] Room 10 cleared
+[3241.7] Push UI/Game/IntroBossHud
+[3241.7] Health Multiplier: 1.6
+[3248.8] Starting boss fight on room Boss_Room7 (9)
+[3292.6] Player died!
+[3292.6] AddPlaytime 463.6255
+[3292.6] CampaignManager.Save - Backup: True
+[3292.6] Opening file /home/jy/My Games/Ziggurat2/76561198253569037/campaign.mlk - Mode:Create
+[3292.6] Opening file /home/jy/My Games/Ziggurat2/76561198253569037/campaign.bak - Mode:Create
+[3296.2] Push UI/Menu/Loading
+[3300.4] Push UI/Campaign/MissionComplete
+[3306.1] Switch UI/Campaign/MissionCompletePopup
+[3308.1] Switch UI/Campaign/MissionCompletePopup
+[3310.1] Switch UI/Campaign/MissionCompletePopup
+[3311.5] Switch UI/Campaign/MissionCompletePopup
+[3313.1] Switch UI/Campaign/MissionCompletePopup
+[3315.3] Switch UI/Campaign/MissionCompleteRewards
+[3346.3] Switch UI/Campaign/Main
+[3347.6] Push UI/Campaign/Lab
+[3348.7] Push UI/Campaign/Weapons
+[3349.7] Push UI/Campaign/WeaponDetails
+[3353.0] Weapon upgraded
+[3355.1] Push UI/Campaign/Characters
+[3356.2] Push UI/Campaign/CharacterDetails
+[3357.9] Amulet upgraded
+[3359.7] Push UI/Campaign/Amulets
+[3365.8] Push UI/Campaign/AmuletDetails
+[3367.6] Can't upgrade - no resources
+
+[3369.6] Opening file /home/jy/My Games/Ziggurat2/76561198253569037/config.json - Mode:Create
+[3369.6] Opening file /home/jy/My Games/Ziggurat2/Local/globalconfig.json - Mode:Create
+[3370.9] Switch UI/Menu/MainMenu
+[3371.8] Switch UI/Campaign/Main
+[3373.0] Push UI/Campaign/Map
+[3392.3] Push UI/Campaign/MissionBriefing
+[3404.1] Switch UI/Campaign/MissionReady
+[3408.1] Mission Reward Multiplier: 140%
+[3408.1] Push UI/Menu/Loading
+[3409.2] Scanning - Process took 0 ms to complete
+[3409.2] Using Seed 1341145539
+[3413.7] Push UI/Game/IntroLevelHud
+[3420.7] Switch UI/Game/GameHud
+[3430.6] Starting fight on room Combat_1x1_Room4 (1)
+Enemies to spawn: Carrot Armor Banshee 
+[3483.7] Fight complete
+[3483.7] Room 1 cleared
+[3498.2] Room 8 cleared
+[3502.8] Starting fight on room Combat_1x1_ZRoom19 (9)
+Enemies to spawn: Armor Banshee 
+[3533.6] Player level up!
+[3574.1] Fight complete
+[3574.1] Room 9 cleared
+[3576.2] Push UI/Game/Upgrade
+[3587.2] Earned perk KnowledgeStaff Lv.Level1
+[3608.0] Push UI/Game/Map
+[3613.9] Push UI/Game/Map
+[3620.8] Push UI/Game/Map
+[3625.7] Room 4 cleared
+[3626.7] Spawning treasure reward Perk
+[3631.4] Earned perk InnerWisdom Lv.Level1
+[3635.9] Push UI/Game/Map
+[3644.2] Push UI/Game/Map
+[3656.8] Picked up Key! IsSecret:False
+[3656.8] Room 3 cleared
+[3661.9] Push UI/Game/Map
+[3666.0] Starting fight on room Combat_1x1_ZRoom8 (5)
+Enemies to spawn: Goblin 
+[3703.2] Fight complete
+[3703.2] Room 5 cleared
+[3707.6] Starting fight on room Combat_2x1_Room6 (10)0
+Enemies to spawn: ZombieArmor 
+[3715.5] Picked up Key! IsSecret:True
+[3715.8] Player level up!
+[3733.6] Push UI/Game/PlayerInfo
+[3764.6] Fight complete
+[3764.6] Room 10 cleared
+[3765.6] Push UI/Game/Upgrade
+[3776.0] Earned perk MasteryWand Lv.Level1
+[3785.9] Push UI/Game/Map
+[3797.8] Push UI/Game/Map
+[3805.8] Push UI/Game/Map
+[3820.3] Push UI/Game/Map
+[3821.8] Starting fight on room Combat_L_Room6 (7)
+Enemies to spawn: Goblin 
+[3876.0] Player level up!
+[3921.1] Fight complete
+[3921.1] Room 7 cleared
+[3922.0] Push UI/Game/Upgrade
+[3954.5] Earned perk Druid Lv.Level1
+[3960.7] Push UI/Game/Map
+[3968.9] Push UI/Game/Map
+[3982.3] Push UI/Game/Map
+[3992.1] Push UI/Game/IntroBossHud
+[3992.1] Health Multiplier: 1
+[3999.1] Starting boss fight on room Boss_Room (11)
+[4081.9] Player died!
+[4081.9] AddPlaytime 588.7971
+[4081.9] CampaignManager.Save - Backup: True
+[4081.9] Opening file /home/jy/My Games/Ziggurat2/76561198253569037/campaign.mlk - Mode:Create
+[4081.9] Opening file /home/jy/My Games/Ziggurat2/76561198253569037/campaign.bak - Mode:Create
+[4085.6] Push UI/Menu/Loading
+[4089.8] Push UI/Campaign/MissionComplete
+[4095.3] Switch UI/Campaign/MissionCompletePopup
+[4096.6] Switch UI/Campaign/MissionCompleteRewards
+[4100.5] Switch UI/Campaign/Main
+[4102.5] Push UI/Campaign/Map
+[4107.9] Push UI/Campaign/MissionBriefing
+[4111.0] Push UI/Campaign/Lab
+[4113.4] Push UI/Campaign/Weapons
+[4115.0] Opening file /home/jy/My Games/Ziggurat2/76561198253569037/config.json - Mode:Create
+[4115.0] Opening file /home/jy/My Games/Ziggurat2/Local/globalconfig.json - Mode:Create
+[4115.6] Push UI/Campaign/Lab
+[4116.3] Push UI/Campaign/Amulets
+[4117.3] Push UI/Campaign/AmuletDetails
+[4118.7] Amulet upgraded
+[4127.1] Opening file /home/jy/My Games/Ziggurat2/76561198253569037/config.json - Mode:Create
+[4127.1] Opening file /home/jy/My Games/Ziggurat2/Local/globalconfig.json - Mode:Create
+[4128.3] Switch UI/Menu/MainMenu
+[4130.7] Push UI/Menu/SelectSlot
+[4133.1] Switch UI/ExtraModes/Main
+[4138.2] Switch UI/Menu/MainMenu
+[4140.8] Exiting game
+[4140.8] CampaignManager.Save - Backup: False
+[4140.8] OnApplicationQuit
+[4140.9] Opening file /home/jy/My Games/Ziggurat2/76561198253569037/campaign.mlk - Mode:Create

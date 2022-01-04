@@ -1,0 +1,142 @@
+[0.0] Log file initialized - /home/jy/.config/unity3d/Milkstone Studios/Ziggurat2/Ziggurat2_log_20210508_0020.txt
+[0.0] Initializing platform
+[0.0] Game version: v61
+Date: 05/08/2021 04:20
+OS: Linux 5.12 Arch Linux  64bit
+Processor: AMD Ryzen 5 2600X Six-Core Processor - Count:12 - Mhz:2200
+System RAM:16000MB
+Graphics card: NVIDIA GeForce GTX 1070 Ti - Version: Vulkan 1.1.0 [0x7446c000] - RAM: 8438MB
+Platform: pc PC 64bit
+System language: English
+Screen Resolution: 2560x1440@165 Fullscreen:True Mode:ExclusiveFullScreen
+Game Resolution: 2560x1440
+Arguments: ./Ziggurat2.x64 -force-vulkan
+[0.1] Initializing Steam API
+[0.1] Steam API Initialized. Steam is running:True
+[0.1] Compiled Packsize: 8 Steamworks Packsize: 8
+[0.1] Save Folder: /home/jy/My Games/Ziggurat2/76561198253569037/ - Machine: /home/jy/My Games/Ziggurat2/Local/
+[0.1] Steam API initialized
+[0.1] No stats file found!
+
+[0.1] No awards file found!
+
+[0.1] No DLC file found!
+
+[0.5] MilkAddressables initialized. 2764 assets.
+[0.5] Loaded bundle theme_common. Load time: 0.0008450747
+[0.6] Loaded bundle base. Load time: 0.03823286
+[0.6] Loaded bundle bigmap. Load time: 0.0005232692
+[0.6] Loaded bundle characters. Load time: 0.002681613
+[0.6] Loaded bundle duplicates. Load time: 0.0007359385
+[0.6] Loaded bundle enemies. Load time: 0.008495212
+[0.6] Loaded bundle fx. Load time: 0.0006679893
+[0.6] Loaded bundle hands. Load time: 0.0006991625
+[0.6] Loaded bundle pickups. Load time: 0.001240969
+[0.6] Loaded bundle theme_cathedral. Load time: 0.02434301
+[0.6] Loaded bundle ui. Load time: 0.01775974
+[0.7] Loaded bundle weapons. Load time: 0.005294144
+[0.9] Playfab Login Success: DF90C501F6EFCFAD
+[4.1] Loaded bundle music. Load time: 0.0001974106
+[4.4] Won focus
+[4.5] Lost focus
+[4.5] Won focus
+[4.5] Lost focus
+[4.5] Won focus
+[4.5] Lost focus
+[4.5] Won focus
+[4.5] Lost focus
+[4.5] Won focus
+[4.6] Setting resolution from 1440x2560@165 to 2560x1440 Fullscreen:ExclusiveFullScreen
+[4.6] Initalizing Analytics
+[4.6] GameAnalytics: Unsupported platform (events will not be sent in editor; or missing platform in settings): LinuxPlayer
+
+[4.7] Lost focus
+[4.7] Won focus
+[4.7] Lost focus
+[4.7] Won focus
+[4.9] Loaded bundle lore. Load time: 0.001194954
+[5.6] Lost focus
+[5.8] Won focus
+[5.8] Lost focus
+[5.8] Won focus
+[10.0] LoadScene
+[10.0] IntroScript: Slideshow finished!
+[10.6] Push UI/Menu/AutoConfig
+[10.7] Setting Tier RenderSize quality to 5
+[10.7] Setting Tier Quality quality to 2
+[10.7] Setting Tier AmbientOcclusion quality to 1
+[10.7] Setting Tier Volumetric quality to 2
+[10.7] Setting Tier AntiAlias quality to 2
+[10.7] Setting Tier MotionBlur quality to 0
+[10.7] Setting Tier RenderSize quality to 5
+[10.7] Reported resolution: 2560x1440@165Hz Fullscreen:ExclusiveFullScreen, no need to change
+[12.1] Measured FPS: 113.1538(57F, 0.5037394s)
+[12.1] Setting Tier Quality quality to 2
+[12.1] Setting resolution from 2560x1440@165 to 2560x1440 Fullscreen:ExclusiveFullScreen
+[12.8] Measured FPS: 107.7064(54F, 0.5013628s)
+[12.8] Setting Tier Quality quality to 3
+[12.8] Reported resolution: 2560x1440@165Hz Fullscreen:ExclusiveFullScreen, no need to change
+[13.5] Measured FPS: 113.0972(57F, 0.5039911s)
+[13.5] Setting Tier Quality quality to 4
+[13.5] Setting resolution from 2560x1440@165 to 2560x1440 Fullscreen:ExclusiveFullScreen
+[14.2] Measured FPS: 113.9085(57F, 0.5004015s)
+[14.2] Setting Tier AmbientOcclusion quality to 1
+[14.2] Setting resolution from 2560x1440@165 to 2560x1440 Fullscreen:ExclusiveFullScreen
+[14.9] Measured FPS: 103.58(52F, 0.5020275s)
+[14.9] Setting Tier AmbientOcclusion quality to 2
+[14.9] Reported resolution: 2560x1440@165Hz Fullscreen:ExclusiveFullScreen, no need to change
+[15.5] Measured FPS: 109.1036(57F, 0.522439s)
+[15.5] Setting Tier AmbientOcclusion quality to 3
+[15.5] Reported resolution: 2560x1440@165Hz Fullscreen:ExclusiveFullScreen, no need to change
+[16.1] Measured FPS: 99.414(51F, 0.5130062s)
+[16.1] Setting Tier AmbientOcclusion quality to 4
+[16.1] Reported resolution: 2560x1440@165Hz Fullscreen:ExclusiveFullScreen, no need to change
+[16.8] Measured FPS: 92.99465(47F, 0.5054054s)
+[16.8] Setting Tier Volumetric quality to 2
+[16.8] Reported resolution: 2560x1440@165Hz Fullscreen:ExclusiveFullScreen, no need to change
+[17.4] Measured FPS: 97.82312(49F, 0.5009041s)
+[17.4] Setting Tier Volumetric quality to 3
+[17.4] Reported resolution: 2560x1440@165Hz Fullscreen:ExclusiveFullScreen, no need to change
+[18.0] Measured FPS: 90.55808(46F, 0.5079613s)
+[18.0] Setting Tier Volumetric quality to 4
+[18.0] Reported resolution: 2560x1440@165Hz Fullscreen:ExclusiveFullScreen, no need to change
+[18.7] Measured FPS: 89.01743(47F, 0.5279865s)
+[18.7] Setting Tier AntiAlias quality to 2
+[18.7] Reported resolution: 2560x1440@165Hz Fullscreen:ExclusiveFullScreen, no need to change
+[19.3] Measured FPS: 92.32658(48F, 0.5198936s)
+[19.3] Setting Tier AntiAlias quality to 3
+[19.3] Reported resolution: 2560x1440@165Hz Fullscreen:ExclusiveFullScreen, no need to change
+[19.9] Measured FPS: 88.50568(45F, 0.5084419s)
+[19.9] Setting Tier MotionBlur quality to 0
+[19.9] Reported resolution: 2560x1440@165Hz Fullscreen:ExclusiveFullScreen, no need to change
+[20.6] Measured FPS: 86.81127(45F, 0.5183659s)
+[20.6] Setting Tier MotionBlur quality to 1
+[20.6] Reported resolution: 2560x1440@165Hz Fullscreen:ExclusiveFullScreen, no need to change
+[21.2] Measured FPS: 89.96637(45F, 0.5001869s)
+[21.2] Setting Tier MotionBlur quality to 2
+[21.2] Reported resolution: 2560x1440@165Hz Fullscreen:ExclusiveFullScreen, no need to change
+[21.8] Measured FPS: 91.55331(46F, 0.5024395s)
+[21.8] Setting Tier MotionBlur quality to 3
+[21.8] Reported resolution: 2560x1440@165Hz Fullscreen:ExclusiveFullScreen, no need to change
+[22.5] Measured FPS: 87.72868(45F, 0.5129452s)
+[22.5] Setting Tier MotionBlur quality to 4
+[22.5] Reported resolution: 2560x1440@165Hz Fullscreen:ExclusiveFullScreen, no need to change
+[23.1] Measured FPS: 87.381(44F, 0.5035419s)
+[23.1] Reported resolution: 2560x1440@165Hz Fullscreen:ExclusiveFullScreen, no need to change
+[23.1] Switch UI/Menu/Title
+[23.1] Opening file /home/jy/My Games/Ziggurat2/Local/globalconfig.json - Mode:Create
+[25.5] Press A to Start pressed by gamepad KeyboardMouse
+[25.5] Switch UI/Menu/LoadingPlayer
+[25.5] Choosing main player: BOT Jerry - PlayerIndex One
+[25.5] Initializing Campaign Manager
+[25.5] Unlocked DLCs: None
+[25.5] Switch UI/Menu/MainMenu
+[34.5] Push UI/Menu/Settings
+[36.9] Push UI/Menu/SettingsVideo
+[36.9] Current resolution: 2560 x 1440 @ 165Hz Fullscreen Mode:FullScreenWindow
+[44.1] Setting resolution from 2560x1440@165 to 2560x1440 Fullscreen:Windowed
+[44.1] Opening file /home/jy/My Games/Ziggurat2/Local/globalconfig.json - Mode:Create
+[54.8] Exiting game
+[54.8] CampaignManager.Save - Backup: False
+[54.8] OnApplicationQuit
+[54.8] Opening file /home/jy/My Games/Ziggurat2/76561198253569037/campaign.mlk - Mode:Create

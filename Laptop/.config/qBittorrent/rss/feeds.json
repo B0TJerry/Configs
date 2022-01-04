@@ -1,0 +1,10 @@
+{
+    "TV Torrents RSS feed - EZTV": {
+        "uid": "{3108be02-5903-4472-8355-c2c91beeb69f}",
+        "url": "https://eztv.re/ezrss.xml"
+    },
+    "YTS RSS": {
+        "uid": "{84b2012c-ade8-4521-9a20-4be45a3a2243}",
+        "url": "https://yts.mx/rss"
+    }
+}

@@ -1,0 +1,3255 @@
+
+
+-----------------------------------------
+14:18:55.614 : Starting log.
+14:18:55.614 INFO : Cataclysm DDA version 0.F
+14:18:55.617 INFO : [main] C locale set to en_US.UTF-8
+14:18:55.617 INFO : [main] C++ locale set to en_US.UTF-8
+14:18:55.698 INFO : [options] C locale set to en_US.UTF-8
+14:18:55.698 INFO : [options] C++ locale set to en_US.UTF-8
+14:18:55.702 INFO : Setting language to: 'en'
+14:18:55.702 INFO : Language is set to: 'en'
+14:18:55.829 WARNING : opendir [/home/jy/.local/share/cataclysm-dda/mods/] failed with "No such file or directory".
+14:19:00.221 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_faction_base.json:119:13: cannot assign explicit value the same as default or inherited value
+
+    "name": "trench",
+    "sym": "X",
+    "color":
+            ^
+             "light_gray"
+  },
+  {
+
+14:19:01.466 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_faction_base.json:119:13: cannot assign explicit value the same as default or inherited value
+
+    "name": "trench",
+    "sym": "X",
+    "color":
+            ^
+             "light_gray"
+  },
+  {
+
+14:19:01.466 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_faction_base.json:119:13: cannot assign explicit value the same as default or inherited value
+
+    "name": "trench",
+    "sym": "X",
+    "color":
+            ^
+             "light_gray"
+  },
+  {
+
+14:19:01.466 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_faction_base.json:119:13: cannot assign explicit value the same as default or inherited value
+
+    "name": "trench",
+    "sym": "X",
+    "color":
+            ^
+             "light_gray"
+  },
+  {
+
+14:19:01.484 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_mall.json:96:13: cannot assign explicit value the same as default or inherited value
+
+    "copy-from": "generic_mall",
+    "name": "mall - loading bay",
+    "color":
+            ^
+             "i_light_red"
+  },
+  {
+
+14:19:01.484 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_mall.json:96:13: cannot assign explicit value the same as default or inherited value
+
+    "copy-from": "generic_mall",
+    "name": "mall - loading bay",
+    "color":
+            ^
+             "i_light_red"
+  },
+  {
+
+14:19:01.484 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_mall.json:103:13: cannot assign explicit value the same as default or inherited value
+
+    "copy-from": "generic_mall",
+    "name": "mall - loading bay roof",
+    "color":
+            ^
+             "i_light_red"
+  },
+  {
+
+14:19:01.484 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_mall.json:103:13: cannot assign explicit value the same as default or inherited value
+
+    "copy-from": "generic_mall",
+    "name": "mall - loading bay roof",
+    "color":
+            ^
+             "i_light_red"
+  },
+  {
+
+14:19:01.484 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_mall.json:156:13: cannot assign explicit value the same as default or inherited value
+
+    "name": "mall - entrance",
+    "copy-from": "generic_mall",
+    "color":
+            ^
+             "i_light_red"
+  },
+  {
+
+14:19:01.484 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_mall.json:156:13: cannot assign explicit value the same as default or inherited value
+
+    "name": "mall - entrance",
+    "copy-from": "generic_mall",
+    "color":
+            ^
+             "i_light_red"
+  },
+  {
+
+14:19:01.484 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_mall.json:156:13: cannot assign explicit value the same as default or inherited value
+
+    "name": "mall - entrance",
+    "copy-from": "generic_mall",
+    "color":
+            ^
+             "i_light_red"
+  },
+  {
+
+14:19:01.484 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_mall.json:156:13: cannot assign explicit value the same as default or inherited value
+
+    "name": "mall - entrance",
+    "copy-from": "generic_mall",
+    "color":
+            ^
+             "i_light_red"
+  },
+  {
+
+14:19:01.484 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_mall.json:156:13: cannot assign explicit value the same as default or inherited value
+
+    "name": "mall - entrance",
+    "copy-from": "generic_mall",
+    "color":
+            ^
+             "i_light_red"
+  },
+  {
+
+14:19:01.484 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_mall.json:156:13: cannot assign explicit value the same as default or inherited value
+
+    "name": "mall - entrance",
+    "copy-from": "generic_mall",
+    "color":
+            ^
+             "i_light_red"
+  },
+  {
+
+14:19:01.485 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_mall.json:156:13: cannot assign explicit value the same as default or inherited value
+
+    "name": "mall - entrance",
+    "copy-from": "generic_mall",
+    "color":
+            ^
+             "i_light_red"
+  },
+  {
+
+14:19:01.485 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_mall.json:156:13: cannot assign explicit value the same as default or inherited value
+
+    "name": "mall - entrance",
+    "copy-from": "generic_mall",
+    "color":
+            ^
+             "i_light_red"
+  },
+  {
+
+14:19:01.485 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_mall.json:156:13: cannot assign explicit value the same as default or inherited value
+
+    "name": "mall - entrance",
+    "copy-from": "generic_mall",
+    "color":
+            ^
+             "i_light_red"
+  },
+  {
+
+14:19:01.485 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_mall.json:156:13: cannot assign explicit value the same as default or inherited value
+
+    "name": "mall - entrance",
+    "copy-from": "generic_mall",
+    "color":
+            ^
+             "i_light_red"
+  },
+  {
+
+14:19:01.485 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_mall.json:156:13: cannot assign explicit value the same as default or inherited value
+
+    "name": "mall - entrance",
+    "copy-from": "generic_mall",
+    "color":
+            ^
+             "i_light_red"
+  },
+  {
+
+14:19:01.485 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_mall.json:156:13: cannot assign explicit value the same as default or inherited value
+
+    "name": "mall - entrance",
+    "copy-from": "generic_mall",
+    "color":
+            ^
+             "i_light_red"
+  },
+  {
+
+14:19:01.485 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_mall.json:163:13: cannot assign explicit value the same as default or inherited value
+
+    "copy-from": "generic_mall",
+    "name": "mall - food court",
+    "color":
+            ^
+             "i_light_red"
+  },
+  {
+
+14:19:01.485 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_mall.json:163:13: cannot assign explicit value the same as default or inherited value
+
+    "copy-from": "generic_mall",
+    "name": "mall - food court",
+    "color":
+            ^
+             "i_light_red"
+  },
+  {
+
+14:19:01.485 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_mall.json:170:13: cannot assign explicit value the same as default or inherited value
+
+    "copy-from": "generic_mall",
+    "name": "mall - food court roof",
+    "color":
+            ^
+             "i_light_red"
+  },
+  {
+
+14:19:01.485 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_mall.json:170:13: cannot assign explicit value the same as default or inherited value
+
+    "copy-from": "generic_mall",
+    "name": "mall - food court roof",
+    "color":
+            ^
+             "i_light_red"
+  },
+  {
+
+14:19:01.485 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_mall.json:170:13: cannot assign explicit value the same as default or inherited value
+
+    "copy-from": "generic_mall",
+    "name": "mall - food court roof",
+    "color":
+            ^
+             "i_light_red"
+  },
+  {
+
+14:19:01.486 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_mall.json:170:13: cannot assign explicit value the same as default or inherited value
+
+    "copy-from": "generic_mall",
+    "name": "mall - food court roof",
+    "color":
+            ^
+             "i_light_red"
+  },
+  {
+
+14:19:01.487 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_mall.json:331:13: cannot assign explicit value the same as default or inherited value
+
+    "copy-from": "generic_mall",
+    "name": "mall - subway station",
+    "color":
+            ^
+             "i_light_red"
+  }
+]
+
+14:19:01.487 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_mall.json:331:13: cannot assign explicit value the same as default or inherited value
+
+    "copy-from": "generic_mall",
+    "name": "mall - subway station",
+    "color":
+            ^
+             "i_light_red"
+  }
+]
+
+14:19:01.487 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_mall.json:331:13: cannot assign explicit value the same as default or inherited value
+
+    "copy-from": "generic_mall",
+    "name": "mall - subway station",
+    "color":
+            ^
+             "i_light_red"
+  }
+]
+
+14:19:01.487 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_mall.json:331:13: cannot assign explicit value the same as default or inherited value
+
+    "copy-from": "generic_mall",
+    "name": "mall - subway station",
+    "color":
+            ^
+             "i_light_red"
+  }
+]
+
+14:19:02.266 WARNING : opendir [/home/jy/.local/share/cataclysm-dda/save/Excelsior/mods] failed with "No such file or directory".
+14:31:09.384 ERROR GAME : the spitter zombie tried to find faction zombie which wasn't loaded in game::monmove
+14:31:09.394 ERROR GAME : the spitter zombie tried to find faction zombie which wasn't loaded in game::monmove
+14:31:09.411 ERROR GAME : the spitter zombie tried to find faction zombie which wasn't loaded in game::monmove
+14:31:09.434 ERROR GAME : the spitter zombie tried to find faction zombie which wasn't loaded in game::monmove
+14:31:09.468 ERROR GAME : the spitter zombie tried to find faction zombie which wasn't loaded in game::monmove
+14:31:09.510 ERROR GAME : the spitter zombie tried to find faction zombie which wasn't loaded in game::monmove
+14:31:09.551 ERROR GAME : the spitter zombie tried to find faction zombie which wasn't loaded in game::monmove
+14:31:09.594 ERROR GAME : the spitter zombie tried to find faction zombie which wasn't loaded in game::monmove
+14:31:09.608 ERROR GAME : the spitter zombie tried to find faction zombie which wasn't loaded in game::monmove
+14:31:09.634 ERROR GAME : the spitter zombie tried to find faction zombie which wasn't loaded in game::monmove
+14:31:09.676 ERROR GAME : the spitter zombie tried to find faction zombie which wasn't loaded in game::monmove
+14:31:09.717 ERROR GAME : the spitter zombie tried to find faction zombie which wasn't loaded in game::monmove
+14:31:09.758 ERROR GAME : the spitter zombie tried to find faction zombie which wasn't loaded in game::monmove
+14:31:09.799 ERROR GAME : the spitter zombie tried to find faction zombie which wasn't loaded in game::monmove
+14:32:27.805 : Log shutdown.
+-----------------------------------------
+
+
+
+-----------------------------------------
+14:32:28.745 : Starting log.
+14:32:28.745 INFO : Cataclysm DDA version 0.F
+14:32:28.747 INFO : [main] C locale set to en_US.UTF-8
+14:32:28.747 INFO : [main] C++ locale set to en_US.UTF-8
+14:32:28.765 INFO : [options] C locale set to en_US.UTF-8
+14:32:28.765 INFO : [options] C++ locale set to en_US.UTF-8
+14:32:28.767 INFO : Setting language to: 'en'
+14:32:28.767 INFO : Language is set to: 'en'
+14:32:28.871 WARNING : opendir [/home/jy/.local/share/cataclysm-dda/mods/] failed with "No such file or directory".
+14:32:32.033 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_faction_base.json:119:13: cannot assign explicit value the same as default or inherited value
+
+    "name": "trench",
+    "sym": "X",
+    "color":
+            ^
+             "light_gray"
+  },
+  {
+
+14:32:33.223 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_faction_base.json:119:13: cannot assign explicit value the same as default or inherited value
+
+    "name": "trench",
+    "sym": "X",
+    "color":
+            ^
+             "light_gray"
+  },
+  {
+
+14:32:33.223 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_faction_base.json:119:13: cannot assign explicit value the same as default or inherited value
+
+    "name": "trench",
+    "sym": "X",
+    "color":
+            ^
+             "light_gray"
+  },
+  {
+
+14:32:33.223 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_faction_base.json:119:13: cannot assign explicit value the same as default or inherited value
+
+    "name": "trench",
+    "sym": "X",
+    "color":
+            ^
+             "light_gray"
+  },
+  {
+
+14:32:33.233 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_mall.json:96:13: cannot assign explicit value the same as default or inherited value
+
+    "copy-from": "generic_mall",
+    "name": "mall - loading bay",
+    "color":
+            ^
+             "i_light_red"
+  },
+  {
+
+14:32:33.233 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_mall.json:96:13: cannot assign explicit value the same as default or inherited value
+
+    "copy-from": "generic_mall",
+    "name": "mall - loading bay",
+    "color":
+            ^
+             "i_light_red"
+  },
+  {
+
+14:32:33.233 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_mall.json:103:13: cannot assign explicit value the same as default or inherited value
+
+    "copy-from": "generic_mall",
+    "name": "mall - loading bay roof",
+    "color":
+            ^
+             "i_light_red"
+  },
+  {
+
+14:32:33.233 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_mall.json:103:13: cannot assign explicit value the same as default or inherited value
+
+    "copy-from": "generic_mall",
+    "name": "mall - loading bay roof",
+    "color":
+            ^
+             "i_light_red"
+  },
+  {
+
+14:32:33.234 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_mall.json:156:13: cannot assign explicit value the same as default or inherited value
+
+    "name": "mall - entrance",
+    "copy-from": "generic_mall",
+    "color":
+            ^
+             "i_light_red"
+  },
+  {
+
+14:32:33.234 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_mall.json:156:13: cannot assign explicit value the same as default or inherited value
+
+    "name": "mall - entrance",
+    "copy-from": "generic_mall",
+    "color":
+            ^
+             "i_light_red"
+  },
+  {
+
+14:32:33.234 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_mall.json:156:13: cannot assign explicit value the same as default or inherited value
+
+    "name": "mall - entrance",
+    "copy-from": "generic_mall",
+    "color":
+            ^
+             "i_light_red"
+  },
+  {
+
+14:32:33.234 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_mall.json:156:13: cannot assign explicit value the same as default or inherited value
+
+    "name": "mall - entrance",
+    "copy-from": "generic_mall",
+    "color":
+            ^
+             "i_light_red"
+  },
+  {
+
+14:32:33.234 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_mall.json:156:13: cannot assign explicit value the same as default or inherited value
+
+    "name": "mall - entrance",
+    "copy-from": "generic_mall",
+    "color":
+            ^
+             "i_light_red"
+  },
+  {
+
+14:32:33.234 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_mall.json:156:13: cannot assign explicit value the same as default or inherited value
+
+    "name": "mall - entrance",
+    "copy-from": "generic_mall",
+    "color":
+            ^
+             "i_light_red"
+  },
+  {
+
+14:32:33.234 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_mall.json:156:13: cannot assign explicit value the same as default or inherited value
+
+    "name": "mall - entrance",
+    "copy-from": "generic_mall",
+    "color":
+            ^
+             "i_light_red"
+  },
+  {
+
+14:32:33.234 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_mall.json:156:13: cannot assign explicit value the same as default or inherited value
+
+    "name": "mall - entrance",
+    "copy-from": "generic_mall",
+    "color":
+            ^
+             "i_light_red"
+  },
+  {
+
+14:32:33.234 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_mall.json:156:13: cannot assign explicit value the same as default or inherited value
+
+    "name": "mall - entrance",
+    "copy-from": "generic_mall",
+    "color":
+            ^
+             "i_light_red"
+  },
+  {
+
+14:32:33.235 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_mall.json:156:13: cannot assign explicit value the same as default or inherited value
+
+    "name": "mall - entrance",
+    "copy-from": "generic_mall",
+    "color":
+            ^
+             "i_light_red"
+  },
+  {
+
+14:32:33.235 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_mall.json:156:13: cannot assign explicit value the same as default or inherited value
+
+    "name": "mall - entrance",
+    "copy-from": "generic_mall",
+    "color":
+            ^
+             "i_light_red"
+  },
+  {
+
+14:32:33.235 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_mall.json:156:13: cannot assign explicit value the same as default or inherited value
+
+    "name": "mall - entrance",
+    "copy-from": "generic_mall",
+    "color":
+            ^
+             "i_light_red"
+  },
+  {
+
+14:32:33.235 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_mall.json:163:13: cannot assign explicit value the same as default or inherited value
+
+    "copy-from": "generic_mall",
+    "name": "mall - food court",
+    "color":
+            ^
+             "i_light_red"
+  },
+  {
+
+14:32:33.235 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_mall.json:163:13: cannot assign explicit value the same as default or inherited value
+
+    "copy-from": "generic_mall",
+    "name": "mall - food court",
+    "color":
+            ^
+             "i_light_red"
+  },
+  {
+
+14:32:33.235 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_mall.json:170:13: cannot assign explicit value the same as default or inherited value
+
+    "copy-from": "generic_mall",
+    "name": "mall - food court roof",
+    "color":
+            ^
+             "i_light_red"
+  },
+  {
+
+14:32:33.235 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_mall.json:170:13: cannot assign explicit value the same as default or inherited value
+
+    "copy-from": "generic_mall",
+    "name": "mall - food court roof",
+    "color":
+            ^
+             "i_light_red"
+  },
+  {
+
+14:32:33.235 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_mall.json:170:13: cannot assign explicit value the same as default or inherited value
+
+    "copy-from": "generic_mall",
+    "name": "mall - food court roof",
+    "color":
+            ^
+             "i_light_red"
+  },
+  {
+
+14:32:33.235 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_mall.json:170:13: cannot assign explicit value the same as default or inherited value
+
+    "copy-from": "generic_mall",
+    "name": "mall - food court roof",
+    "color":
+            ^
+             "i_light_red"
+  },
+  {
+
+14:32:33.236 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_mall.json:331:13: cannot assign explicit value the same as default or inherited value
+
+    "copy-from": "generic_mall",
+    "name": "mall - subway station",
+    "color":
+            ^
+             "i_light_red"
+  }
+]
+
+14:32:33.237 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_mall.json:331:13: cannot assign explicit value the same as default or inherited value
+
+    "copy-from": "generic_mall",
+    "name": "mall - subway station",
+    "color":
+            ^
+             "i_light_red"
+  }
+]
+
+14:32:33.237 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_mall.json:331:13: cannot assign explicit value the same as default or inherited value
+
+    "copy-from": "generic_mall",
+    "name": "mall - subway station",
+    "color":
+            ^
+             "i_light_red"
+  }
+]
+
+14:32:33.237 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_mall.json:331:13: cannot assign explicit value the same as default or inherited value
+
+    "copy-from": "generic_mall",
+    "name": "mall - subway station",
+    "color":
+            ^
+             "i_light_red"
+  }
+]
+
+14:32:33.836 WARNING : opendir [/home/jy/.local/share/cataclysm-dda/save/Excelsior/mods] failed with "No such file or directory".
+14:34:49.293 ERROR GAME : the bloated corvid tried to find faction corvid which wasn't loaded in game::monmove
+14:34:49.293 ERROR GAME : the bloated corvid tried to find faction corvid which wasn't loaded in game::monmove
+14:34:49.315 ERROR GAME : the bloated corvid tried to find faction corvid which wasn't loaded in game::monmove
+14:34:49.315 ERROR GAME : the bloated corvid tried to find faction corvid which wasn't loaded in game::monmove
+14:34:52.349 ERROR GAME : the bloated corvid tried to find faction corvid which wasn't loaded in game::monmove
+14:34:52.349 ERROR GAME : the bloated corvid tried to find faction corvid which wasn't loaded in game::monmove
+14:34:53.009 ERROR GAME : the bloated corvid tried to find faction corvid which wasn't loaded in game::monmove
+14:34:53.009 ERROR GAME : the bloated corvid tried to find faction corvid which wasn't loaded in game::monmove
+14:34:53.045 ERROR GAME : the bloated corvid tried to find faction corvid which wasn't loaded in game::monmove
+14:34:53.045 ERROR GAME : the bloated corvid tried to find faction corvid which wasn't loaded in game::monmove
+14:34:53.097 ERROR GAME : the bloated corvid tried to find faction corvid which wasn't loaded in game::monmove
+14:34:53.097 ERROR GAME : the bloated corvid tried to find faction corvid which wasn't loaded in game::monmove
+14:34:53.116 ERROR GAME : the bloated corvid tried to find faction corvid which wasn't loaded in game::monmove
+14:34:53.143 ERROR GAME : the bloated corvid tried to find faction corvid which wasn't loaded in game::monmove
+14:34:53.143 ERROR GAME : the bloated corvid tried to find faction corvid which wasn't loaded in game::monmove
+14:37:15.449 : Log shutdown.
+-----------------------------------------
+
+
+
+-----------------------------------------
+14:37:16.400 : Starting log.
+14:37:16.400 INFO : Cataclysm DDA version 0.F
+14:37:16.401 INFO : [main] C locale set to en_US.UTF-8
+14:37:16.401 INFO : [main] C++ locale set to en_US.UTF-8
+14:37:16.415 INFO : [options] C locale set to en_US.UTF-8
+14:37:16.415 INFO : [options] C++ locale set to en_US.UTF-8
+14:37:16.417 INFO : Setting language to: 'en'
+14:37:16.417 INFO : Language is set to: 'en'
+14:37:16.517 WARNING : opendir [/home/jy/.local/share/cataclysm-dda/mods/] failed with "No such file or directory".
+14:37:19.637 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_faction_base.json:119:13: cannot assign explicit value the same as default or inherited value
+
+    "name": "trench",
+    "sym": "X",
+    "color":
+            ^
+             "light_gray"
+  },
+  {
+
+14:37:21.574 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_faction_base.json:119:13: cannot assign explicit value the same as default or inherited value
+
+    "name": "trench",
+    "sym": "X",
+    "color":
+            ^
+             "light_gray"
+  },
+  {
+
+14:37:21.574 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_faction_base.json:119:13: cannot assign explicit value the same as default or inherited value
+
+    "name": "trench",
+    "sym": "X",
+    "color":
+            ^
+             "light_gray"
+  },
+  {
+
+14:37:21.575 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_faction_base.json:119:13: cannot assign explicit value the same as default or inherited value
+
+    "name": "trench",
+    "sym": "X",
+    "color":
+            ^
+             "light_gray"
+  },
+  {
+
+14:37:21.579 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_mall.json:96:13: cannot assign explicit value the same as default or inherited value
+
+    "copy-from": "generic_mall",
+    "name": "mall - loading bay",
+    "color":
+            ^
+             "i_light_red"
+  },
+  {
+
+14:37:21.579 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_mall.json:96:13: cannot assign explicit value the same as default or inherited value
+
+    "copy-from": "generic_mall",
+    "name": "mall - loading bay",
+    "color":
+            ^
+             "i_light_red"
+  },
+  {
+
+14:37:21.579 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_mall.json:103:13: cannot assign explicit value the same as default or inherited value
+
+    "copy-from": "generic_mall",
+    "name": "mall - loading bay roof",
+    "color":
+            ^
+             "i_light_red"
+  },
+  {
+
+14:37:21.579 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_mall.json:103:13: cannot assign explicit value the same as default or inherited value
+
+    "copy-from": "generic_mall",
+    "name": "mall - loading bay roof",
+    "color":
+            ^
+             "i_light_red"
+  },
+  {
+
+14:37:21.579 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_mall.json:156:13: cannot assign explicit value the same as default or inherited value
+
+    "name": "mall - entrance",
+    "copy-from": "generic_mall",
+    "color":
+            ^
+             "i_light_red"
+  },
+  {
+
+14:37:21.579 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_mall.json:156:13: cannot assign explicit value the same as default or inherited value
+
+    "name": "mall - entrance",
+    "copy-from": "generic_mall",
+    "color":
+            ^
+             "i_light_red"
+  },
+  {
+
+14:37:21.579 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_mall.json:156:13: cannot assign explicit value the same as default or inherited value
+
+    "name": "mall - entrance",
+    "copy-from": "generic_mall",
+    "color":
+            ^
+             "i_light_red"
+  },
+  {
+
+14:37:21.579 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_mall.json:156:13: cannot assign explicit value the same as default or inherited value
+
+    "name": "mall - entrance",
+    "copy-from": "generic_mall",
+    "color":
+            ^
+             "i_light_red"
+  },
+  {
+
+14:37:21.579 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_mall.json:156:13: cannot assign explicit value the same as default or inherited value
+
+    "name": "mall - entrance",
+    "copy-from": "generic_mall",
+    "color":
+            ^
+             "i_light_red"
+  },
+  {
+
+14:37:21.579 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_mall.json:156:13: cannot assign explicit value the same as default or inherited value
+
+    "name": "mall - entrance",
+    "copy-from": "generic_mall",
+    "color":
+            ^
+             "i_light_red"
+  },
+  {
+
+14:37:21.579 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_mall.json:156:13: cannot assign explicit value the same as default or inherited value
+
+    "name": "mall - entrance",
+    "copy-from": "generic_mall",
+    "color":
+            ^
+             "i_light_red"
+  },
+  {
+
+14:37:21.579 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_mall.json:156:13: cannot assign explicit value the same as default or inherited value
+
+    "name": "mall - entrance",
+    "copy-from": "generic_mall",
+    "color":
+            ^
+             "i_light_red"
+  },
+  {
+
+14:37:21.579 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_mall.json:156:13: cannot assign explicit value the same as default or inherited value
+
+    "name": "mall - entrance",
+    "copy-from": "generic_mall",
+    "color":
+            ^
+             "i_light_red"
+  },
+  {
+
+14:37:21.579 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_mall.json:156:13: cannot assign explicit value the same as default or inherited value
+
+    "name": "mall - entrance",
+    "copy-from": "generic_mall",
+    "color":
+            ^
+             "i_light_red"
+  },
+  {
+
+14:37:21.580 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_mall.json:156:13: cannot assign explicit value the same as default or inherited value
+
+    "name": "mall - entrance",
+    "copy-from": "generic_mall",
+    "color":
+            ^
+             "i_light_red"
+  },
+  {
+
+14:37:21.580 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_mall.json:156:13: cannot assign explicit value the same as default or inherited value
+
+    "name": "mall - entrance",
+    "copy-from": "generic_mall",
+    "color":
+            ^
+             "i_light_red"
+  },
+  {
+
+14:37:21.580 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_mall.json:163:13: cannot assign explicit value the same as default or inherited value
+
+    "copy-from": "generic_mall",
+    "name": "mall - food court",
+    "color":
+            ^
+             "i_light_red"
+  },
+  {
+
+14:37:21.580 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_mall.json:163:13: cannot assign explicit value the same as default or inherited value
+
+    "copy-from": "generic_mall",
+    "name": "mall - food court",
+    "color":
+            ^
+             "i_light_red"
+  },
+  {
+
+14:37:21.580 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_mall.json:170:13: cannot assign explicit value the same as default or inherited value
+
+    "copy-from": "generic_mall",
+    "name": "mall - food court roof",
+    "color":
+            ^
+             "i_light_red"
+  },
+  {
+
+14:37:21.580 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_mall.json:170:13: cannot assign explicit value the same as default or inherited value
+
+    "copy-from": "generic_mall",
+    "name": "mall - food court roof",
+    "color":
+            ^
+             "i_light_red"
+  },
+  {
+
+14:37:21.580 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_mall.json:170:13: cannot assign explicit value the same as default or inherited value
+
+    "copy-from": "generic_mall",
+    "name": "mall - food court roof",
+    "color":
+            ^
+             "i_light_red"
+  },
+  {
+
+14:37:21.580 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_mall.json:170:13: cannot assign explicit value the same as default or inherited value
+
+    "copy-from": "generic_mall",
+    "name": "mall - food court roof",
+    "color":
+            ^
+             "i_light_red"
+  },
+  {
+
+14:37:21.581 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_mall.json:331:13: cannot assign explicit value the same as default or inherited value
+
+    "copy-from": "generic_mall",
+    "name": "mall - subway station",
+    "color":
+            ^
+             "i_light_red"
+  }
+]
+
+14:37:21.581 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_mall.json:331:13: cannot assign explicit value the same as default or inherited value
+
+    "copy-from": "generic_mall",
+    "name": "mall - subway station",
+    "color":
+            ^
+             "i_light_red"
+  }
+]
+
+14:37:21.581 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_mall.json:331:13: cannot assign explicit value the same as default or inherited value
+
+    "copy-from": "generic_mall",
+    "name": "mall - subway station",
+    "color":
+            ^
+             "i_light_red"
+  }
+]
+
+14:37:21.581 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_mall.json:331:13: cannot assign explicit value the same as default or inherited value
+
+    "copy-from": "generic_mall",
+    "name": "mall - subway station",
+    "color":
+            ^
+             "i_light_red"
+  }
+]
+
+14:37:22.234 WARNING : opendir [/home/jy/.local/share/cataclysm-dda/save/Excelsior/mods] failed with "No such file or directory".
+14:38:16.088 ERROR GAME : src/game.cpp:4577: game:monmove: zombie can't move to its location!  (125:117:0), hazelnut tree
+14:46:04.875 ERROR GAME : src/game.cpp:4577: game:monmove: zombie can't move to its location!  (116:115:-2), solid rock
+14:47:27.899 : Log shutdown.
+-----------------------------------------
+
+
+
+-----------------------------------------
+14:47:28.700 : Starting log.
+14:47:28.700 INFO : Cataclysm DDA version 0.F
+14:47:28.701 INFO : [main] C locale set to en_US.UTF-8
+14:47:28.701 INFO : [main] C++ locale set to en_US.UTF-8
+14:47:28.715 INFO : [options] C locale set to en_US.UTF-8
+14:47:28.715 INFO : [options] C++ locale set to en_US.UTF-8
+14:47:28.717 INFO : Setting language to: 'en'
+14:47:28.717 INFO : Language is set to: 'en'
+14:47:28.814 WARNING : opendir [/home/jy/.local/share/cataclysm-dda/mods/] failed with "No such file or directory".
+14:47:31.730 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_faction_base.json:119:13: cannot assign explicit value the same as default or inherited value
+
+    "name": "trench",
+    "sym": "X",
+    "color":
+            ^
+             "light_gray"
+  },
+  {
+
+14:47:32.859 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_faction_base.json:119:13: cannot assign explicit value the same as default or inherited value
+
+    "name": "trench",
+    "sym": "X",
+    "color":
+            ^
+             "light_gray"
+  },
+  {
+
+14:47:32.860 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_faction_base.json:119:13: cannot assign explicit value the same as default or inherited value
+
+    "name": "trench",
+    "sym": "X",
+    "color":
+            ^
+             "light_gray"
+  },
+  {
+
+14:47:32.860 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_faction_base.json:119:13: cannot assign explicit value the same as default or inherited value
+
+    "name": "trench",
+    "sym": "X",
+    "color":
+            ^
+             "light_gray"
+  },
+  {
+
+14:47:32.864 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_mall.json:96:13: cannot assign explicit value the same as default or inherited value
+
+    "copy-from": "generic_mall",
+    "name": "mall - loading bay",
+    "color":
+            ^
+             "i_light_red"
+  },
+  {
+
+14:47:32.864 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_mall.json:96:13: cannot assign explicit value the same as default or inherited value
+
+    "copy-from": "generic_mall",
+    "name": "mall - loading bay",
+    "color":
+            ^
+             "i_light_red"
+  },
+  {
+
+14:47:32.864 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_mall.json:103:13: cannot assign explicit value the same as default or inherited value
+
+    "copy-from": "generic_mall",
+    "name": "mall - loading bay roof",
+    "color":
+            ^
+             "i_light_red"
+  },
+  {
+
+14:47:32.864 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_mall.json:103:13: cannot assign explicit value the same as default or inherited value
+
+    "copy-from": "generic_mall",
+    "name": "mall - loading bay roof",
+    "color":
+            ^
+             "i_light_red"
+  },
+  {
+
+14:47:32.864 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_mall.json:156:13: cannot assign explicit value the same as default or inherited value
+
+    "name": "mall - entrance",
+    "copy-from": "generic_mall",
+    "color":
+            ^
+             "i_light_red"
+  },
+  {
+
+14:47:32.864 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_mall.json:156:13: cannot assign explicit value the same as default or inherited value
+
+    "name": "mall - entrance",
+    "copy-from": "generic_mall",
+    "color":
+            ^
+             "i_light_red"
+  },
+  {
+
+14:47:32.864 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_mall.json:156:13: cannot assign explicit value the same as default or inherited value
+
+    "name": "mall - entrance",
+    "copy-from": "generic_mall",
+    "color":
+            ^
+             "i_light_red"
+  },
+  {
+
+14:47:32.864 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_mall.json:156:13: cannot assign explicit value the same as default or inherited value
+
+    "name": "mall - entrance",
+    "copy-from": "generic_mall",
+    "color":
+            ^
+             "i_light_red"
+  },
+  {
+
+14:47:32.864 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_mall.json:156:13: cannot assign explicit value the same as default or inherited value
+
+    "name": "mall - entrance",
+    "copy-from": "generic_mall",
+    "color":
+            ^
+             "i_light_red"
+  },
+  {
+
+14:47:32.864 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_mall.json:156:13: cannot assign explicit value the same as default or inherited value
+
+    "name": "mall - entrance",
+    "copy-from": "generic_mall",
+    "color":
+            ^
+             "i_light_red"
+  },
+  {
+
+14:47:32.864 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_mall.json:156:13: cannot assign explicit value the same as default or inherited value
+
+    "name": "mall - entrance",
+    "copy-from": "generic_mall",
+    "color":
+            ^
+             "i_light_red"
+  },
+  {
+
+14:47:32.864 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_mall.json:156:13: cannot assign explicit value the same as default or inherited value
+
+    "name": "mall - entrance",
+    "copy-from": "generic_mall",
+    "color":
+            ^
+             "i_light_red"
+  },
+  {
+
+14:47:32.864 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_mall.json:156:13: cannot assign explicit value the same as default or inherited value
+
+    "name": "mall - entrance",
+    "copy-from": "generic_mall",
+    "color":
+            ^
+             "i_light_red"
+  },
+  {
+
+14:47:32.864 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_mall.json:156:13: cannot assign explicit value the same as default or inherited value
+
+    "name": "mall - entrance",
+    "copy-from": "generic_mall",
+    "color":
+            ^
+             "i_light_red"
+  },
+  {
+
+14:47:32.865 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_mall.json:156:13: cannot assign explicit value the same as default or inherited value
+
+    "name": "mall - entrance",
+    "copy-from": "generic_mall",
+    "color":
+            ^
+             "i_light_red"
+  },
+  {
+
+14:47:32.865 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_mall.json:156:13: cannot assign explicit value the same as default or inherited value
+
+    "name": "mall - entrance",
+    "copy-from": "generic_mall",
+    "color":
+            ^
+             "i_light_red"
+  },
+  {
+
+14:47:32.865 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_mall.json:163:13: cannot assign explicit value the same as default or inherited value
+
+    "copy-from": "generic_mall",
+    "name": "mall - food court",
+    "color":
+            ^
+             "i_light_red"
+  },
+  {
+
+14:47:32.865 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_mall.json:163:13: cannot assign explicit value the same as default or inherited value
+
+    "copy-from": "generic_mall",
+    "name": "mall - food court",
+    "color":
+            ^
+             "i_light_red"
+  },
+  {
+
+14:47:32.865 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_mall.json:170:13: cannot assign explicit value the same as default or inherited value
+
+    "copy-from": "generic_mall",
+    "name": "mall - food court roof",
+    "color":
+            ^
+             "i_light_red"
+  },
+  {
+
+14:47:32.865 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_mall.json:170:13: cannot assign explicit value the same as default or inherited value
+
+    "copy-from": "generic_mall",
+    "name": "mall - food court roof",
+    "color":
+            ^
+             "i_light_red"
+  },
+  {
+
+14:47:32.865 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_mall.json:170:13: cannot assign explicit value the same as default or inherited value
+
+    "copy-from": "generic_mall",
+    "name": "mall - food court roof",
+    "color":
+            ^
+             "i_light_red"
+  },
+  {
+
+14:47:32.865 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_mall.json:170:13: cannot assign explicit value the same as default or inherited value
+
+    "copy-from": "generic_mall",
+    "name": "mall - food court roof",
+    "color":
+            ^
+             "i_light_red"
+  },
+  {
+
+14:47:32.866 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_mall.json:331:13: cannot assign explicit value the same as default or inherited value
+
+    "copy-from": "generic_mall",
+    "name": "mall - subway station",
+    "color":
+            ^
+             "i_light_red"
+  }
+]
+
+14:47:32.866 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_mall.json:331:13: cannot assign explicit value the same as default or inherited value
+
+    "copy-from": "generic_mall",
+    "name": "mall - subway station",
+    "color":
+            ^
+             "i_light_red"
+  }
+]
+
+14:47:32.866 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_mall.json:331:13: cannot assign explicit value the same as default or inherited value
+
+    "copy-from": "generic_mall",
+    "name": "mall - subway station",
+    "color":
+            ^
+             "i_light_red"
+  }
+]
+
+14:47:32.866 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_mall.json:331:13: cannot assign explicit value the same as default or inherited value
+
+    "copy-from": "generic_mall",
+    "name": "mall - subway station",
+    "color":
+            ^
+             "i_light_red"
+  }
+]
+
+14:47:33.545 WARNING : opendir [/home/jy/.local/share/cataclysm-dda/save/Excelsior/mods] failed with "No such file or directory".
+14:47:56.449 ERROR : src/creature_tracker.cpp:76 [bool Creature_tracker::add(shared_ptr_fast<monster>&)] there's already a monster at 22,82,0
+14:47:58.427 ERROR : src/creature_tracker.cpp:76 [bool Creature_tracker::add(shared_ptr_fast<monster>&)] there's already a monster at 21,81,0
+14:47:58.427 ERROR : src/creature_tracker.cpp:76 [bool Creature_tracker::add(shared_ptr_fast<monster>&)] there's already a monster at 23,81,0
+14:47:58.427 ERROR : src/creature_tracker.cpp:76 [bool Creature_tracker::add(shared_ptr_fast<monster>&)] there's already a monster at 21,82,0
+14:47:58.427 ERROR : src/creature_tracker.cpp:76 [bool Creature_tracker::add(shared_ptr_fast<monster>&)] there's already a monster at 23,82,0
+14:47:58.427 ERROR : src/creature_tracker.cpp:76 [bool Creature_tracker::add(shared_ptr_fast<monster>&)] there's already a monster at 22,83,0
+14:47:58.427 ERROR : src/creature_tracker.cpp:76 [bool Creature_tracker::add(shared_ptr_fast<monster>&)] there's already a monster at 23,83,0
+14:47:58.427 ERROR : src/creature_tracker.cpp:76 [bool Creature_tracker::add(shared_ptr_fast<monster>&)] there's already a monster at 21,83,0
+14:47:58.427 ERROR : src/creature_tracker.cpp:76 [bool Creature_tracker::add(shared_ptr_fast<monster>&)] there's already a monster at 22,81,0
+14:47:58.427 ERROR : src/creature_tracker.cpp:76 [bool Creature_tracker::add(shared_ptr_fast<monster>&)] there's already a monster at 14,85,0
+14:47:58.427 ERROR : src/creature_tracker.cpp:76 [bool Creature_tracker::add(shared_ptr_fast<monster>&)] there's already a monster at 20,84,0
+14:47:58.427 ERROR : src/creature_tracker.cpp:76 [bool Creature_tracker::add(shared_ptr_fast<monster>&)] there's already a monster at 23,84,0
+14:47:58.427 ERROR : src/creature_tracker.cpp:76 [bool Creature_tracker::add(shared_ptr_fast<monster>&)] there's already a monster at 22,84,0
+14:47:58.427 ERROR : src/creature_tracker.cpp:76 [bool Creature_tracker::add(shared_ptr_fast<monster>&)] there's already a monster at 22,85,0
+14:47:58.427 ERROR : src/creature_tracker.cpp:76 [bool Creature_tracker::add(shared_ptr_fast<monster>&)] there's already a monster at 23,85,0
+14:47:58.427 ERROR : src/creature_tracker.cpp:76 [bool Creature_tracker::add(shared_ptr_fast<monster>&)] there's already a monster at 24,83,0
+14:47:58.427 ERROR : src/creature_tracker.cpp:76 [bool Creature_tracker::add(shared_ptr_fast<monster>&)] there's already a monster at 24,84,0
+14:47:58.427 ERROR : src/creature_tracker.cpp:76 [bool Creature_tracker::add(shared_ptr_fast<monster>&)] there's already a monster at 24,85,0
+14:48:05.942 : Log shutdown.
+-----------------------------------------
+
+
+
+-----------------------------------------
+14:47:22.000 : Starting log.
+14:47:22.003 INFO : Cataclysm DDA version 0.F
+14:47:22.005 INFO : [main] C locale set to en_US.UTF-8
+14:47:22.005 INFO : [main] C++ locale set to en_US.UTF-8
+14:47:22.066 INFO : [options] C locale set to en_US.UTF-8
+14:47:22.066 INFO : [options] C++ locale set to en_US.UTF-8
+14:47:22.067 INFO : Setting language to: 'en'
+14:47:22.067 INFO : Language is set to: 'en'
+14:47:22.186 WARNING : opendir [/home/jy/.local/share/cataclysm-dda/mods/] failed with "No such file or directory".
+14:47:29.515 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_faction_base.json:119:13: cannot assign explicit value the same as default or inherited value
+
+    "name": "trench",
+    "sym": "X",
+    "color":
+            ^
+             "light_gray"
+  },
+  {
+
+14:47:31.348 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_faction_base.json:119:13: cannot assign explicit value the same as default or inherited value
+
+    "name": "trench",
+    "sym": "X",
+    "color":
+            ^
+             "light_gray"
+  },
+  {
+
+14:47:31.349 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_faction_base.json:119:13: cannot assign explicit value the same as default or inherited value
+
+    "name": "trench",
+    "sym": "X",
+    "color":
+            ^
+             "light_gray"
+  },
+  {
+
+14:47:31.349 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_faction_base.json:119:13: cannot assign explicit value the same as default or inherited value
+
+    "name": "trench",
+    "sym": "X",
+    "color":
+            ^
+             "light_gray"
+  },
+  {
+
+14:47:31.368 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_mall.json:96:13: cannot assign explicit value the same as default or inherited value
+
+    "copy-from": "generic_mall",
+    "name": "mall - loading bay",
+    "color":
+            ^
+             "i_light_red"
+  },
+  {
+
+14:47:31.368 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_mall.json:96:13: cannot assign explicit value the same as default or inherited value
+
+    "copy-from": "generic_mall",
+    "name": "mall - loading bay",
+    "color":
+            ^
+             "i_light_red"
+  },
+  {
+
+14:47:31.368 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_mall.json:103:13: cannot assign explicit value the same as default or inherited value
+
+    "copy-from": "generic_mall",
+    "name": "mall - loading bay roof",
+    "color":
+            ^
+             "i_light_red"
+  },
+  {
+
+14:47:31.368 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_mall.json:103:13: cannot assign explicit value the same as default or inherited value
+
+    "copy-from": "generic_mall",
+    "name": "mall - loading bay roof",
+    "color":
+            ^
+             "i_light_red"
+  },
+  {
+
+14:47:31.368 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_mall.json:156:13: cannot assign explicit value the same as default or inherited value
+
+    "name": "mall - entrance",
+    "copy-from": "generic_mall",
+    "color":
+            ^
+             "i_light_red"
+  },
+  {
+
+14:47:31.368 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_mall.json:156:13: cannot assign explicit value the same as default or inherited value
+
+    "name": "mall - entrance",
+    "copy-from": "generic_mall",
+    "color":
+            ^
+             "i_light_red"
+  },
+  {
+
+14:47:31.368 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_mall.json:156:13: cannot assign explicit value the same as default or inherited value
+
+    "name": "mall - entrance",
+    "copy-from": "generic_mall",
+    "color":
+            ^
+             "i_light_red"
+  },
+  {
+
+14:47:31.368 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_mall.json:156:13: cannot assign explicit value the same as default or inherited value
+
+    "name": "mall - entrance",
+    "copy-from": "generic_mall",
+    "color":
+            ^
+             "i_light_red"
+  },
+  {
+
+14:47:31.368 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_mall.json:156:13: cannot assign explicit value the same as default or inherited value
+
+    "name": "mall - entrance",
+    "copy-from": "generic_mall",
+    "color":
+            ^
+             "i_light_red"
+  },
+  {
+
+14:47:31.369 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_mall.json:156:13: cannot assign explicit value the same as default or inherited value
+
+    "name": "mall - entrance",
+    "copy-from": "generic_mall",
+    "color":
+            ^
+             "i_light_red"
+  },
+  {
+
+14:47:31.369 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_mall.json:156:13: cannot assign explicit value the same as default or inherited value
+
+    "name": "mall - entrance",
+    "copy-from": "generic_mall",
+    "color":
+            ^
+             "i_light_red"
+  },
+  {
+
+14:47:31.369 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_mall.json:156:13: cannot assign explicit value the same as default or inherited value
+
+    "name": "mall - entrance",
+    "copy-from": "generic_mall",
+    "color":
+            ^
+             "i_light_red"
+  },
+  {
+
+14:47:31.369 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_mall.json:156:13: cannot assign explicit value the same as default or inherited value
+
+    "name": "mall - entrance",
+    "copy-from": "generic_mall",
+    "color":
+            ^
+             "i_light_red"
+  },
+  {
+
+14:47:31.369 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_mall.json:156:13: cannot assign explicit value the same as default or inherited value
+
+    "name": "mall - entrance",
+    "copy-from": "generic_mall",
+    "color":
+            ^
+             "i_light_red"
+  },
+  {
+
+14:47:31.369 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_mall.json:156:13: cannot assign explicit value the same as default or inherited value
+
+    "name": "mall - entrance",
+    "copy-from": "generic_mall",
+    "color":
+            ^
+             "i_light_red"
+  },
+  {
+
+14:47:31.369 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_mall.json:156:13: cannot assign explicit value the same as default or inherited value
+
+    "name": "mall - entrance",
+    "copy-from": "generic_mall",
+    "color":
+            ^
+             "i_light_red"
+  },
+  {
+
+14:47:31.369 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_mall.json:163:13: cannot assign explicit value the same as default or inherited value
+
+    "copy-from": "generic_mall",
+    "name": "mall - food court",
+    "color":
+            ^
+             "i_light_red"
+  },
+  {
+
+14:47:31.369 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_mall.json:163:13: cannot assign explicit value the same as default or inherited value
+
+    "copy-from": "generic_mall",
+    "name": "mall - food court",
+    "color":
+            ^
+             "i_light_red"
+  },
+  {
+
+14:47:31.369 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_mall.json:170:13: cannot assign explicit value the same as default or inherited value
+
+    "copy-from": "generic_mall",
+    "name": "mall - food court roof",
+    "color":
+            ^
+             "i_light_red"
+  },
+  {
+
+14:47:31.370 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_mall.json:170:13: cannot assign explicit value the same as default or inherited value
+
+    "copy-from": "generic_mall",
+    "name": "mall - food court roof",
+    "color":
+            ^
+             "i_light_red"
+  },
+  {
+
+14:47:31.370 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_mall.json:170:13: cannot assign explicit value the same as default or inherited value
+
+    "copy-from": "generic_mall",
+    "name": "mall - food court roof",
+    "color":
+            ^
+             "i_light_red"
+  },
+  {
+
+14:47:31.370 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_mall.json:170:13: cannot assign explicit value the same as default or inherited value
+
+    "copy-from": "generic_mall",
+    "name": "mall - food court roof",
+    "color":
+            ^
+             "i_light_red"
+  },
+  {
+
+14:47:31.371 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_mall.json:331:13: cannot assign explicit value the same as default or inherited value
+
+    "copy-from": "generic_mall",
+    "name": "mall - subway station",
+    "color":
+            ^
+             "i_light_red"
+  }
+]
+
+14:47:31.371 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_mall.json:331:13: cannot assign explicit value the same as default or inherited value
+
+    "copy-from": "generic_mall",
+    "name": "mall - subway station",
+    "color":
+            ^
+             "i_light_red"
+  }
+]
+
+14:47:31.371 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_mall.json:331:13: cannot assign explicit value the same as default or inherited value
+
+    "copy-from": "generic_mall",
+    "name": "mall - subway station",
+    "color":
+            ^
+             "i_light_red"
+  }
+]
+
+14:47:31.371 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_mall.json:331:13: cannot assign explicit value the same as default or inherited value
+
+    "copy-from": "generic_mall",
+    "name": "mall - subway station",
+    "color":
+            ^
+             "i_light_red"
+  }
+]
+
+14:47:32.141 WARNING : opendir [/home/jy/.local/share/cataclysm-dda/save/Excelsior/mods] failed with "No such file or directory".
+14:49:00.865 : Log shutdown.
+-----------------------------------------
+
+
+
+-----------------------------------------
+00:40:18.158 : Starting log.
+00:40:18.158 INFO : Cataclysm DDA version 0.F
+00:40:18.161 INFO : [main] C locale set to en_US.UTF-8
+00:40:18.161 INFO : [main] C++ locale set to en_US.UTF-8
+00:40:18.306 INFO : [options] C locale set to en_US.UTF-8
+00:40:18.306 INFO : [options] C++ locale set to en_US.UTF-8
+00:40:18.308 INFO : Setting language to: 'en'
+00:40:18.308 INFO : Language is set to: 'en'
+00:40:18.423 WARNING : opendir [/home/jy/.local/share/cataclysm-dda/mods/] failed with "No such file or directory".
+00:40:24.143 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_faction_base.json:119:13: cannot assign explicit value the same as default or inherited value
+
+    "name": "trench",
+    "sym": "X",
+    "color":
+            ^
+             "light_gray"
+  },
+  {
+
+00:40:25.517 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_faction_base.json:119:13: cannot assign explicit value the same as default or inherited value
+
+    "name": "trench",
+    "sym": "X",
+    "color":
+            ^
+             "light_gray"
+  },
+  {
+
+00:40:25.517 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_faction_base.json:119:13: cannot assign explicit value the same as default or inherited value
+
+    "name": "trench",
+    "sym": "X",
+    "color":
+            ^
+             "light_gray"
+  },
+  {
+
+00:40:25.517 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_faction_base.json:119:13: cannot assign explicit value the same as default or inherited value
+
+    "name": "trench",
+    "sym": "X",
+    "color":
+            ^
+             "light_gray"
+  },
+  {
+
+00:40:25.534 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_mall.json:96:13: cannot assign explicit value the same as default or inherited value
+
+    "copy-from": "generic_mall",
+    "name": "mall - loading bay",
+    "color":
+            ^
+             "i_light_red"
+  },
+  {
+
+00:40:25.534 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_mall.json:96:13: cannot assign explicit value the same as default or inherited value
+
+    "copy-from": "generic_mall",
+    "name": "mall - loading bay",
+    "color":
+            ^
+             "i_light_red"
+  },
+  {
+
+00:40:25.534 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_mall.json:103:13: cannot assign explicit value the same as default or inherited value
+
+    "copy-from": "generic_mall",
+    "name": "mall - loading bay roof",
+    "color":
+            ^
+             "i_light_red"
+  },
+  {
+
+00:40:25.534 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_mall.json:103:13: cannot assign explicit value the same as default or inherited value
+
+    "copy-from": "generic_mall",
+    "name": "mall - loading bay roof",
+    "color":
+            ^
+             "i_light_red"
+  },
+  {
+
+00:40:25.535 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_mall.json:156:13: cannot assign explicit value the same as default or inherited value
+
+    "name": "mall - entrance",
+    "copy-from": "generic_mall",
+    "color":
+            ^
+             "i_light_red"
+  },
+  {
+
+00:40:25.535 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_mall.json:156:13: cannot assign explicit value the same as default or inherited value
+
+    "name": "mall - entrance",
+    "copy-from": "generic_mall",
+    "color":
+            ^
+             "i_light_red"
+  },
+  {
+
+00:40:25.535 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_mall.json:156:13: cannot assign explicit value the same as default or inherited value
+
+    "name": "mall - entrance",
+    "copy-from": "generic_mall",
+    "color":
+            ^
+             "i_light_red"
+  },
+  {
+
+00:40:25.535 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_mall.json:156:13: cannot assign explicit value the same as default or inherited value
+
+    "name": "mall - entrance",
+    "copy-from": "generic_mall",
+    "color":
+            ^
+             "i_light_red"
+  },
+  {
+
+00:40:25.535 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_mall.json:156:13: cannot assign explicit value the same as default or inherited value
+
+    "name": "mall - entrance",
+    "copy-from": "generic_mall",
+    "color":
+            ^
+             "i_light_red"
+  },
+  {
+
+00:40:25.535 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_mall.json:156:13: cannot assign explicit value the same as default or inherited value
+
+    "name": "mall - entrance",
+    "copy-from": "generic_mall",
+    "color":
+            ^
+             "i_light_red"
+  },
+  {
+
+00:40:25.535 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_mall.json:156:13: cannot assign explicit value the same as default or inherited value
+
+    "name": "mall - entrance",
+    "copy-from": "generic_mall",
+    "color":
+            ^
+             "i_light_red"
+  },
+  {
+
+00:40:25.535 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_mall.json:156:13: cannot assign explicit value the same as default or inherited value
+
+    "name": "mall - entrance",
+    "copy-from": "generic_mall",
+    "color":
+            ^
+             "i_light_red"
+  },
+  {
+
+00:40:25.535 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_mall.json:156:13: cannot assign explicit value the same as default or inherited value
+
+    "name": "mall - entrance",
+    "copy-from": "generic_mall",
+    "color":
+            ^
+             "i_light_red"
+  },
+  {
+
+00:40:25.535 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_mall.json:156:13: cannot assign explicit value the same as default or inherited value
+
+    "name": "mall - entrance",
+    "copy-from": "generic_mall",
+    "color":
+            ^
+             "i_light_red"
+  },
+  {
+
+00:40:25.535 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_mall.json:156:13: cannot assign explicit value the same as default or inherited value
+
+    "name": "mall - entrance",
+    "copy-from": "generic_mall",
+    "color":
+            ^
+             "i_light_red"
+  },
+  {
+
+00:40:25.536 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_mall.json:156:13: cannot assign explicit value the same as default or inherited value
+
+    "name": "mall - entrance",
+    "copy-from": "generic_mall",
+    "color":
+            ^
+             "i_light_red"
+  },
+  {
+
+00:40:25.536 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_mall.json:163:13: cannot assign explicit value the same as default or inherited value
+
+    "copy-from": "generic_mall",
+    "name": "mall - food court",
+    "color":
+            ^
+             "i_light_red"
+  },
+  {
+
+00:40:25.536 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_mall.json:163:13: cannot assign explicit value the same as default or inherited value
+
+    "copy-from": "generic_mall",
+    "name": "mall - food court",
+    "color":
+            ^
+             "i_light_red"
+  },
+  {
+
+00:40:25.536 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_mall.json:170:13: cannot assign explicit value the same as default or inherited value
+
+    "copy-from": "generic_mall",
+    "name": "mall - food court roof",
+    "color":
+            ^
+             "i_light_red"
+  },
+  {
+
+00:40:25.536 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_mall.json:170:13: cannot assign explicit value the same as default or inherited value
+
+    "copy-from": "generic_mall",
+    "name": "mall - food court roof",
+    "color":
+            ^
+             "i_light_red"
+  },
+  {
+
+00:40:25.536 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_mall.json:170:13: cannot assign explicit value the same as default or inherited value
+
+    "copy-from": "generic_mall",
+    "name": "mall - food court roof",
+    "color":
+            ^
+             "i_light_red"
+  },
+  {
+
+00:40:25.536 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_mall.json:170:13: cannot assign explicit value the same as default or inherited value
+
+    "copy-from": "generic_mall",
+    "name": "mall - food court roof",
+    "color":
+            ^
+             "i_light_red"
+  },
+  {
+
+00:40:25.537 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_mall.json:331:13: cannot assign explicit value the same as default or inherited value
+
+    "copy-from": "generic_mall",
+    "name": "mall - subway station",
+    "color":
+            ^
+             "i_light_red"
+  }
+]
+
+00:40:25.537 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_mall.json:331:13: cannot assign explicit value the same as default or inherited value
+
+    "copy-from": "generic_mall",
+    "name": "mall - subway station",
+    "color":
+            ^
+             "i_light_red"
+  }
+]
+
+00:40:25.537 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_mall.json:331:13: cannot assign explicit value the same as default or inherited value
+
+    "copy-from": "generic_mall",
+    "name": "mall - subway station",
+    "color":
+            ^
+             "i_light_red"
+  }
+]
+
+00:40:25.538 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_mall.json:331:13: cannot assign explicit value the same as default or inherited value
+
+    "copy-from": "generic_mall",
+    "name": "mall - subway station",
+    "color":
+            ^
+             "i_light_red"
+  }
+]
+
+00:40:26.298 WARNING : opendir [/home/jy/.local/share/cataclysm-dda/save/Excelsior/mods] failed with "No such file or directory".
+00:40:33.599 ERROR : src/creature_tracker.cpp:76 [bool Creature_tracker::add(shared_ptr_fast<monster>&)] there's already a monster at 22,82,0
+00:40:36.449 ERROR : src/creature_tracker.cpp:76 [bool Creature_tracker::add(shared_ptr_fast<monster>&)] there's already a monster at 21,81,0
+00:40:36.450 ERROR : src/creature_tracker.cpp:76 [bool Creature_tracker::add(shared_ptr_fast<monster>&)] there's already a monster at 23,81,0
+00:40:36.450 ERROR : src/creature_tracker.cpp:76 [bool Creature_tracker::add(shared_ptr_fast<monster>&)] there's already a monster at 21,82,0
+00:40:36.450 ERROR : src/creature_tracker.cpp:76 [bool Creature_tracker::add(shared_ptr_fast<monster>&)] there's already a monster at 23,82,0
+00:40:36.450 ERROR : src/creature_tracker.cpp:76 [bool Creature_tracker::add(shared_ptr_fast<monster>&)] there's already a monster at 22,83,0
+00:40:36.450 ERROR : src/creature_tracker.cpp:76 [bool Creature_tracker::add(shared_ptr_fast<monster>&)] there's already a monster at 23,83,0
+00:40:36.450 ERROR : src/creature_tracker.cpp:76 [bool Creature_tracker::add(shared_ptr_fast<monster>&)] there's already a monster at 21,83,0
+00:40:36.450 ERROR : src/creature_tracker.cpp:76 [bool Creature_tracker::add(shared_ptr_fast<monster>&)] there's already a monster at 22,81,0
+00:40:36.450 ERROR : src/creature_tracker.cpp:76 [bool Creature_tracker::add(shared_ptr_fast<monster>&)] there's already a monster at 14,85,0
+00:40:36.450 ERROR : src/creature_tracker.cpp:76 [bool Creature_tracker::add(shared_ptr_fast<monster>&)] there's already a monster at 20,84,0
+00:40:36.450 ERROR : src/creature_tracker.cpp:76 [bool Creature_tracker::add(shared_ptr_fast<monster>&)] there's already a monster at 23,84,0
+00:40:36.450 ERROR : src/creature_tracker.cpp:76 [bool Creature_tracker::add(shared_ptr_fast<monster>&)] there's already a monster at 22,84,0
+00:40:36.450 ERROR : src/creature_tracker.cpp:76 [bool Creature_tracker::add(shared_ptr_fast<monster>&)] there's already a monster at 22,85,0
+00:40:36.450 ERROR : src/creature_tracker.cpp:76 [bool Creature_tracker::add(shared_ptr_fast<monster>&)] there's already a monster at 23,85,0
+00:40:36.450 ERROR : src/creature_tracker.cpp:76 [bool Creature_tracker::add(shared_ptr_fast<monster>&)] there's already a monster at 24,83,0
+00:40:36.450 ERROR : src/creature_tracker.cpp:76 [bool Creature_tracker::add(shared_ptr_fast<monster>&)] there's already a monster at 24,84,0
+00:40:36.450 ERROR : src/creature_tracker.cpp:76 [bool Creature_tracker::add(shared_ptr_fast<monster>&)] there's already a monster at 24,85,0
+00:40:36.450 ERROR : src/creature_tracker.cpp:76 [bool Creature_tracker::add(shared_ptr_fast<monster>&)] there's already a monster at 131,103,0
+00:41:59.799 : Log shutdown.
+-----------------------------------------
+
+
+
+-----------------------------------------
+00:42:04.032 : Starting log.
+00:42:04.032 INFO : Cataclysm DDA version 0.F
+00:42:04.034 INFO : [main] C locale set to en_US.UTF-8
+00:42:04.034 INFO : [main] C++ locale set to en_US.UTF-8
+00:42:04.052 INFO : [options] C locale set to en_US.UTF-8
+00:42:04.052 INFO : [options] C++ locale set to en_US.UTF-8
+00:42:04.053 INFO : Setting language to: 'en'
+00:42:04.053 INFO : Language is set to: 'en'
+00:42:04.151 WARNING : opendir [/home/jy/.local/share/cataclysm-dda/mods/] failed with "No such file or directory".
+00:42:11.355 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_faction_base.json:119:13: cannot assign explicit value the same as default or inherited value
+
+    "name": "trench",
+    "sym": "X",
+    "color":
+            ^
+             "light_gray"
+  },
+  {
+
+00:42:12.719 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_faction_base.json:119:13: cannot assign explicit value the same as default or inherited value
+
+    "name": "trench",
+    "sym": "X",
+    "color":
+            ^
+             "light_gray"
+  },
+  {
+
+00:42:12.719 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_faction_base.json:119:13: cannot assign explicit value the same as default or inherited value
+
+    "name": "trench",
+    "sym": "X",
+    "color":
+            ^
+             "light_gray"
+  },
+  {
+
+00:42:12.719 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_faction_base.json:119:13: cannot assign explicit value the same as default or inherited value
+
+    "name": "trench",
+    "sym": "X",
+    "color":
+            ^
+             "light_gray"
+  },
+  {
+
+00:42:12.729 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_mall.json:96:13: cannot assign explicit value the same as default or inherited value
+
+    "copy-from": "generic_mall",
+    "name": "mall - loading bay",
+    "color":
+            ^
+             "i_light_red"
+  },
+  {
+
+00:42:12.729 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_mall.json:96:13: cannot assign explicit value the same as default or inherited value
+
+    "copy-from": "generic_mall",
+    "name": "mall - loading bay",
+    "color":
+            ^
+             "i_light_red"
+  },
+  {
+
+00:42:12.730 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_mall.json:103:13: cannot assign explicit value the same as default or inherited value
+
+    "copy-from": "generic_mall",
+    "name": "mall - loading bay roof",
+    "color":
+            ^
+             "i_light_red"
+  },
+  {
+
+00:42:12.730 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_mall.json:103:13: cannot assign explicit value the same as default or inherited value
+
+    "copy-from": "generic_mall",
+    "name": "mall - loading bay roof",
+    "color":
+            ^
+             "i_light_red"
+  },
+  {
+
+00:42:12.730 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_mall.json:156:13: cannot assign explicit value the same as default or inherited value
+
+    "name": "mall - entrance",
+    "copy-from": "generic_mall",
+    "color":
+            ^
+             "i_light_red"
+  },
+  {
+
+00:42:12.730 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_mall.json:156:13: cannot assign explicit value the same as default or inherited value
+
+    "name": "mall - entrance",
+    "copy-from": "generic_mall",
+    "color":
+            ^
+             "i_light_red"
+  },
+  {
+
+00:42:12.730 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_mall.json:156:13: cannot assign explicit value the same as default or inherited value
+
+    "name": "mall - entrance",
+    "copy-from": "generic_mall",
+    "color":
+            ^
+             "i_light_red"
+  },
+  {
+
+00:42:12.730 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_mall.json:156:13: cannot assign explicit value the same as default or inherited value
+
+    "name": "mall - entrance",
+    "copy-from": "generic_mall",
+    "color":
+            ^
+             "i_light_red"
+  },
+  {
+
+00:42:12.730 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_mall.json:156:13: cannot assign explicit value the same as default or inherited value
+
+    "name": "mall - entrance",
+    "copy-from": "generic_mall",
+    "color":
+            ^
+             "i_light_red"
+  },
+  {
+
+00:42:12.730 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_mall.json:156:13: cannot assign explicit value the same as default or inherited value
+
+    "name": "mall - entrance",
+    "copy-from": "generic_mall",
+    "color":
+            ^
+             "i_light_red"
+  },
+  {
+
+00:42:12.730 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_mall.json:156:13: cannot assign explicit value the same as default or inherited value
+
+    "name": "mall - entrance",
+    "copy-from": "generic_mall",
+    "color":
+            ^
+             "i_light_red"
+  },
+  {
+
+00:42:12.730 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_mall.json:156:13: cannot assign explicit value the same as default or inherited value
+
+    "name": "mall - entrance",
+    "copy-from": "generic_mall",
+    "color":
+            ^
+             "i_light_red"
+  },
+  {
+
+00:42:12.731 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_mall.json:156:13: cannot assign explicit value the same as default or inherited value
+
+    "name": "mall - entrance",
+    "copy-from": "generic_mall",
+    "color":
+            ^
+             "i_light_red"
+  },
+  {
+
+00:42:12.731 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_mall.json:156:13: cannot assign explicit value the same as default or inherited value
+
+    "name": "mall - entrance",
+    "copy-from": "generic_mall",
+    "color":
+            ^
+             "i_light_red"
+  },
+  {
+
+00:42:12.731 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_mall.json:156:13: cannot assign explicit value the same as default or inherited value
+
+    "name": "mall - entrance",
+    "copy-from": "generic_mall",
+    "color":
+            ^
+             "i_light_red"
+  },
+  {
+
+00:42:12.731 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_mall.json:156:13: cannot assign explicit value the same as default or inherited value
+
+    "name": "mall - entrance",
+    "copy-from": "generic_mall",
+    "color":
+            ^
+             "i_light_red"
+  },
+  {
+
+00:42:12.731 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_mall.json:163:13: cannot assign explicit value the same as default or inherited value
+
+    "copy-from": "generic_mall",
+    "name": "mall - food court",
+    "color":
+            ^
+             "i_light_red"
+  },
+  {
+
+00:42:12.731 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_mall.json:163:13: cannot assign explicit value the same as default or inherited value
+
+    "copy-from": "generic_mall",
+    "name": "mall - food court",
+    "color":
+            ^
+             "i_light_red"
+  },
+  {
+
+00:42:12.731 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_mall.json:170:13: cannot assign explicit value the same as default or inherited value
+
+    "copy-from": "generic_mall",
+    "name": "mall - food court roof",
+    "color":
+            ^
+             "i_light_red"
+  },
+  {
+
+00:42:12.731 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_mall.json:170:13: cannot assign explicit value the same as default or inherited value
+
+    "copy-from": "generic_mall",
+    "name": "mall - food court roof",
+    "color":
+            ^
+             "i_light_red"
+  },
+  {
+
+00:42:12.731 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_mall.json:170:13: cannot assign explicit value the same as default or inherited value
+
+    "copy-from": "generic_mall",
+    "name": "mall - food court roof",
+    "color":
+            ^
+             "i_light_red"
+  },
+  {
+
+00:42:12.731 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_mall.json:170:13: cannot assign explicit value the same as default or inherited value
+
+    "copy-from": "generic_mall",
+    "name": "mall - food court roof",
+    "color":
+            ^
+             "i_light_red"
+  },
+  {
+
+00:42:12.732 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_mall.json:331:13: cannot assign explicit value the same as default or inherited value
+
+    "copy-from": "generic_mall",
+    "name": "mall - subway station",
+    "color":
+            ^
+             "i_light_red"
+  }
+]
+
+00:42:12.733 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_mall.json:331:13: cannot assign explicit value the same as default or inherited value
+
+    "copy-from": "generic_mall",
+    "name": "mall - subway station",
+    "color":
+            ^
+             "i_light_red"
+  }
+]
+
+00:42:12.733 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_mall.json:331:13: cannot assign explicit value the same as default or inherited value
+
+    "copy-from": "generic_mall",
+    "name": "mall - subway station",
+    "color":
+            ^
+             "i_light_red"
+  }
+]
+
+00:42:12.733 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_mall.json:331:13: cannot assign explicit value the same as default or inherited value
+
+    "copy-from": "generic_mall",
+    "name": "mall - subway station",
+    "color":
+            ^
+             "i_light_red"
+  }
+]
+
+00:42:13.217 WARNING : opendir [/home/jy/.local/share/cataclysm-dda/save/Bell City/mods] failed with "No such file or directory".
+00:42:43.348 : Log shutdown.
+-----------------------------------------
+
+
+
+-----------------------------------------
+08:58:04.461 : Starting log.
+08:58:04.462 INFO : Cataclysm DDA version 0.F
+08:58:04.465 INFO : [main] C locale set to en_US.UTF-8
+08:58:04.465 INFO : [main] C++ locale set to en_US.UTF-8
+08:58:04.575 INFO : [options] C locale set to en_US.UTF-8
+08:58:04.575 INFO : [options] C++ locale set to en_US.UTF-8
+08:58:04.579 INFO : Setting language to: 'en'
+08:58:04.579 INFO : Language is set to: 'en'
+08:58:04.719 WARNING : opendir [/home/jy/.local/share/cataclysm-dda/mods/] failed with "No such file or directory".
+09:02:05.012 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_faction_base.json:119:13: cannot assign explicit value the same as default or inherited value
+
+    "name": "trench",
+    "sym": "X",
+    "color":
+            ^
+             "light_gray"
+  },
+  {
+
+09:02:11.756 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_faction_base.json:119:13: cannot assign explicit value the same as default or inherited value
+
+    "name": "trench",
+    "sym": "X",
+    "color":
+            ^
+             "light_gray"
+  },
+  {
+
+09:02:11.756 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_faction_base.json:119:13: cannot assign explicit value the same as default or inherited value
+
+    "name": "trench",
+    "sym": "X",
+    "color":
+            ^
+             "light_gray"
+  },
+  {
+
+09:02:11.757 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_faction_base.json:119:13: cannot assign explicit value the same as default or inherited value
+
+    "name": "trench",
+    "sym": "X",
+    "color":
+            ^
+             "light_gray"
+  },
+  {
+
+09:02:11.779 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_mall.json:96:13: cannot assign explicit value the same as default or inherited value
+
+    "copy-from": "generic_mall",
+    "name": "mall - loading bay",
+    "color":
+            ^
+             "i_light_red"
+  },
+  {
+
+09:02:11.779 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_mall.json:96:13: cannot assign explicit value the same as default or inherited value
+
+    "copy-from": "generic_mall",
+    "name": "mall - loading bay",
+    "color":
+            ^
+             "i_light_red"
+  },
+  {
+
+09:02:11.779 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_mall.json:103:13: cannot assign explicit value the same as default or inherited value
+
+    "copy-from": "generic_mall",
+    "name": "mall - loading bay roof",
+    "color":
+            ^
+             "i_light_red"
+  },
+  {
+
+09:02:11.779 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_mall.json:103:13: cannot assign explicit value the same as default or inherited value
+
+    "copy-from": "generic_mall",
+    "name": "mall - loading bay roof",
+    "color":
+            ^
+             "i_light_red"
+  },
+  {
+
+09:02:11.780 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_mall.json:156:13: cannot assign explicit value the same as default or inherited value
+
+    "name": "mall - entrance",
+    "copy-from": "generic_mall",
+    "color":
+            ^
+             "i_light_red"
+  },
+  {
+
+09:02:11.780 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_mall.json:156:13: cannot assign explicit value the same as default or inherited value
+
+    "name": "mall - entrance",
+    "copy-from": "generic_mall",
+    "color":
+            ^
+             "i_light_red"
+  },
+  {
+
+09:02:11.780 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_mall.json:156:13: cannot assign explicit value the same as default or inherited value
+
+    "name": "mall - entrance",
+    "copy-from": "generic_mall",
+    "color":
+            ^
+             "i_light_red"
+  },
+  {
+
+09:02:11.780 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_mall.json:156:13: cannot assign explicit value the same as default or inherited value
+
+    "name": "mall - entrance",
+    "copy-from": "generic_mall",
+    "color":
+            ^
+             "i_light_red"
+  },
+  {
+
+09:02:11.780 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_mall.json:156:13: cannot assign explicit value the same as default or inherited value
+
+    "name": "mall - entrance",
+    "copy-from": "generic_mall",
+    "color":
+            ^
+             "i_light_red"
+  },
+  {
+
+09:02:11.780 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_mall.json:156:13: cannot assign explicit value the same as default or inherited value
+
+    "name": "mall - entrance",
+    "copy-from": "generic_mall",
+    "color":
+            ^
+             "i_light_red"
+  },
+  {
+
+09:02:11.780 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_mall.json:156:13: cannot assign explicit value the same as default or inherited value
+
+    "name": "mall - entrance",
+    "copy-from": "generic_mall",
+    "color":
+            ^
+             "i_light_red"
+  },
+  {
+
+09:02:11.780 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_mall.json:156:13: cannot assign explicit value the same as default or inherited value
+
+    "name": "mall - entrance",
+    "copy-from": "generic_mall",
+    "color":
+            ^
+             "i_light_red"
+  },
+  {
+
+09:02:11.780 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_mall.json:156:13: cannot assign explicit value the same as default or inherited value
+
+    "name": "mall - entrance",
+    "copy-from": "generic_mall",
+    "color":
+            ^
+             "i_light_red"
+  },
+  {
+
+09:02:11.780 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_mall.json:156:13: cannot assign explicit value the same as default or inherited value
+
+    "name": "mall - entrance",
+    "copy-from": "generic_mall",
+    "color":
+            ^
+             "i_light_red"
+  },
+  {
+
+09:02:11.780 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_mall.json:156:13: cannot assign explicit value the same as default or inherited value
+
+    "name": "mall - entrance",
+    "copy-from": "generic_mall",
+    "color":
+            ^
+             "i_light_red"
+  },
+  {
+
+09:02:11.780 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_mall.json:156:13: cannot assign explicit value the same as default or inherited value
+
+    "name": "mall - entrance",
+    "copy-from": "generic_mall",
+    "color":
+            ^
+             "i_light_red"
+  },
+  {
+
+09:02:11.781 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_mall.json:163:13: cannot assign explicit value the same as default or inherited value
+
+    "copy-from": "generic_mall",
+    "name": "mall - food court",
+    "color":
+            ^
+             "i_light_red"
+  },
+  {
+
+09:02:11.781 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_mall.json:163:13: cannot assign explicit value the same as default or inherited value
+
+    "copy-from": "generic_mall",
+    "name": "mall - food court",
+    "color":
+            ^
+             "i_light_red"
+  },
+  {
+
+09:02:11.781 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_mall.json:170:13: cannot assign explicit value the same as default or inherited value
+
+    "copy-from": "generic_mall",
+    "name": "mall - food court roof",
+    "color":
+            ^
+             "i_light_red"
+  },
+  {
+
+09:02:11.781 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_mall.json:170:13: cannot assign explicit value the same as default or inherited value
+
+    "copy-from": "generic_mall",
+    "name": "mall - food court roof",
+    "color":
+            ^
+             "i_light_red"
+  },
+  {
+
+09:02:11.781 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_mall.json:170:13: cannot assign explicit value the same as default or inherited value
+
+    "copy-from": "generic_mall",
+    "name": "mall - food court roof",
+    "color":
+            ^
+             "i_light_red"
+  },
+  {
+
+09:02:11.781 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_mall.json:170:13: cannot assign explicit value the same as default or inherited value
+
+    "copy-from": "generic_mall",
+    "name": "mall - food court roof",
+    "color":
+            ^
+             "i_light_red"
+  },
+  {
+
+09:02:11.782 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_mall.json:331:13: cannot assign explicit value the same as default or inherited value
+
+    "copy-from": "generic_mall",
+    "name": "mall - subway station",
+    "color":
+            ^
+             "i_light_red"
+  }
+]
+
+09:02:11.782 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_mall.json:331:13: cannot assign explicit value the same as default or inherited value
+
+    "copy-from": "generic_mall",
+    "name": "mall - subway station",
+    "color":
+            ^
+             "i_light_red"
+  }
+]
+
+09:02:11.782 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_mall.json:331:13: cannot assign explicit value the same as default or inherited value
+
+    "copy-from": "generic_mall",
+    "name": "mall - subway station",
+    "color":
+            ^
+             "i_light_red"
+  }
+]
+
+09:02:11.783 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_mall.json:331:13: cannot assign explicit value the same as default or inherited value
+
+    "copy-from": "generic_mall",
+    "name": "mall - subway station",
+    "color":
+            ^
+             "i_light_red"
+  }
+]
+
+
+
+-----------------------------------------
+13:43:29.006 : Starting log.
+13:43:29.006 INFO : Cataclysm DDA version 0.F
+13:43:29.010 INFO : [main] C locale set to en_US.UTF-8
+13:43:29.010 INFO : [main] C++ locale set to en_US.UTF-8
+13:43:29.113 INFO : [options] C locale set to en_US.UTF-8
+13:43:29.113 INFO : [options] C++ locale set to en_US.UTF-8
+13:43:29.116 INFO : Setting language to: 'en'
+13:43:29.116 INFO : Language is set to: 'en'
+
+
+-----------------------------------------
+08:52:59.913 : Starting log.
+08:52:59.914 INFO : Cataclysm DDA version 0.F
+08:52:59.917 INFO : [main] C locale set to en_US.UTF-8
+08:52:59.917 INFO : [main] C++ locale set to en_US.UTF-8
+08:52:59.977 INFO : [options] C locale set to en_US.UTF-8
+08:52:59.977 INFO : [options] C++ locale set to en_US.UTF-8
+08:52:59.979 INFO : Setting language to: 'en'
+08:52:59.979 INFO : Language is set to: 'en'
+08:53:00.098 WARNING : opendir [/home/jy/.local/share/cataclysm-dda/mods/] failed with "No such file or directory".
+08:53:17.147 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_faction_base.json:119:13: cannot assign explicit value the same as default or inherited value
+
+    "name": "trench",
+    "sym": "X",
+    "color":
+            ^
+             "light_gray"
+  },
+  {
+
+08:53:25.468 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_faction_base.json:119:13: cannot assign explicit value the same as default or inherited value
+
+    "name": "trench",
+    "sym": "X",
+    "color":
+            ^
+             "light_gray"
+  },
+  {
+
+08:53:25.468 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_faction_base.json:119:13: cannot assign explicit value the same as default or inherited value
+
+    "name": "trench",
+    "sym": "X",
+    "color":
+            ^
+             "light_gray"
+  },
+  {
+
+08:53:25.469 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_faction_base.json:119:13: cannot assign explicit value the same as default or inherited value
+
+    "name": "trench",
+    "sym": "X",
+    "color":
+            ^
+             "light_gray"
+  },
+  {
+
+08:53:25.492 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_mall.json:96:13: cannot assign explicit value the same as default or inherited value
+
+    "copy-from": "generic_mall",
+    "name": "mall - loading bay",
+    "color":
+            ^
+             "i_light_red"
+  },
+  {
+
+08:53:25.492 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_mall.json:96:13: cannot assign explicit value the same as default or inherited value
+
+    "copy-from": "generic_mall",
+    "name": "mall - loading bay",
+    "color":
+            ^
+             "i_light_red"
+  },
+  {
+
+08:53:25.492 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_mall.json:103:13: cannot assign explicit value the same as default or inherited value
+
+    "copy-from": "generic_mall",
+    "name": "mall - loading bay roof",
+    "color":
+            ^
+             "i_light_red"
+  },
+  {
+
+08:53:25.492 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_mall.json:103:13: cannot assign explicit value the same as default or inherited value
+
+    "copy-from": "generic_mall",
+    "name": "mall - loading bay roof",
+    "color":
+            ^
+             "i_light_red"
+  },
+  {
+
+08:53:25.492 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_mall.json:156:13: cannot assign explicit value the same as default or inherited value
+
+    "name": "mall - entrance",
+    "copy-from": "generic_mall",
+    "color":
+            ^
+             "i_light_red"
+  },
+  {
+
+08:53:25.492 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_mall.json:156:13: cannot assign explicit value the same as default or inherited value
+
+    "name": "mall - entrance",
+    "copy-from": "generic_mall",
+    "color":
+            ^
+             "i_light_red"
+  },
+  {
+
+08:53:25.493 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_mall.json:156:13: cannot assign explicit value the same as default or inherited value
+
+    "name": "mall - entrance",
+    "copy-from": "generic_mall",
+    "color":
+            ^
+             "i_light_red"
+  },
+  {
+
+08:53:25.493 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_mall.json:156:13: cannot assign explicit value the same as default or inherited value
+
+    "name": "mall - entrance",
+    "copy-from": "generic_mall",
+    "color":
+            ^
+             "i_light_red"
+  },
+  {
+
+08:53:25.493 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_mall.json:156:13: cannot assign explicit value the same as default or inherited value
+
+    "name": "mall - entrance",
+    "copy-from": "generic_mall",
+    "color":
+            ^
+             "i_light_red"
+  },
+  {
+
+08:53:25.493 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_mall.json:156:13: cannot assign explicit value the same as default or inherited value
+
+    "name": "mall - entrance",
+    "copy-from": "generic_mall",
+    "color":
+            ^
+             "i_light_red"
+  },
+  {
+
+08:53:25.493 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_mall.json:156:13: cannot assign explicit value the same as default or inherited value
+
+    "name": "mall - entrance",
+    "copy-from": "generic_mall",
+    "color":
+            ^
+             "i_light_red"
+  },
+  {
+
+08:53:25.493 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_mall.json:156:13: cannot assign explicit value the same as default or inherited value
+
+    "name": "mall - entrance",
+    "copy-from": "generic_mall",
+    "color":
+            ^
+             "i_light_red"
+  },
+  {
+
+08:53:25.493 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_mall.json:156:13: cannot assign explicit value the same as default or inherited value
+
+    "name": "mall - entrance",
+    "copy-from": "generic_mall",
+    "color":
+            ^
+             "i_light_red"
+  },
+  {
+
+08:53:25.493 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_mall.json:156:13: cannot assign explicit value the same as default or inherited value
+
+    "name": "mall - entrance",
+    "copy-from": "generic_mall",
+    "color":
+            ^
+             "i_light_red"
+  },
+  {
+
+08:53:25.493 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_mall.json:156:13: cannot assign explicit value the same as default or inherited value
+
+    "name": "mall - entrance",
+    "copy-from": "generic_mall",
+    "color":
+            ^
+             "i_light_red"
+  },
+  {
+
+08:53:25.493 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_mall.json:156:13: cannot assign explicit value the same as default or inherited value
+
+    "name": "mall - entrance",
+    "copy-from": "generic_mall",
+    "color":
+            ^
+             "i_light_red"
+  },
+  {
+
+08:53:25.493 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_mall.json:163:13: cannot assign explicit value the same as default or inherited value
+
+    "copy-from": "generic_mall",
+    "name": "mall - food court",
+    "color":
+            ^
+             "i_light_red"
+  },
+  {
+
+08:53:25.494 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_mall.json:163:13: cannot assign explicit value the same as default or inherited value
+
+    "copy-from": "generic_mall",
+    "name": "mall - food court",
+    "color":
+            ^
+             "i_light_red"
+  },
+  {
+
+08:53:25.494 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_mall.json:170:13: cannot assign explicit value the same as default or inherited value
+
+    "copy-from": "generic_mall",
+    "name": "mall - food court roof",
+    "color":
+            ^
+             "i_light_red"
+  },
+  {
+
+08:53:25.494 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_mall.json:170:13: cannot assign explicit value the same as default or inherited value
+
+    "copy-from": "generic_mall",
+    "name": "mall - food court roof",
+    "color":
+            ^
+             "i_light_red"
+  },
+  {
+
+08:53:25.494 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_mall.json:170:13: cannot assign explicit value the same as default or inherited value
+
+    "copy-from": "generic_mall",
+    "name": "mall - food court roof",
+    "color":
+            ^
+             "i_light_red"
+  },
+  {
+
+08:53:25.494 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_mall.json:170:13: cannot assign explicit value the same as default or inherited value
+
+    "copy-from": "generic_mall",
+    "name": "mall - food court roof",
+    "color":
+            ^
+             "i_light_red"
+  },
+  {
+
+08:53:25.495 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_mall.json:331:13: cannot assign explicit value the same as default or inherited value
+
+    "copy-from": "generic_mall",
+    "name": "mall - subway station",
+    "color":
+            ^
+             "i_light_red"
+  }
+]
+
+08:53:25.495 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_mall.json:331:13: cannot assign explicit value the same as default or inherited value
+
+    "copy-from": "generic_mall",
+    "name": "mall - subway station",
+    "color":
+            ^
+             "i_light_red"
+  }
+]
+
+08:53:25.495 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_mall.json:331:13: cannot assign explicit value the same as default or inherited value
+
+    "copy-from": "generic_mall",
+    "name": "mall - subway station",
+    "color":
+            ^
+             "i_light_red"
+  }
+]
+
+08:53:25.496 ERROR : src/assign.h:49 [void report_strict_violation(const JsonObject&, const string&, const string&)] (json-error)
+Json error: usr/share/cataclysm-dda/json/overmap/overmap_terrain/overmap_terrain_mall.json:331:13: cannot assign explicit value the same as default or inherited value
+
+    "copy-from": "generic_mall",
+    "name": "mall - subway station",
+    "color":
+            ^
+             "i_light_red"
+  }
+]
+
+08:53:26.138 WARNING : opendir [/home/jy/.local/share/cataclysm-dda/save/lecta revela/mods] failed with "No such file or directory".
+09:31:01.421 : Log shutdown.
+-----------------------------------------
+
+
+
+-----------------------------------------
+14:48:13.626 : Starting log.
+14:48:13.627 INFO : Cataclysm DDA version 0.F
+14:48:13.631 INFO : [main] C locale set to en_US.UTF-8
+14:48:13.631 INFO : [main] C++ locale set to en_US.UTF-8
+14:48:13.707 INFO : [options] C locale set to en_US.UTF-8
+14:48:13.707 INFO : [options] C++ locale set to en_US.UTF-8
+14:48:13.709 INFO : Setting language to: 'en'
+14:48:13.709 INFO : Language is set to: 'en'
+
+
+-----------------------------------------
+15:11:56.748 : Starting log.
+15:11:56.749 INFO : Cataclysm DDA version 0.F
+15:11:56.753 INFO : [main] C locale set to en_US.UTF-8
+15:11:56.753 INFO : [main] C++ locale set to en_US.UTF-8
+15:11:56.774 INFO : [options] C locale set to en_US.UTF-8
+15:11:56.774 INFO : [options] C++ locale set to en_US.UTF-8
+15:11:56.775 INFO : Setting language to: 'en'
+15:11:56.775 INFO : Language is set to: 'en'
+
+
+-----------------------------------------
+15:12:58.627 : Starting log.
+15:12:58.627 INFO : Cataclysm DDA version 0.F
+15:12:58.630 INFO : [main] C locale set to en_US.UTF-8
+15:12:58.630 INFO : [main] C++ locale set to en_US.UTF-8
+15:12:58.649 INFO : [options] C locale set to en_US.UTF-8
+15:12:58.649 INFO : [options] C++ locale set to en_US.UTF-8
+15:12:58.651 INFO : Setting language to: 'en'
+15:12:58.651 INFO : Language is set to: 'en'
+
+
+-----------------------------------------
+15:15:11.649 : Starting log.
+15:15:11.650 INFO : Cataclysm DDA version 0.F
+15:15:11.653 INFO : [main] C locale set to en_US.UTF-8
+15:15:11.653 INFO : [main] C++ locale set to en_US.UTF-8
+15:15:11.671 INFO : [options] C locale set to en_US.UTF-8
+15:15:11.671 INFO : [options] C++ locale set to en_US.UTF-8
+15:15:11.672 INFO : Setting language to: 'en'
+15:15:11.672 INFO : Language is set to: 'en'
+
+
+-----------------------------------------
+12:45:48.879 : Starting log.
+12:45:48.879 INFO : Cataclysm DDA version 0.F
+12:45:48.881 INFO : [main] C locale set to en_US.UTF-8
+12:45:48.881 INFO : [main] C++ locale set to en_US.UTF-8
+12:45:48.964 INFO : [options] C locale set to en_US.UTF-8
+12:45:48.964 INFO : [options] C++ locale set to en_US.UTF-8
+12:45:48.966 INFO : Setting language to: 'en'
+12:45:48.966 INFO : Language is set to: 'en'
+
+
+-----------------------------------------
+14:30:08.317 : Starting log.
+14:30:08.318 INFO : Cataclysm DDA version 0.F
+14:30:08.322 INFO : [main] C locale set to en_US.UTF-8
+14:30:08.322 INFO : [main] C++ locale set to en_US.UTF-8
+14:30:08.419 INFO : [options] C locale set to en_US.UTF-8
+14:30:08.419 INFO : [options] C++ locale set to en_US.UTF-8
+14:30:08.420 INFO : Setting language to: 'en'
+14:30:08.420 INFO : Language is set to: 'en'
