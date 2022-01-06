@@ -134,7 +134,7 @@
 #endif
 
 /* Macro definitions */
-#define VERSION      "4.3"
+#define VERSION      "4.4"
 #define GENERAL_INFO "BSD 2-Clause\nhttps://github.com/jarun/nnn"
 
 #ifndef NOSSN
@@ -177,7 +177,7 @@
 #define CASE            ':'
 #define MSGWAIT         '$'
 #define SELECT          ' '
-#define PROMPT          "nnn] "
+#define PROMPT          ">>> "
 #define REGEX_MAX       48
 #define ENTRY_INCR      64 /* Number of dir 'entry' structures to allocate per shot */
 #define NAMEBUF_INCR    0x800 /* 64 dir entries at once, avg. 32 chars per file name = 64*32B = 2KB */
@@ -202,10 +202,13 @@
 #define CTX_MAX 8
 #endif
 
-#ifdef __APPLE__
+#ifndef SED
+/* BSDs or Solaris or SunOS */
+#if defined(__FreeBSD__) || defined(__OpenBSD__) || defined(__NetBSD__) || defined(__APPLE__) || defined(sun) || defined(__sun)
 #define SED "gsed"
 #else
 #define SED "sed"
+#endif
 #endif
 
 /* Large selection threshold */
@@ -285,7 +288,6 @@ typedef struct entry {
 	uid_t uid; /* 4 bytes */
 	gid_t gid; /* 4 bytes */
 #endif
-	char git_status[2];
 } *pEntry;
 
 /* Selection marker */
@@ -342,7 +344,6 @@ typedef struct {
 	uint_t cliopener  : 1;  /* All-CLI app opener */
 	uint_t waitedit   : 1;  /* For ops that can't be detached, used EDITOR */
 	uint_t rollover   : 1;  /* Roll over at edges */
-	uint_t normalgit  : 1;  /* Show git status in normal mode */
 } settings;
 
 /* Non-persistent program-internal states (alphabeical order) */
@@ -367,9 +368,10 @@ typedef struct {
 	uint_t runplugin  : 1;  /* Choose plugin mode */
 	uint_t selmode    : 1;  /* Set when selecting files */
 	uint_t stayonsel  : 1;  /* Disable auto-proceed on select */
-	uint_t trash      : 2;  /* Use trash to delete files 1: trash-cli, 2: gio trash */
+	uint_t trash      : 2;  /* Trash method 0: rm -rf, 1: trash-cli, 2: gio trash */
 	uint_t uidgid     : 1;  /* Show owner and group info */
-	uint_t reserved   : 7;  /* Adjust when adding/removing a field */
+	uint_t previewer  : 1;  /* Run state of previewer */
+	uint_t reserved   : 6;  /* Adjust when adding/removing a field */
 } runstate;
 
 /* Contexts or workspaces */
@@ -392,17 +394,7 @@ typedef struct {
 } session_header_t;
 #endif
 
-typedef struct {
-	char status[2];
-	char path[PATH_MAX];
-} git_status_t;
-
 /* GLOBALS */
-struct {
-	bool show;
-	size_t len;
-	git_status_t *statuses;
-} git_statuses;
 
 /* Configuration, contexts */
 static settings cfg = {
@@ -433,7 +425,6 @@ static settings cfg = {
 	0, /* cliopener */
 	0, /* waitedit */
 	1, /* rollover */
-	0, /* normalgit */
 };
 
 static context g_ctx[CTX_MAX] __attribute__ ((aligned));
@@ -527,6 +518,9 @@ static char g_tmpfpath[TMP_LEN_MAX] __attribute__ ((aligned));
 
 /* Buffer to store plugins control pipe location */
 static char g_pipepath[TMP_LEN_MAX] __attribute__ ((aligned));
+
+/* Buffer to store preview plugins control pipe location */
+static char g_ppipepath[TMP_LEN_MAX] __attribute__ ((aligned));
 
 /* Non-persistent runtime states */
 static runstate g_state;
@@ -702,12 +696,13 @@ static const char * const messages[] = {
 #define NNN_FCOLORS 5
 #define NNNLVL      6
 #define NNN_PIPE    7
-#define NNN_MCLICK  8
-#define NNN_SEL     9
-#define NNN_ARCHIVE 10
-#define NNN_ORDER   11
-#define NNN_HELP    12 /* strings end here */
-#define NNN_TRASH   13 /* flags begin here */
+#define NNN_PPIPE   8
+#define NNN_MCLICK  9
+#define NNN_SEL     10
+#define NNN_ARCHIVE 11
+#define NNN_ORDER   12
+#define NNN_HELP    13 /* strings end here */
+#define NNN_TRASH   14 /* flags begin here */
 
 static const char * const env_cfg[] = {
 	"NNN_OPTS",
@@ -718,6 +713,7 @@ static const char * const env_cfg[] = {
 	"NNN_FCOLORS",
 	"NNNLVL",
 	"NNN_PIPE",
+	"NNN_PPIPE",
 	"NNN_MCLICK",
 	"NNN_SEL",
 	"NNN_ARCHIVE",
@@ -775,6 +771,7 @@ static const char * const toks[] = {
 #define P_CPMVRNM 1
 #define P_ARCHIVE 2
 #define P_REPLACE 3
+#define P_ARCHIVE_CMD 4
 
 static const char * const patterns[] = {
 	SED" -i 's|^\\(\\(.*/\\)\\(.*\\)$\\)|#\\1\\n\\3|' %s",
@@ -782,6 +779,7 @@ static const char * const patterns[] = {
 		"%s | tr '\\n' '\\0' | xargs -0 -n2 sh -c '%s \"$0\" \"$@\" < /dev/tty'",
 	"\\.(bz|bz2|gz|tar|taz|tbz|tbz2|tgz|z|zip)$",
 	SED" -i 's|^%s\\(.*\\)$|%s\\1|' %s",
+	SED" -ze 's|^%s/||' '%s' | xargs -0 %s %s",
 };
 
 /* Colors */
@@ -862,7 +860,7 @@ static int set_sort_flags(int r);
 static void statusbar(char *path);
 static bool get_output(char *file, char *arg1, char *arg2, int fdout, bool multi, bool page);
 #ifndef NOFIFO
-static void notify_fifo(bool force);
+static void notify_fifo(bool force, bool closepreview);
 #endif
 
 /* Functions */
@@ -1280,6 +1278,25 @@ static void reset_tilde_in_path(char *path)
 	path[homelen - 1] = home[homelen];
 	home[homelen] = '\0';
 }
+
+#ifndef NOX11
+static void xterm_cfg(char *path)
+{
+	if (cfg.x11 && !g_state.picker) {
+		/* Signal CWD change to terminal */
+		printf("\033]7;file://%s%s\033\\", hostname, path);
+
+		/* Set terminal window title */
+		bool r = set_tilde_in_path(path);
+
+		printf("\033]2;%s\007", r ? &path[homelen - 1] : path);
+		fflush(stdout);
+
+		if (r)
+			reset_tilde_in_path(path);
+	}
+}
+#endif
 
 static void convert_tilde(const char *path, char *buf)
 {
@@ -2712,23 +2729,15 @@ static void get_archive_cmd(char *cmd, const char *archive)
 
 static void archive_selection(const char *cmd, const char *archive, const char *curpath)
 {
-	/* The 70 comes from the string below */
-	char *buf = (char *)malloc((70 + xstrlen(cmd) + xstrlen(archive)
-				       + xstrlen(curpath) + xstrlen(selpath)) * sizeof(char));
+	char *buf = malloc((xstrlen(patterns[P_ARCHIVE_CMD]) + xstrlen(cmd) + xstrlen(archive)
+	                   + xstrlen(curpath) + xstrlen(selpath)) * sizeof(char));
 	if (!buf) {
 		DPRINTF_S(strerror(errno));
 		printwarn(NULL);
 		return;
 	}
 
-	snprintf(buf, CMD_LEN_MAX,
-#ifdef __linux__
-		SED" -ze 's|^%s/||' '%s' | xargs -0 %s %s", curpath, selpath, cmd, archive
-#else
-		"tr '\\0' '\n' < '%s' | "SED" -e 's|^%s/||' | tr '\n' '\\0' | xargs -0 %s %s",
-		selpath, curpath, cmd, archive
-#endif
-		);
+	snprintf(buf, CMD_LEN_MAX, patterns[P_ARCHIVE_CMD], curpath, selpath, cmd, archive);
 	spawn(utils[UTIL_SH_EXEC], buf, NULL, NULL, F_CLI | F_CONFIRM);
 	free(buf);
 }
@@ -3058,7 +3067,7 @@ try_quit:
 			} else {
 #ifndef NOFIFO
 				if (!g_state.fifomode)
-					notify_fifo(TRUE); /* Send hovered path to NNN_FIFO */
+					notify_fifo(TRUE, FALSE); /* Send hovered path to NNN_FIFO */
 #endif
 				escaped = TRUE;
 				settimeout();
@@ -3497,8 +3506,13 @@ static char *xreadline(const char *prefill, const char *prompt)
 	while (1) {
 		buf[len] = ' ';
 		attron(COLOR_PAIR(cfg.curctx + 1));
-		mvaddnwstr(xlines - 1, x, buf, len + 1);
-		move(xlines - 1, x + wcswidth(buf, pos));
+		if (pos > (size_t)(xcols - x)) {
+			mvaddnwstr(xlines - 1, x, buf + (pos - (xcols - x) + 1), xcols - x);
+			move(xlines - 1, xcols - 1);
+		} else {
+			mvaddnwstr(xlines - 1, x, buf, len + 1);
+			move(xlines - 1, x + wcswidth(buf, pos));
+		}
 		attroff(COLOR_PAIR(cfg.curctx + 1));
 
 		r = get_wch(ch);
@@ -3825,38 +3839,6 @@ static int get_kv_key(kv *kvarr, char *val, uchar_t max, uchar_t id)
 	}
 
 	return -1;
-}
-
-static size_t get_git_statuses(const char *path)
-{
-	static char gitrev[] = "git rev-parse --show-toplevel 2>/dev/null";
-	char workdir[PATH_MAX], *ret;
-	FILE *fp = popen(gitrev, "r");
-
-	git_statuses.show = FALSE;
-	ret = fgets(workdir, PATH_MAX, fp);
-	pclose(fp);
-	if (!ret)
-		return 0;
-
-	static char gitstat[] = "git -c core.quotePath= status --porcelain --ignored=matching -u ";
-	char pathspec[PATH_MAX], status[PATH_MAX];
-	size_t i = -1;
-	workdir[xstrlen(workdir) - 1] = '\0';
-	snprintf(pathspec, PATH_MAX, "%s\"%s\"%s 2>/dev/null", gitstat, path, cfg.showhidden ? "" : "/*");
-	fp = popen(pathspec, "r");
-
-	while (fgets(status, PATH_MAX, fp)) {
-		size_t pathindex = (status[3] == '"') ? 4 : 3;
-		status[xstrlen(status) - pathindex + 2] = '\0';
-		git_statuses.statuses = xrealloc(git_statuses.statuses, sizeof(git_status_t) * (++i + 1));
-		git_statuses.statuses[i].status[0] = (status[0] == ' ') ? '-' : status[0];
-		git_statuses.statuses[i].status[1] = (status[1] == ' ') ? '-' : status[1];
-		mkpath(workdir, status + pathindex, git_statuses.statuses[i].path);
-	}
-
-	pclose(fp);
-	return (i + 1);
 }
 
 static void resetdircolor(int flags)
@@ -4195,10 +4177,6 @@ static void printent(const struct entry *ent, uint_t namecols, bool sel)
 	attrs = 0;
 
 	uchar_t color_pair = get_color_pair_name_ind(ent, &ind, &attrs);
-
-	if (git_statuses.show && (cfg.showdetail || cfg.normalgit))
-		printw("%*s%c%c", (cfg.normalgit && !cfg.showdetail) ? 1 : 0, "",
-				ent->git_status[0], ent->git_status[1]);
 
 	addch((ent->flags & FILE_SELECTED) ? '+' | A_REVERSE | A_BOLD : ' ');
 
@@ -5188,15 +5166,20 @@ static bool run_cmd_as_plugin(const char *file, char *runfile, uchar_t flags)
 
 static bool plctrl_init(void)
 {
-	size_t len;
+	size_t len, lenbuf;
+	pid_t pid = getpid();
 
 	/* g_tmpfpath is used to generate tmp file names */
 	g_tmpfpath[tmpfplen - 1] = '\0';
-	len = xstrsncpy(g_pipepath, g_tmpfpath, TMP_LEN_MAX);
+	len = lenbuf = xstrsncpy(g_pipepath, g_tmpfpath, TMP_LEN_MAX);
 	g_pipepath[len - 1] = '/';
-	len = xstrsncpy(g_pipepath + len, "nnn-pipe.", TMP_LEN_MAX - len) + len;
-	xstrsncpy(g_pipepath + len - 1, xitoa(getpid()), TMP_LEN_MAX - len);
+	xstrsncpy(g_ppipepath, g_pipepath, TMP_LEN_MAX);
+	len += xstrsncpy(g_pipepath + len, "nnn-pipe.", TMP_LEN_MAX - len);
+	xstrsncpy(g_pipepath + len - 1, xitoa(pid), TMP_LEN_MAX - len);
+	len = xstrsncpy(g_ppipepath + lenbuf, "nnn-ppipe.", TMP_LEN_MAX - lenbuf) + lenbuf;
+	xstrsncpy(g_ppipepath + len - 1, xitoa(pid), TMP_LEN_MAX - len);
 	setenv(env_cfg[NNN_PIPE], g_pipepath, TRUE);
+	setenv(env_cfg[NNN_PPIPE], g_ppipepath, TRUE);
 
 	return EXIT_SUCCESS;
 }
@@ -5223,6 +5206,21 @@ static ssize_t read_nointr(int fd, void *buf, size_t count)
 	while (len == -1 && errno == EINTR);
 
 	return len;
+}
+
+void *previewpipe(void *arg __attribute__ ((unused)))
+{
+	int fd, buf;
+
+	mkfifo(g_ppipepath, 0600);
+	fd = open(g_ppipepath, O_RDONLY);
+
+	if (read(fd, &buf, 1) == 1)
+		g_state.previewer = buf;
+
+	close(fd);
+	unlink(g_ppipepath);
+	return NULL;
 }
 
 static char *readpipe(int fd, char *ctxnum, char **path)
@@ -5400,11 +5398,10 @@ static bool prompt_run(void)
 	bool ret = FALSE;
 	char *cmdline, *next;
 	int cnt_j, cnt_J;
-	size_t len, tmplen;
+	size_t len;
 
-	const char *xargs_j = "xargs -0 -I{} sh -c '%s' < %s";
-	const char *xargs_J = "xargs -0 sh -c '%s' < %s";
-	char tmpcmd[CMD_LEN_MAX];
+	const char *xargs_j = "xargs -0 -I{} %s < %s";
+	const char *xargs_J = "xargs -0 %s < %s";
 	char cmd[CMD_LEN_MAX + 32]; // 32 for xargs format strings
 
 	while (1) {
@@ -5443,9 +5440,10 @@ static bool prompt_run(void)
 		while ((next = strstr(next, "%J"))) {
 			++cnt_J;
 
-			tmplen = xstrsncpy(tmpcmd, cmdline, next - cmdline + 1) - 1;
-			tmplen += xstrsncpy(tmpcmd + tmplen, "${0} ${@}", sizeof("${0} ${@}")) - 1;
-			xstrsncpy(tmpcmd + tmplen, next + 2, len - (next - cmdline + 2) + 1);
+			// %J should be the last thing in the command
+			if (next == cmdline + len - 2) {
+				cmdline[len - 2] = '\0';
+			}
 
 			++next;
 		}
@@ -5457,7 +5455,7 @@ static bool prompt_run(void)
 		if (cnt_j)
 			snprintf(cmd, CMD_LEN_MAX + 32, xargs_j, cmdline, selpath);
 		else if (cnt_J)
-			snprintf(cmd, CMD_LEN_MAX + 32, xargs_J, tmpcmd, selpath);
+			snprintf(cmd, CMD_LEN_MAX + 32, xargs_J, cmdline, selpath);
 
 		spawn(shell, "-c", (cnt_j || cnt_J) ? cmd : cmdline, NULL, F_CLI | F_CONFIRM);
 	}
@@ -5510,8 +5508,11 @@ static void *du_thread(void *p_data)
 	FTSENT *node;
 
 	while ((node = fts_read(tree))) {
-		if (node->fts_info & FTS_D)
+		if (node->fts_info & FTS_D) {
+			if (g_state.interrupt)
+				break;
 			continue;
+		}
 
 		sb = node->fts_statp;
 
@@ -5641,11 +5642,6 @@ static int dentfill(char *path, struct entry **ppdents)
 		attron(COLOR_PAIR(cfg.curctx + 1));
 	}
 
-	char linkpath[PATH_MAX];
-	if ((git_statuses.len = get_git_statuses(path)))
-		if (!realpath(path, linkpath))
-			printwarn(NULL);
-
 #if _POSIX_C_SOURCE >= 200112L
 	posix_fadvise(fd, 0, 0, POSIX_FADV_SEQUENTIAL);
 #endif
@@ -5689,7 +5685,6 @@ static int dentfill(char *path, struct entry **ppdents)
 
 					if (g_state.interrupt)
 						goto exit;
-
 				}
 			} else {
 				/* Do not recount hard links */
@@ -5844,39 +5839,6 @@ static int dentfill(char *path, struct entry **ppdents)
 #endif
 		}
 
-		if (git_statuses.len) {
-			char dentpath[PATH_MAX];
-			size_t pathlen = mkpath(linkpath, dentp->name, dentpath);
-			dentp->git_status[0] = dentp->git_status[1] = '-';
-
-			if (dentp->flags & DIR_OR_DIRLNK) {
-				char prefix[PATH_MAX];
-				memccpy(prefix, dentpath, '\0', PATH_MAX);
-				prefix[pathlen - 1] = '/';
-
-				for (size_t i = 0; i < git_statuses.len; ++i)
-					if (is_prefix(git_statuses.statuses[i].path, prefix, pathlen)) {
-						if ((dentp->git_status[0] == '-') && (git_statuses.statuses[i].status[0] != '-'))
-							dentp->git_status[0] = git_statuses.statuses[i].status[0];
-						if ((dentp->git_status[1] == '-') && (git_statuses.statuses[i].status[1] != '-'))
-							dentp->git_status[1] = git_statuses.statuses[i].status[1];
-						if (git_statuses.statuses[i].status[1] != '!')
-							git_statuses.show = TRUE;
-						if ((dentp->git_status[0] != '-') && (dentp->git_status[1] != '-'))
-							break;
-					}
-			} else {
-				for (size_t i = 0; i < git_statuses.len; ++i)
-					if (!xstrcmp(git_statuses.statuses[i].path, dentpath)) {
-						dentp->git_status[0] = git_statuses.statuses[i].status[0];
-						dentp->git_status[1] = git_statuses.statuses[i].status[1];
-						if (dentp->git_status[1] != '!')
-							git_statuses.show = TRUE;
-						break;
-					}
-			}
-		}
-
 		++ndents;
 	} while ((dp = readdir(dirp)));
 
@@ -5926,7 +5888,7 @@ static void populate(char *path, char *lastname)
 }
 
 #ifndef NOFIFO
-static void notify_fifo(bool force)
+static void notify_fifo(bool force, bool closepreview)
 {
 	if (!fifopath)
 		return;
@@ -5940,6 +5902,12 @@ static void notify_fifo(bool force)
 				fifopath = NULL;
 			return;
 		}
+	}
+
+	if (closepreview) {
+		if (write(fifofd, "close\n", 6) != 6)
+			xerror();
+		return;
 	}
 
 	static struct entry lastentry;
@@ -5974,7 +5942,7 @@ static void send_to_explorer(int *presel)
 		if (fd > 1)
 			close(fd);
 	} else
-		notify_fifo(TRUE); /* Send opened path to NNN_FIFO */
+		notify_fifo(TRUE, FALSE); /* Send opened path to NNN_FIFO */
 }
 #endif
 
@@ -6007,7 +5975,7 @@ static void move_cursor(int target, int ignore_scrolloff)
 
 #ifndef NOFIFO
 	if (!g_state.fifomode)
-		notify_fifo(FALSE); /* Send hovered path to NNN_FIFO */
+		notify_fifo(FALSE, FALSE); /* Send hovered path to NNN_FIFO */
 #endif
 }
 
@@ -6422,12 +6390,11 @@ static int adjust_cols(int n)
 #endif
 	if (cfg.showdetail) {
 		/* Fallback to light mode if less than 35 columns */
-		if (n < 38)
+		if (n < 36)
 			cfg.showdetail ^= 1;
 		else /* 2 more accounted for below */
-			n -= (git_statuses.show ? 34 : 32);
-	} else if (cfg.normalgit && git_statuses.show)
-		n -= 3;
+			n -= 32;
+	}
 
 	/* 2 columns for preceding space and indicator */
 	return (n - 2);
@@ -6630,9 +6597,9 @@ static bool browse(char *ipath, const char *session, int pkey)
 	pEntry pent;
 	enum action sel;
 	struct stat sb;
-	int r = -1, presel, selstartid = 0, selendid = 0;
+	int r = -1, presel, selstartid = 0, selendid = 0, previewkey = 0;
 	const uchar_t opener_flags = (cfg.cliopener ? F_CLI : (F_NOTRACE | F_NOSTDIN | F_NOWAIT));
-	bool watch = FALSE;
+	bool watch = FALSE, cd = TRUE;
 	ino_t inode = 0;
 
 #ifndef NOMOUSE
@@ -6705,19 +6672,7 @@ begin:
 	}
 
 #ifndef NOX11
-	if (cfg.x11 && !g_state.picker) {
-		/* Signal CWD change to terminal */
-		printf("\033]7;file://%s%s\033\\", hostname, path);
-
-		/* Set terminal window title */
-		r = set_tilde_in_path(path);
-
-		printf("\033]2;%s\007", r ? &path[homelen - 1] : path);
-		fflush(stdout);
-
-		if (r)
-			reset_tilde_in_path(path);
-	}
+	xterm_cfg(path);
 #endif
 
 #ifdef LINUX_INOTIFY
@@ -6740,7 +6695,7 @@ begin:
 	}
 #endif
 
-	if (order) {
+	if (order && cd) {
 		if (cfgsort[cfg.curctx] != '0') {
 			if (cfgsort[cfg.curctx] == 'z')
 				set_sort_flags('c');
@@ -6752,6 +6707,7 @@ begin:
 		} else
 			cfgsort[cfg.curctx] = cfgsort[CTX_MAX];
 	}
+	cd = TRUE;
 
 	populate(path, lastname);
 	if (g_state.interrupt) {
@@ -6864,10 +6820,8 @@ nochange:
 			/* Scroll down */
 			if (event.bstate == BUTTON5_PRESSED && ndents
 			    && (cfg.rollover || (cur != ndents - 1))) {
-				if (!cfg.rollover && cur >= ndents - scroll_lines)
-					move_cursor(ndents-1, 0);
-				else
-					move_cursor((cur + scroll_lines) % ndents, 0);
+				move_cursor((!cfg.rollover && cur >= ndents - scroll_lines)
+						? (ndents - 1) : ((cur + scroll_lines) % ndents), 0);
 				break;
 			}
 #endif
@@ -6884,6 +6838,7 @@ nochange:
 				/* Start watching the directory */
 				watch = TRUE;
 				copycurname();
+				cd = FALSE;
 				goto begin;
 			}
 
@@ -6896,7 +6851,7 @@ nochange:
 					move_cursor(r, 1);
 #ifndef NOFIFO
 				else if ((event.bstate == BUTTON1_PRESSED) && !g_state.fifomode)
-					notify_fifo(TRUE); /* Send clicked path to NNN_FIFO */
+					notify_fifo(TRUE, FALSE); /* Send clicked path to NNN_FIFO */
 #endif
 				/* Handle right click selection */
 				if (event.bstate == BUTTON3_PRESSED) {
@@ -6938,8 +6893,10 @@ nochange:
 		case SEL_NAV_IN: // fallthrough
 		case SEL_OPEN:
 			/* Cannot descend in empty directories */
-			if (!ndents)
+			if (!ndents) {
+				cd = FALSE;
 				goto begin;
+			}
 
 			pent = &pdents[cur];
 			mkpath(path, pent->name, newpath);
@@ -6969,6 +6926,36 @@ nochange:
 				printwait(messages[MSG_UNSUPPORTED], &presel);
 				goto nochange;
                         }
+
+			/* Handle plugin selection mode */
+			if (g_state.runplugin) {
+				g_state.runplugin = 0;
+				/* Must be in plugin dir and same context to select plugin */
+				if ((g_state.runctx == cfg.curctx) && !strcmp(path, plgpath)) {
+					endselection(FALSE);
+					/* Copy path so we can return back to earlier dir */
+					xstrsncpy(path, rundir, PATH_MAX);
+					rundir[0] = '\0';
+					clearfilter();
+
+					if (chdir(path) == -1
+					    || !run_plugin(&path, pent->name,
+								    runfile, &lastname, &lastdir)) {
+						DPRINTF_S("plugin failed!");
+					}
+
+					if (g_state.picked)
+						return EXIT_SUCCESS;
+
+					if (runfile[0]) {
+						xstrsncpy(lastname, runfile, NAME_MAX + 1);
+						runfile[0] = '\0';
+					}
+					setdirwatch();
+					goto begin;
+				}
+			}
+
 #ifndef NOFIFO
 			if (g_state.fifomode && (sel == SEL_OPEN)) {
 				send_to_explorer(&presel); /* Write selection to explorer fifo */
@@ -7009,35 +6996,6 @@ nochange:
 					goto nochange;
 			}
 
-			/* Handle plugin selection mode */
-			if (g_state.runplugin) {
-				g_state.runplugin = 0;
-				/* Must be in plugin dir and same context to select plugin */
-				if ((g_state.runctx == cfg.curctx) && !strcmp(path, plgpath)) {
-					endselection(FALSE);
-					/* Copy path so we can return back to earlier dir */
-					xstrsncpy(path, rundir, PATH_MAX);
-					rundir[0] = '\0';
-					clearfilter();
-
-					if (chdir(path) == -1
-					    || !run_plugin(&path, pent->name,
-								    runfile, &lastname, &lastdir)) {
-						DPRINTF_S("plugin failed!");
-					}
-
-					if (g_state.picked)
-						return EXIT_SUCCESS;
-
-					if (runfile[0]) {
-						xstrsncpy(lastname, runfile, NAME_MAX + 1);
-						runfile[0] = '\0';
-					}
-					setdirwatch();
-					goto begin;
-				}
-			}
-
 			if (!sb.st_size) {
 				printwait(messages[MSG_EMPTY_FILE], &presel);
 				goto nochange;
@@ -7053,7 +7011,14 @@ nochange:
 			    && strstr(g_buf, "text")
 #endif
 			) {
+				if (g_state.previewer)
+					notify_fifo(FALSE, TRUE);
 				spawn(editor, newpath, NULL, NULL, F_CLI);
+				if (g_state.previewer) {
+					pkey = previewkey;
+					goto run_plugin;
+				}
+
 				if (cfg.filtermode) {
 					presel = FILTER;
 					clearfilter();
@@ -7247,8 +7212,10 @@ nochange:
 				presel = 0;
 				break;
 			}
-			if (presel == FILTER) /* Refresh dir and filter again */
+			if (presel == FILTER) { /* Refresh dir and filter again */
+				cd = FALSE;
 				goto begin;
+			}
 			goto nochange;
 		case SEL_MFLTR: // fallthrough
 		case SEL_HIDDEN: // fallthrough
@@ -7272,6 +7239,7 @@ nochange:
 					clearfilter();
 				}
 				copycurname();
+				cd = FALSE;
 				goto begin;
 			case SEL_DETAIL:
 				cfg.showdetail ^= 1;
@@ -7338,6 +7306,7 @@ nochange:
 			case SEL_RENAMEMUL:
 				endselection(TRUE);
 				setenv("INCLUDE_HIDDEN", xitoa(cfg.showhidden), 1);
+				setenv("NNN_LIST", listpath ? listroot : "", 1);
 
 				if (!(getutil(utils[UTIL_BASH])
 				      && plugscript(utils[UTIL_NMV], F_CLI))
@@ -7361,8 +7330,14 @@ nochange:
 				copycurname();
 				goto nochange;
 			case SEL_EDIT:
+				if (g_state.previewer)
+					notify_fifo(FALSE, TRUE);
 				if (!g_state.picker)
 					spawn(editor, newpath, NULL, NULL, F_CLI);
+				if (g_state.previewer) {
+					pkey = previewkey;
+					goto run_plugin;
+				}
 				continue;
 			default: /* SEL_LOCK */
 				lock_terminal();
@@ -7380,6 +7355,7 @@ nochange:
 			/* Save current */
 			copycurname();
 			/* Repopulate as directory content may have changed */
+			cd = FALSE;
 			goto begin;
 		}
 		case SEL_SEL:
@@ -7516,6 +7492,7 @@ nochange:
 
 					if (cfg.filtermode || filterset())
 						presel = FILTER;
+					cd = FALSE;
 					goto begin;
 				}
 			}
@@ -7545,6 +7522,7 @@ nochange:
 				xstrsncpy(lastname, xbasename(newpath), NAME_MAX+1);
 			else
 				copycurname();
+			cd = FALSE;
 			goto begin;
 		}
 		case SEL_ARCHIVE: // fallthrough
@@ -7581,10 +7559,13 @@ nochange:
 				tmp = xreadline(tmp, messages[MSG_ARCHIVE_NAME]);
 				break;
 			case SEL_OPENWITH:
-#ifdef NORL
-				tmp = xreadline(NULL, messages[MSG_OPEN_WITH]);
-#else
-				tmp = getreadline(messages[MSG_OPEN_WITH]);
+#ifndef NORL
+				if (g_state.picker) {
+#endif
+					tmp = xreadline(NULL, messages[MSG_OPEN_WITH]);
+#ifndef NORL
+				} else
+					tmp = getreadline(messages[MSG_OPEN_WITH]);
 #endif
 				break;
 			case SEL_NEW:
@@ -7627,6 +7608,7 @@ nochange:
 					xstrsncpy(lastname, tmp, NAME_MAX + 1);
 					clearfilter(); /* Archive name may not match */
 					clearselection(); /* Archive operation complete */
+					cd = FALSE;
 					goto begin;
 				}
 				continue;
@@ -7721,8 +7703,10 @@ nochange:
 				clearfilter();
 			}
 
+			cd = FALSE;
 			goto begin;
 		}
+run_plugin:
 		case SEL_PLUGIN:
 			/* Check if directory is accessible */
 			if (!xdiraccess(plgpath)) {
@@ -7746,6 +7730,12 @@ nochange:
 				if (!tmp) {
 					printwait(messages[MSG_INVALID_KEY], &presel);
 					goto nochange;
+				}
+
+				if (xstrcmp(tmp, "preview-tui") == 0) {
+					previewkey = r;
+					pthread_t tid;
+					pthread_create(&tid, NULL, previewpipe, NULL);
 				}
 
 				if (tmp[0] == '-' && tmp[1]) {
@@ -7815,6 +7805,7 @@ nochange:
 				goto nochange;
 
 			/* Repopulate as directory content may have changed */
+			cd = FALSE;
 			goto begin;
 		case SEL_UMOUNT:
 			presel = MSG_ZERO;
@@ -7826,6 +7817,7 @@ nochange:
 
 			/* Dir removed, go to next entry */
 			copynextname(lastname);
+			cd = FALSE;
 			goto begin;
 #ifndef NOSSN
 		case SEL_SESSIONS:
@@ -7852,6 +7844,7 @@ nochange:
 		case SEL_TIMETYPE:
 			if (!set_time_type(&presel))
 				goto nochange;
+			cd = FALSE;
 			goto begin;
 		case SEL_QUITCTX: // fallthrough
 		case SEL_QUITCD: // fallthrough
@@ -8186,7 +8179,6 @@ static void usage(void)
 		" -F val  fifo mode [0:preview 1:explore]\n"
 #endif
 		" -g      regex filters\n"
-		" -G      always show git status\n"
 		" -H      show hidden files\n"
 		" -i      show current file info\n"
 		" -J      no auto-proceed on select\n"
@@ -8327,7 +8319,6 @@ static void cleanup(void)
 		free(hostname);
 	}
 #endif
-	free(git_statuses.statuses);
 	free(selpath);
 	free(plgpath);
 	free(cfgpath);
@@ -8343,8 +8334,10 @@ static void cleanup(void)
 	if (g_state.autofifo)
 		unlink(fifopath);
 #endif
-	if (g_state.pluginit)
+	if (g_state.pluginit){
 		unlink(g_pipepath);
+		unlink(g_ppipepath);
+	}
 #ifdef DEBUG
 	disabledbg();
 #endif
@@ -8372,7 +8365,7 @@ int main(int argc, char *argv[])
 
 	while ((opt = (env_opts_id > 0
 		       ? env_opts[--env_opts_id]
-		       : getopt(argc, argv, "aAb:cCdDeEfF:gGHiJKl:nop:P:QrRs:St:T:uUVxh"))) != -1) {
+		       : getopt(argc, argv, "aAb:cCdDeEfF:gHiJKl:nop:P:QrRs:St:T:uUVxh"))) != -1) {
 		switch (opt) {
 #ifndef NOFIFO
 		case 'a':
@@ -8422,9 +8415,6 @@ int main(int argc, char *argv[])
 		case 'g':
 			cfg.regex = 1;
 			filterfn = &visible_re;
-			break;
-		case 'G':
-			cfg.normalgit = 1;
 			break;
 		case 'H':
 			cfg.showhidden = 1;
@@ -8851,7 +8841,7 @@ int main(int argc, char *argv[])
 
 #ifndef NOFIFO
 	if (!g_state.fifomode)
-		notify_fifo(FALSE);
+		notify_fifo(FALSE, TRUE);
 	if (fifofd != -1)
 		close(fifofd);
 #endif

@@ -155,7 +155,8 @@ Don't memorize! Arrows, <kbd>/</kbd>, <kbd>q</kbd> suffice. <kbd>Tab</kbd> creat
 - [KlzXS](https://github.com/KlzXS)
 - [Léo Villeveygoux](https://github.com/leovilok)
 - [Luuk van Baal](https://github.com/luukvbaal)
+- [N-R-K](https://github.com/N-R-K)
 - [Sijmen J. Mulder](https://github.com/sjmulder)
 - and other contributors
 
-Visit the [ToDo list](https://github.com/jarun/nnn/issues/1193) to contribute or see the features in progress.
+Visit the [ToDo list](https://github.com/jarun/nnn/issues/1219) to contribute or see the features in progress.

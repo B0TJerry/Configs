@@ -134,7 +134,7 @@
 #endif
 
 /* Macro definitions */
-#define VERSION      "4.3"
+#define VERSION      "4.4"
 #define GENERAL_INFO "BSD 2-Clause\nhttps://github.com/jarun/nnn"
 
 #ifndef NOSSN
@@ -177,7 +177,7 @@
 #define CASE            ':'
 #define MSGWAIT         '$'
 #define SELECT          ' '
-#define PROMPT          "nnn] "
+#define PROMPT          ">>> "
 #define REGEX_MAX       48
 #define ENTRY_INCR      64 /* Number of dir 'entry' structures to allocate per shot */
 #define NAMEBUF_INCR    0x800 /* 64 dir entries at once, avg. 32 chars per file name = 64*32B = 2KB */
@@ -202,10 +202,13 @@
 #define CTX_MAX 8
 #endif
 
-#ifdef __APPLE__
+#ifndef SED
+/* BSDs or Solaris or SunOS */
+#if defined(__FreeBSD__) || defined(__OpenBSD__) || defined(__NetBSD__) || defined(__APPLE__) || defined(sun) || defined(__sun)
 #define SED "gsed"
 #else
 #define SED "sed"
+#endif
 #endif
 
 /* Large selection threshold */
@@ -365,7 +368,7 @@ typedef struct {
 	uint_t runplugin  : 1;  /* Choose plugin mode */
 	uint_t selmode    : 1;  /* Set when selecting files */
 	uint_t stayonsel  : 1;  /* Disable auto-proceed on select */
-	uint_t trash      : 2;  /* Use trash to delete files 1: trash-cli, 2: gio trash */
+	uint_t trash      : 2;  /* Trash method 0: rm -rf, 1: trash-cli, 2: gio trash */
 	uint_t uidgid     : 1;  /* Show owner and group info */
 	uint_t reserved   : 7;  /* Adjust when adding/removing a field */
 } runstate;
@@ -762,6 +765,7 @@ static const char * const toks[] = {
 #define P_CPMVRNM 1
 #define P_ARCHIVE 2
 #define P_REPLACE 3
+#define P_ARCHIVE_CMD 4
 
 static const char * const patterns[] = {
 	SED" -i 's|^\\(\\(.*/\\)\\(.*\\)$\\)|#\\1\\n\\3|' %s",
@@ -769,6 +773,7 @@ static const char * const patterns[] = {
 		"%s | tr '\\n' '\\0' | xargs -0 -n2 sh -c '%s \"$0\" \"$@\" < /dev/tty'",
 	"\\.(bz|bz2|gz|tar|taz|tbz|tbz2|tgz|z|zip)$",
 	SED" -i 's|^%s\\(.*\\)$|%s\\1|' %s",
+	SED" -ze 's|^%s/||' '%s' | xargs -0 %s %s",
 };
 
 /* Colors */
@@ -1267,6 +1272,25 @@ static void reset_tilde_in_path(char *path)
 	path[homelen - 1] = home[homelen];
 	home[homelen] = '\0';
 }
+
+#ifndef NOX11
+static void xterm_cfg(char *path)
+{
+	if (cfg.x11 && !g_state.picker) {
+		/* Signal CWD change to terminal */
+		printf("\033]7;file://%s%s\033\\", hostname, path);
+
+		/* Set terminal window title */
+		bool r = set_tilde_in_path(path);
+
+		printf("\033]2;%s\007", r ? &path[homelen - 1] : path);
+		fflush(stdout);
+
+		if (r)
+			reset_tilde_in_path(path);
+	}
+}
+#endif
 
 static void convert_tilde(const char *path, char *buf)
 {
@@ -2699,23 +2723,15 @@ static void get_archive_cmd(char *cmd, const char *archive)
 
 static void archive_selection(const char *cmd, const char *archive, const char *curpath)
 {
-	/* The 70 comes from the string below */
-	char *buf = (char *)malloc((70 + xstrlen(cmd) + xstrlen(archive)
-				       + xstrlen(curpath) + xstrlen(selpath)) * sizeof(char));
+	char *buf = malloc((xstrlen(patterns[P_ARCHIVE_CMD]) + xstrlen(cmd) + xstrlen(archive)
+	                   + xstrlen(curpath) + xstrlen(selpath)) * sizeof(char));
 	if (!buf) {
 		DPRINTF_S(strerror(errno));
 		printwarn(NULL);
 		return;
 	}
 
-	snprintf(buf, CMD_LEN_MAX,
-#ifdef __linux__
-		SED" -ze 's|^%s/||' '%s' | xargs -0 %s %s", curpath, selpath, cmd, archive
-#else
-		"tr '\\0' '\n' < '%s' | "SED" -e 's|^%s/||' | tr '\n' '\\0' | xargs -0 %s %s",
-		selpath, curpath, cmd, archive
-#endif
-		);
+	snprintf(buf, CMD_LEN_MAX, patterns[P_ARCHIVE_CMD], curpath, selpath, cmd, archive);
 	spawn(utils[UTIL_SH_EXEC], buf, NULL, NULL, F_CLI | F_CONFIRM);
 	free(buf);
 }
@@ -3484,8 +3500,13 @@ static char *xreadline(const char *prefill, const char *prompt)
 	while (1) {
 		buf[len] = ' ';
 		attron(COLOR_PAIR(cfg.curctx + 1));
-		mvaddnwstr(xlines - 1, x, buf, len + 1);
-		move(xlines - 1, x + wcswidth(buf, pos));
+		if (pos > (size_t)(xcols - x)) {
+			mvaddnwstr(xlines - 1, x, buf + (pos - (xcols - x) + 1), xcols - x);
+			move(xlines - 1, xcols - 1);
+		} else {
+			mvaddnwstr(xlines - 1, x, buf, len + 1);
+			move(xlines - 1, x + wcswidth(buf, pos));
+		}
 		attroff(COLOR_PAIR(cfg.curctx + 1));
 
 		r = get_wch(ch);
@@ -5351,11 +5372,10 @@ static bool prompt_run(void)
 	bool ret = FALSE;
 	char *cmdline, *next;
 	int cnt_j, cnt_J;
-	size_t len, tmplen;
+	size_t len;
 
-	const char *xargs_j = "xargs -0 -I{} sh -c '%s' < %s";
-	const char *xargs_J = "xargs -0 sh -c '%s' < %s";
-	char tmpcmd[CMD_LEN_MAX];
+	const char *xargs_j = "xargs -0 -I{} %s < %s";
+	const char *xargs_J = "xargs -0 %s < %s";
 	char cmd[CMD_LEN_MAX + 32]; // 32 for xargs format strings
 
 	while (1) {
@@ -5394,9 +5414,10 @@ static bool prompt_run(void)
 		while ((next = strstr(next, "%J"))) {
 			++cnt_J;
 
-			tmplen = xstrsncpy(tmpcmd, cmdline, next - cmdline + 1) - 1;
-			tmplen += xstrsncpy(tmpcmd + tmplen, "${0} ${@}", sizeof("${0} ${@}")) - 1;
-			xstrsncpy(tmpcmd + tmplen, next + 2, len - (next - cmdline + 2) + 1);
+			// %J should be the last thing in the command
+			if (next == cmdline + len - 2) {
+				cmdline[len - 2] = '\0';
+			}
 
 			++next;
 		}
@@ -5408,7 +5429,7 @@ static bool prompt_run(void)
 		if (cnt_j)
 			snprintf(cmd, CMD_LEN_MAX + 32, xargs_j, cmdline, selpath);
 		else if (cnt_J)
-			snprintf(cmd, CMD_LEN_MAX + 32, xargs_J, tmpcmd, selpath);
+			snprintf(cmd, CMD_LEN_MAX + 32, xargs_J, cmdline, selpath);
 
 		spawn(shell, "-c", (cnt_j || cnt_J) ? cmd : cmdline, NULL, F_CLI | F_CONFIRM);
 	}
@@ -5461,8 +5482,11 @@ static void *du_thread(void *p_data)
 	FTSENT *node;
 
 	while ((node = fts_read(tree))) {
-		if (node->fts_info & FTS_D)
+		if (node->fts_info & FTS_D) {
+			if (g_state.interrupt)
+				break;
 			continue;
+		}
 
 		sb = node->fts_statp;
 
@@ -5635,7 +5659,6 @@ static int dentfill(char *path, struct entry **ppdents)
 
 					if (g_state.interrupt)
 						goto exit;
-
 				}
 			} else {
 				/* Do not recount hard links */
@@ -6544,7 +6567,7 @@ static bool browse(char *ipath, const char *session, int pkey)
 	struct stat sb;
 	int r = -1, presel, selstartid = 0, selendid = 0;
 	const uchar_t opener_flags = (cfg.cliopener ? F_CLI : (F_NOTRACE | F_NOSTDIN | F_NOWAIT));
-	bool watch = FALSE;
+	bool watch = FALSE, cd = TRUE;
 	ino_t inode = 0;
 
 #ifndef NOMOUSE
@@ -6617,19 +6640,7 @@ begin:
 	}
 
 #ifndef NOX11
-	if (cfg.x11 && !g_state.picker) {
-		/* Signal CWD change to terminal */
-		printf("\033]7;file://%s%s\033\\", hostname, path);
-
-		/* Set terminal window title */
-		r = set_tilde_in_path(path);
-
-		printf("\033]2;%s\007", r ? &path[homelen - 1] : path);
-		fflush(stdout);
-
-		if (r)
-			reset_tilde_in_path(path);
-	}
+	xterm_cfg(path);
 #endif
 
 #ifdef LINUX_INOTIFY
@@ -6652,7 +6663,7 @@ begin:
 	}
 #endif
 
-	if (order) {
+	if (order && cd) {
 		if (cfgsort[cfg.curctx] != '0') {
 			if (cfgsort[cfg.curctx] == 'z')
 				set_sort_flags('c');
@@ -6664,6 +6675,7 @@ begin:
 		} else
 			cfgsort[cfg.curctx] = cfgsort[CTX_MAX];
 	}
+	cd = TRUE;
 
 	populate(path, lastname);
 	if (g_state.interrupt) {
@@ -6776,10 +6788,8 @@ nochange:
 			/* Scroll down */
 			if (event.bstate == BUTTON5_PRESSED && ndents
 			    && (cfg.rollover || (cur != ndents - 1))) {
-				if (!cfg.rollover && cur >= ndents - scroll_lines)
-					move_cursor(ndents-1, 0);
-				else
-					move_cursor((cur + scroll_lines) % ndents, 0);
+				move_cursor((!cfg.rollover && cur >= ndents - scroll_lines)
+						? (ndents - 1) : ((cur + scroll_lines) % ndents), 0);
 				break;
 			}
 #endif
@@ -6796,6 +6806,7 @@ nochange:
 				/* Start watching the directory */
 				watch = TRUE;
 				copycurname();
+				cd = FALSE;
 				goto begin;
 			}
 
@@ -6850,8 +6861,10 @@ nochange:
 		case SEL_NAV_IN: // fallthrough
 		case SEL_OPEN:
 			/* Cannot descend in empty directories */
-			if (!ndents)
+			if (!ndents) {
+				cd = FALSE;
 				goto begin;
+			}
 
 			pent = &pdents[cur];
 			mkpath(path, pent->name, newpath);
@@ -6881,6 +6894,36 @@ nochange:
 				printwait(messages[MSG_UNSUPPORTED], &presel);
 				goto nochange;
                         }
+
+			/* Handle plugin selection mode */
+			if (g_state.runplugin) {
+				g_state.runplugin = 0;
+				/* Must be in plugin dir and same context to select plugin */
+				if ((g_state.runctx == cfg.curctx) && !strcmp(path, plgpath)) {
+					endselection(FALSE);
+					/* Copy path so we can return back to earlier dir */
+					xstrsncpy(path, rundir, PATH_MAX);
+					rundir[0] = '\0';
+					clearfilter();
+
+					if (chdir(path) == -1
+					    || !run_plugin(&path, pent->name,
+								    runfile, &lastname, &lastdir)) {
+						DPRINTF_S("plugin failed!");
+					}
+
+					if (g_state.picked)
+						return EXIT_SUCCESS;
+
+					if (runfile[0]) {
+						xstrsncpy(lastname, runfile, NAME_MAX + 1);
+						runfile[0] = '\0';
+					}
+					setdirwatch();
+					goto begin;
+				}
+			}
+
 #ifndef NOFIFO
 			if (g_state.fifomode && (sel == SEL_OPEN)) {
 				send_to_explorer(&presel); /* Write selection to explorer fifo */
@@ -6919,35 +6962,6 @@ nochange:
 				/* Open file disabled on right arrow or `l` */
 				if (cfg.nonavopen)
 					goto nochange;
-			}
-
-			/* Handle plugin selection mode */
-			if (g_state.runplugin) {
-				g_state.runplugin = 0;
-				/* Must be in plugin dir and same context to select plugin */
-				if ((g_state.runctx == cfg.curctx) && !strcmp(path, plgpath)) {
-					endselection(FALSE);
-					/* Copy path so we can return back to earlier dir */
-					xstrsncpy(path, rundir, PATH_MAX);
-					rundir[0] = '\0';
-					clearfilter();
-
-					if (chdir(path) == -1
-					    || !run_plugin(&path, pent->name,
-								    runfile, &lastname, &lastdir)) {
-						DPRINTF_S("plugin failed!");
-					}
-
-					if (g_state.picked)
-						return EXIT_SUCCESS;
-
-					if (runfile[0]) {
-						xstrsncpy(lastname, runfile, NAME_MAX + 1);
-						runfile[0] = '\0';
-					}
-					setdirwatch();
-					goto begin;
-				}
 			}
 
 			if (!sb.st_size) {
@@ -7159,8 +7173,10 @@ nochange:
 				presel = 0;
 				break;
 			}
-			if (presel == FILTER) /* Refresh dir and filter again */
+			if (presel == FILTER) { /* Refresh dir and filter again */
+				cd = FALSE;
 				goto begin;
+			}
 			goto nochange;
 		case SEL_MFLTR: // fallthrough
 		case SEL_HIDDEN: // fallthrough
@@ -7184,6 +7200,7 @@ nochange:
 					clearfilter();
 				}
 				copycurname();
+				cd = FALSE;
 				goto begin;
 			case SEL_DETAIL:
 				cfg.showdetail ^= 1;
@@ -7250,6 +7267,7 @@ nochange:
 			case SEL_RENAMEMUL:
 				endselection(TRUE);
 				setenv("INCLUDE_HIDDEN", xitoa(cfg.showhidden), 1);
+				setenv("NNN_LIST", listpath ? listroot : "", 1);
 
 				if (!(getutil(utils[UTIL_BASH])
 				      && plugscript(utils[UTIL_NMV], F_CLI))
@@ -7292,6 +7310,7 @@ nochange:
 			/* Save current */
 			copycurname();
 			/* Repopulate as directory content may have changed */
+			cd = FALSE;
 			goto begin;
 		}
 		case SEL_SEL:
@@ -7428,6 +7447,7 @@ nochange:
 
 					if (cfg.filtermode || filterset())
 						presel = FILTER;
+					cd = FALSE;
 					goto begin;
 				}
 			}
@@ -7457,6 +7477,7 @@ nochange:
 				xstrsncpy(lastname, xbasename(newpath), NAME_MAX+1);
 			else
 				copycurname();
+			cd = FALSE;
 			goto begin;
 		}
 		case SEL_ARCHIVE: // fallthrough
@@ -7493,10 +7514,13 @@ nochange:
 				tmp = xreadline(tmp, messages[MSG_ARCHIVE_NAME]);
 				break;
 			case SEL_OPENWITH:
-#ifdef NORL
-				tmp = xreadline(NULL, messages[MSG_OPEN_WITH]);
-#else
-				tmp = getreadline(messages[MSG_OPEN_WITH]);
+#ifndef NORL
+				if (g_state.picker) {
+#endif
+					tmp = xreadline(NULL, messages[MSG_OPEN_WITH]);
+#ifndef NORL
+				} else
+					tmp = getreadline(messages[MSG_OPEN_WITH]);
 #endif
 				break;
 			case SEL_NEW:
@@ -7539,6 +7563,7 @@ nochange:
 					xstrsncpy(lastname, tmp, NAME_MAX + 1);
 					clearfilter(); /* Archive name may not match */
 					clearselection(); /* Archive operation complete */
+					cd = FALSE;
 					goto begin;
 				}
 				continue;
@@ -7633,6 +7658,7 @@ nochange:
 				clearfilter();
 			}
 
+			cd = FALSE;
 			goto begin;
 		}
 		case SEL_PLUGIN:
@@ -7727,6 +7753,7 @@ nochange:
 				goto nochange;
 
 			/* Repopulate as directory content may have changed */
+			cd = FALSE;
 			goto begin;
 		case SEL_UMOUNT:
 			presel = MSG_ZERO;
@@ -7738,6 +7765,7 @@ nochange:
 
 			/* Dir removed, go to next entry */
 			copynextname(lastname);
+			cd = FALSE;
 			goto begin;
 #ifndef NOSSN
 		case SEL_SESSIONS:
@@ -7764,6 +7792,7 @@ nochange:
 		case SEL_TIMETYPE:
 			if (!set_time_type(&presel))
 				goto nochange;
+			cd = FALSE;
 			goto begin;
 		case SEL_QUITCTX: // fallthrough
 		case SEL_QUITCD: // fallthrough
